@@ -1,0 +1,1872 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ads Dashboard · November 2026 · Week 3 · Weekly + Monthly Summary</title>
+<meta name="description" content="แดชบอร์ดผลโฆษณาเดือนพฤศจิกายน 2569 ถึงสัปดาห์ที่ 3 รวมรายสัปดาห์และรายเดือนไว้ในไฟล์เดียว · Website WPC · Shopee WPC BATTERY · Shopee LUCK · IG ATELIER">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="theme-color" content="#EEF2F9" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B2430" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ads Dashboard · พฤศจิกายน 2569 · สัปดาห์ที่ 3 · WPC · LUCK · ATELIER">
+<meta property="og:description" content="สัปดาห์ที่ 3 · ค่าโฆษณาสะสม ฿30,460.70 · Shopee LUCK ROAS 4.73 จาก 26 ออเดอร์ · Google Ads CTR 7.07% Conversion 31.00 · IG ATELIER เปลี่ยนรอบ ปลายทางเว็บไซต์">
+<meta property="og:locale" content="th_TH">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Ads Dashboard · พฤศจิกายน 2569 · สัปดาห์ที่ 3 · WPC · LUCK · ATELIER">
+<meta name="twitter:description" content="สัปดาห์ที่ 3 · ค่าโฆษณาสะสม ฿30,460.70 · Shopee LUCK ROAS 4.73 · Google Ads Conversion 31.00">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231F3864'/%3E%3Crect x='7' y='17' width='4.5' height='9' rx='1.4' fill='%238FAADC'/%3E%3Crect x='13.8' y='11' width='4.5' height='15' rx='1.4' fill='%23ffffff'/%3E%3Crect x='20.6' y='6' width='4.5' height='20' rx='1.4' fill='%232E9E5B'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#1F3864;--blue:#2E5496;--accent:#4472C4;--sky:#8FAADC;
+  --bg:#EEF2F9;--card:#fff;--ink:#1B2430;--muted:#6B7688;--line:#E4EAF3;
+  --green:#2E9E5B;--greenbg:#EAF3EC;--amber:#C98A12;--amberbg:#FFF7E8;--red:#DB4A4A;--redbg:#FDECEC;
+  --luck:#2E5496;--wpc:#5B4BA8;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Prompt','Tahoma',sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;padding:20px 14px 48px;-webkit-text-size-adjust:100%}
+.wrap{max-width:1080px;margin:0 auto}
+svg.ic{width:1em;height:1em;display:inline-block;vertical-align:-0.12em;flex-shrink:0}
+
+/* ---------- header ---------- */
+.top{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:14px;padding:0 4px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:var(--navy);font-size:15.5px}
+.brand .bi{width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,var(--blue),var(--navy));color:#fff;display:flex;align-items:center;justify-content:center;font-size:15px}
+.brand small{display:block;font-weight:500;color:var(--muted);font-size:12px;line-height:1.3}
+.topright{font-size:12.5px;color:var(--muted);text-align:right}
+
+/* ---------- tabs ---------- */
+.tabs{display:flex;gap:6px;background:#fff;border-radius:16px;padding:7px;margin-bottom:16px;box-shadow:0 2px 10px rgba(31,56,100,.07);overflow-x:auto}
+.tab{flex:1;min-width:150px;border:0;background:transparent;font-family:inherit;font-size:13.5px;font-weight:600;color:var(--muted);padding:11px 12px;border-radius:11px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;white-space:nowrap;transition:.15s}
+.tab:hover{background:#F4F7FC;color:var(--navy)}
+.tab.on{background:var(--navy);color:#fff}
+.tab .num{font-size:11px;opacity:.8;font-weight:500}
+
+/* ---------- week selector ---------- */
+.wsel{display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap}
+.wbtn{border:1px solid var(--line);background:#fff;font-family:inherit;border-radius:13px;padding:10px 15px;cursor:pointer;text-align:left;transition:.15s;flex:1;min-width:180px}
+.wbtn:hover{border-color:var(--sky)}
+.wbtn .wt{font-size:13.5px;font-weight:700;color:var(--navy)}
+.wbtn .wr{font-size:11.5px;color:var(--muted);margin-top:1px}
+.wbtn.on{background:var(--navy);border-color:var(--navy)}
+.wbtn.on .wt,.wbtn.on .wr{color:#fff}
+.wbtn.on .wr{opacity:.78}
+
+/* ---------- business group ---------- */
+.biz{margin-bottom:20px}
+.bizhead{display:flex;align-items:center;gap:11px;padding:0 4px 9px}
+.bizdot{width:9px;height:9px;border-radius:50%;flex-shrink:0}
+.bizname{font-size:16.5px;font-weight:800;color:var(--navy);letter-spacing:-.2px}
+.bizsub{font-size:12px;color:var(--muted);margin-left:auto;text-align:right}
+
+/* ---------- channel card ---------- */
+.ch{background:var(--card);border-radius:16px;box-shadow:0 2px 10px rgba(31,56,100,.07);margin-bottom:13px;overflow:hidden}
+.chhead{display:flex;align-items:center;gap:11px;padding:15px 18px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.chicon{width:32px;height:32px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-size:15px;flex-shrink:0}
+.chname{font-size:14.5px;font-weight:700;color:var(--navy);line-height:1.25}
+.chname small{display:block;font-weight:500;font-size:11.5px;color:var(--muted)}
+.chtag{margin-left:auto;font-size:11px;font-weight:700;padding:4px 11px;border-radius:20px;white-space:nowrap}
+.tg-ok{background:var(--greenbg);color:#24713F}
+.tg-wt{background:var(--amberbg);color:#8A5E07}
+.tg-bd{background:var(--redbg);color:#A33}
+
+/* ---------- kpi row ---------- */
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:1px;background:var(--line)}
+.kpi{background:#fff;padding:13px 15px}
+.kpi .kl{font-size:11.5px;color:var(--muted);font-weight:500;line-height:1.3;min-height:30px}
+.kpi .kv{font-size:21px;font-weight:800;color:var(--navy);letter-spacing:-.4px;line-height:1.15;margin-top:2px}
+.kpi .kv.na{color:#C3CDDD;font-weight:600;font-size:17px}
+
+/* ---------- delta ---------- */
+.dl{display:inline-flex;align-items:baseline;gap:3px;font-size:11.5px;font-weight:700;margin-top:3px}
+.dl.up{color:var(--green)}.dl.dn{color:var(--red)}.dl.nt{color:#8894A8}
+.dl .from{font-weight:500;color:#9AA5B5;font-size:10.5px}
+.dl.first{color:#A9B3C2;font-weight:500}
+
+/* ---------- table ---------- */
+.sec{padding:15px 18px 17px;border-top:1px solid var(--line)}
+.sh{font-size:13.5px;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px}
+.ss{font-size:11.5px;color:var(--muted);margin:2px 0 10px;line-height:1.5}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:10px;border:1px solid var(--line)}
+table{border-collapse:collapse;width:100%;font-size:12.5px;min-width:520px}
+thead th{background:#F4F7FC;color:var(--navy);font-weight:700;text-align:right;padding:9px 11px;white-space:nowrap;border-bottom:1px solid var(--line);font-size:11.5px}
+thead th:first-child{text-align:left}
+tbody td{padding:9px 11px;text-align:right;border-bottom:1px solid #F1F5FA;vertical-align:top;white-space:nowrap}
+tbody td:first-child{text-align:left;white-space:normal;font-weight:600;color:var(--navy);min-width:130px}
+tbody tr:last-child td{border-bottom:none}
+tbody tr.tot td{background:#F7F9FD;font-weight:700;color:var(--navy)}
+.mcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(212px,1fr));gap:11px;margin-bottom:4px}
+.mc2{background:#F7F9FD;border-left:4px solid var(--mc);border-radius:0 13px 13px 0;padding:14px 16px 15px}
+.mc2 .l{font-size:12.5px;font-weight:700;color:var(--navy)}
+.mc2 .v{font-size:25px;font-weight:800;color:var(--mc);letter-spacing:-.7px;line-height:1.15;margin-top:5px}
+.mc2 .p{font-size:11.5px;font-weight:700;color:var(--mc);margin-top:3px}
+.mbar{height:7px;border-radius:5px;background:#E8EDF6;margin-top:9px;overflow:hidden}
+.mbar i{display:block;height:100%;border-radius:5px;background:var(--mc)}
+tbody tr.wait td{background:#FBFCFE;color:#AFB9C8}
+tbody tr.wait td b{color:#AFB9C8;font-weight:600}
+tbody tr.grp td{background:#FAFBFE;font-weight:700;color:#5A6B86;font-size:11.5px;letter-spacing:.2px}
+tbody tr.grp td:first-child{color:#5A6B86}
+td .sub,th .sub{display:block;font-size:10.5px;font-weight:500;color:var(--muted);margin-top:1px}
+th .sub{font-size:10px;color:#93A0B3}
+.pill{display:inline-block;font-size:9.5px;font-weight:700;padding:1px 7px;border-radius:20px;background:#EEF2F9;color:#5A6B86;margin-left:5px;vertical-align:1px}
+.pill.new{background:#EAF3EC;color:#24713F}
+.pill.old{background:#FFF7E8;color:#8A5E07}
+
+/* ---------- notes ---------- */
+.note{font-size:12.5px;line-height:1.65;color:#3E4A5C;background:#F7F9FD;border-left:3px solid var(--sky);border-radius:0 9px 9px 0;padding:10px 14px;margin-top:11px}
+.note b{color:inherit;font-weight:inherit}
+.kpinote b,.ss b,.apwhy b,.apres b,.foot b,.chg b{font-weight:inherit;color:inherit}
+.note.warn{background:var(--amberbg);border-left-color:var(--amber);color:#6E552A}
+.note.warn b{color:#8A5E07}
+.note.good{background:var(--greenbg);border-left-color:var(--green);color:#2C5738}
+.note.good b{color:#1F5F35}
+.note.bad{background:var(--redbg);border-left-color:var(--red);color:#7A3030}
+.note.bad b{color:#A33}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin-top:9px;padding-left:2px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+/* ---------- calendar ---------- */
+.cal{background:#fff;border-radius:16px;box-shadow:0 2px 10px rgba(31,56,100,.07);padding:17px 18px 19px;margin-bottom:16px}
+.calgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:5px;margin-top:11px}
+.cdow{font-size:10.5px;font-weight:700;color:var(--muted);text-align:center;padding-bottom:3px}
+.cday{border:1px solid var(--line);border-radius:9px;min-height:62px;padding:5px 6px;font-size:11px;position:relative;background:#fff}
+.cday.off{background:#FAFBFD;color:#C3CDDD;border-style:dashed}
+.cday .dn{font-size:11px;font-weight:700;color:var(--navy)}
+.cday.off .dn{color:#C3CDDD}
+.cday .ev{font-size:9.5px;line-height:1.35;margin-top:3px;padding:2px 4px;border-radius:5px;font-weight:600}
+.cday .ev.g{background:#EDE9FA;color:#4A3C94}
+.cday .ev.s{background:#E6EEFA;color:#1F3864}
+.cday .ev.x{background:var(--redbg);color:#A33}
+.cday .ev.m{background:#FFF1DB;color:#8A5E07}
+.cday .ev.n{background:var(--greenbg);color:#24713F}
+.callg{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin-top:12px}
+.callg span{display:inline-flex;align-items:center;gap:5px}
+.callg i{width:10px;height:10px;border-radius:3px;display:inline-block}
+
+/* ---------- checklist ---------- */
+.ckbar{display:flex;align-items:center;gap:13px;background:#fff;border-radius:14px;padding:13px 17px;margin-bottom:13px;box-shadow:0 2px 10px rgba(31,56,100,.07);flex-wrap:wrap}
+.ckbar .big{font-size:24px;font-weight:800;color:var(--navy)}
+.ckbar .lbl{font-size:12.5px;color:var(--muted)}
+.bar{flex:1;min-width:150px;height:9px;border-radius:9px;background:#EDF1F8;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--green),#53B97A);border-radius:9px;transition:width .4s}
+.ckgrp{margin-bottom:17px}
+.ckgh{font-size:13px;font-weight:700;color:var(--navy);padding:0 4px 8px;display:flex;align-items:center;gap:8px}
+.ck{background:#fff;border-radius:13px;box-shadow:0 2px 8px rgba(31,56,100,.06);padding:13px 16px;margin-bottom:9px;display:flex;gap:13px;align-items:flex-start}
+.ck input{width:19px;height:19px;margin-top:2px;flex-shrink:0;accent-color:var(--green);cursor:pointer}
+.ck .body{flex:1;min-width:0}
+.ck .t{font-size:13.5px;font-weight:700;color:var(--navy);line-height:1.4}
+.ck .t.done{text-decoration:line-through;color:#9AA5B5}
+.ck .d{font-size:12px;color:#4A5563;margin-top:4px;line-height:1.6}
+.ck .meta{display:flex;gap:7px;flex-wrap:wrap;margin-top:7px}
+.badge{font-size:10px;font-weight:700;padding:3px 9px;border-radius:20px;white-space:nowrap}
+.b-done{background:var(--greenbg);color:#24713F}
+.b-open{background:var(--amberbg);color:#8A5E07}
+.b-late{background:var(--redbg);color:#A33}
+.b-info{background:#EEF2F9;color:#5A6B86}
+.ck details{margin-top:8px}
+.ck summary{font-size:11.5px;font-weight:700;color:var(--blue);cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:5px}
+.ck summary::-webkit-details-marker{display:none}
+.ck summary:before{content:"▸";transition:.2s;display:inline-block}
+.ck details[open] summary:before{transform:rotate(90deg)}
+.ck .dd{font-size:12px;color:#4A5563;line-height:1.65;margin-top:7px;padding:9px 13px;background:#F7F9FD;border-radius:9px}
+.ck .dd b{color:var(--navy)}
+
+/* ---------- month tab ---------- */
+.mcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px;margin-bottom:16px}
+.mc{background:#fff;border-radius:15px;padding:16px 17px;box-shadow:0 2px 10px rgba(31,56,100,.07);border-top:3px solid var(--blue)}
+.mc .ml{font-size:12px;color:var(--muted);font-weight:500}
+.mc .mv{font-size:28px;font-weight:800;color:var(--navy);letter-spacing:-.8px;margin-top:3px;line-height:1.1}
+.mc .mv small{font-size:15px;font-weight:700}
+.mc .ms{font-size:11.5px;color:var(--muted);margin-top:5px;line-height:1.5}
+.card{background:#fff;border-radius:16px;box-shadow:0 2px 10px rgba(31,56,100,.07);padding:17px 18px 19px;margin-bottom:14px}
+.pbar{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.pbar .pn{width:150px;font-size:12.5px;font-weight:600;color:var(--navy);flex-shrink:0}
+.pbar .track{flex:1;background:#EEF2F9;border-radius:8px;height:28px;display:flex;align-items:center}
+.pbar .fill{height:100%;border-radius:8px;display:flex;align-items:center;justify-content:flex-end;padding-right:9px;color:#fff;font-size:11px;font-weight:700;white-space:nowrap;min-width:72px}
+.foot{font-size:11.5px;color:var(--muted);line-height:1.7;padding:4px 2px 0}
+.foot b{color:var(--navy)}
+.pane{display:none}
+.pane.on{display:block}
+@media(max-width:700px){
+  .pbar .pn{width:98px;font-size:11.5px}
+  .kpi .kv{font-size:18px}
+  .bizsub{margin-left:0;width:100%;text-align:left}
+  .calgrid{gap:3px}.cday{min-height:52px;padding:3px 4px}
+  .tab{min-width:118px;font-size:12.5px;padding:10px 8px}
+  .mc .mv{font-size:23px}
+}
+
+/* ---------- platform sub-tabs ---------- */
+.csel{display:flex;gap:7px;margin-bottom:15px;flex-wrap:wrap}
+.cbtn{border:1px solid var(--line);background:#fff;font-family:inherit;font-size:12.5px;font-weight:600;color:var(--muted);border-radius:11px;padding:9px 10px;white-space:nowrap;cursor:pointer;display:inline-flex;align-items:center;gap:7px;transition:.15s;flex:1;min-width:145px;justify-content:center}
+.cbtn:hover{border-color:var(--cc);color:var(--cc)}
+.cbtn.on{background:var(--cc);border-color:var(--cc);color:#fff}
+.cbtn.msum{flex:1;min-width:145px}
+@media(max-width:700px){.cbtn.msum{flex:1 1 100%}}
+
+/* ---------- monthly hero ---------- */
+.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(215px,1fr));gap:12px;margin-bottom:15px}
+.hc{background:#fff;border-radius:16px;padding:18px 19px 19px;box-shadow:0 2px 10px rgba(31,56,100,.07);border-top:4px solid var(--hc);position:relative}
+.hc .hl{font-size:12.5px;color:var(--muted);font-weight:600}
+.hc .hv{font-size:32px;font-weight:800;color:var(--hc);letter-spacing:-1px;line-height:1.1;margin-top:5px}
+.hc .hs{font-size:11.5px;color:var(--muted);margin-top:7px;line-height:1.55}
+
+/* ---------- weekly / daily sales bars ---------- */
+.wsales{margin-top:12px}
+.wrow{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.wrow .wn{width:150px;flex-shrink:0;font-size:12.5px;font-weight:700;color:var(--navy);line-height:1.3}
+.wrow .wn span{display:block;font-weight:500;font-size:10.5px;color:var(--muted)}
+.wrow .wtrack{flex:1;background:#EEF2F9;border-radius:8px;height:32px;display:flex;align-items:center}
+.wrow .wfill{height:100%;border-radius:8px;background:linear-gradient(90deg,#2E5496,#4472C4);display:flex;align-items:center;justify-content:flex-end;padding-right:11px;color:#fff;font-size:12px;font-weight:700;white-space:nowrap;min-width:92px}
+.wrow .wfill.off{background:#C3CDDD;color:#4A5563}
+.wrow .wo{width:78px;text-align:right;flex-shrink:0;font-size:11.5px;color:var(--muted);font-weight:600}
+@media(max-width:700px){
+  .wrow .wn{width:96px;font-size:11.5px}
+  .wrow .wo{width:58px;font-size:10.5px}
+  .hc .hv{font-size:26px}
+  .cbtn{min-width:0;flex:1 1 45%;font-size:11.5px;padding:8px 9px}
+}
+.hint{display:flex;gap:18px;flex-wrap:wrap;font-size:11px;color:var(--muted);margin-top:8px;padding-left:2px;line-height:1.5}
+.hint b{color:#5A6B86;font-weight:700}
+
+
+/* ---------- placeholder / โครงรอกรอก ---------- */
+.hc.ph{border-top-style:dashed}
+.phv{color:#C3CDDD !important;letter-spacing:2px}
+.phw{font-size:11px;font-weight:600;color:#A9B3C2;margin-top:2px}
+.phbox{display:flex;align-items:center;gap:13px;border:1.5px dashed #D3DCEA;border-radius:12px;background:#FAFBFD;padding:22px 20px;margin-top:4px;color:#A9B3C2}
+.phbox svg.ic{width:26px;height:26px;flex-shrink:0;stroke:#C3CDDD}
+.phbox b{display:block;font-size:13px;color:#8894A8;font-weight:700}
+.phbox span{display:block;font-size:11.5px;color:#A9B3C2;margin-top:3px;line-height:1.5}
+.phtrack{border:1.5px dashed #D3DCEA;background:#FAFBFD !important;justify-content:center}
+.phtrack span{font-size:11px;font-weight:600;color:#A9B3C2}
+</style>
+<style>
+/* ---------- vs / MOM compare ---------- */
+.vs{display:grid;grid-template-columns:repeat(auto-fit,minmax(168px,1fr));gap:1px;background:var(--line);border-radius:11px;overflow:hidden;border:1px solid var(--line);margin-top:12px}
+.vsc{background:#fff;padding:12px 14px}
+.vsc .vl{font-size:11.5px;color:var(--muted);font-weight:500;line-height:1.3}
+.vsc .vr{display:flex;align-items:baseline;gap:8px;margin-top:5px;flex-wrap:wrap}
+.vsc .vnow{font-size:18.5px;font-weight:800;color:var(--navy);letter-spacing:-.3px}
+.vsc .vold{font-size:11.5px;color:#9AA5B5;font-weight:500}
+.vsc .vd{font-size:11px;font-weight:700;margin-top:3px}
+.vsc .vd.up{color:var(--green)}.vsc .vd.dn{color:var(--red)}.vsc .vd.nt{color:#8894A8}
+
+/* ---------- channel sub-tabs ---------- */
+.subsel{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:13px 18px;background:#F7F9FD;border-bottom:1px solid var(--line)}
+.subbtn{border:1px solid var(--line);background:#fff;font-family:inherit;border-radius:12px;padding:11px 15px;
+  cursor:pointer;text-align:left;transition:.15s;display:flex;align-items:center;gap:12px}
+.subbtn:hover{border-color:var(--sky)}
+.subbtn .sic{width:33px;height:33px;border-radius:9px;background:#EFF3FA;color:var(--blue);display:flex;
+  align-items:center;justify-content:center;flex-shrink:0;font-size:15px}
+.subbtn .s1{display:block;font-size:13.5px;font-weight:800;color:var(--navy);line-height:1.25}
+.subbtn .s2{display:block;font-size:11px;color:var(--muted);margin-top:1px;line-height:1.4}
+.subbtn.on{background:var(--navy);border-color:var(--navy)}
+.subbtn.on .s1{color:#fff}
+.subbtn.on .s2{color:#B9C6DC}
+.subbtn.on .sic{background:rgba(255,255,255,.17);color:#fff}
+.subpane>.sec:first-child{border-top:0}
+@media(max-width:700px){.subsel{grid-template-columns:1fr}}
+.hintfoot{border-top:1px solid var(--line);padding:12px 18px 15px}
+.hintfoot .hint{margin:0}
+
+/* ---------- campaign block heading ---------- */
+.blkno{width:31px;height:31px;border-radius:50%;background:var(--blue);color:#fff;font-size:15px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;letter-spacing:-.5px}
+.blkh{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 9px;padding:9px 13px;background:#F4F7FC;border-left:4px solid var(--blue);border-radius:0 10px 10px 0}
+.blkn{font-size:13.5px;font-weight:800;color:var(--navy);letter-spacing:-.2px}
+.blkt{font-size:10.5px;font-weight:700;color:#5A6B86;background:#fff;border:1px solid var(--line);padding:2px 9px;border-radius:20px}
+.blkb{margin-left:auto;font-size:11.5px;font-weight:700;color:#1F5F35;background:var(--greenbg);padding:3px 11px;border-radius:20px;white-space:nowrap}
+@media(max-width:700px){.blkb{margin-left:0}}
+
+/* ---------- status badge ---------- */
+.st{display:inline-block;font-size:10.5px;font-weight:700;padding:3px 10px;border-radius:20px;white-space:nowrap}
+.st-done{background:var(--greenbg);color:#24713F}
+.st-doing{background:#E6EEFA;color:#1F3864}
+.st-todo{background:#EEF2F9;color:#5A6B86}
+.st-stuck{background:var(--redbg);color:#A33}
+.st-due{background:var(--amberbg);color:#8A5E07}
+
+/* ---------- placeholder ---------- */
+.hc.ph{border-top-style:dashed}
+.phv{color:#C3CDDD !important;letter-spacing:2px}
+.phw{font-size:11px;font-weight:600;color:#A9B3C2;margin-top:2px}
+.phbox{display:flex;align-items:center;gap:13px;border:1.5px dashed #D3DCEA;border-radius:12px;background:#FAFBFD;padding:22px 20px;margin-top:4px;color:#A9B3C2}
+.phbox svg.ic{width:26px;height:26px;flex-shrink:0;stroke:#C3CDDD}
+.phbox b{display:block;font-size:13px;color:#8894A8;font-weight:700}
+.phbox span{display:block;font-size:11.5px;color:#A9B3C2;margin-top:3px;line-height:1.5}
+
+/* ---------- kpi note ---------- */
+.kpinote{font-size:11.5px;color:var(--muted);line-height:1.55;padding:9px 18px 0;background:#fff}
+
+/* ---------- expandable row ---------- */
+tbody tr.exrow td{background:#FAFBFE;padding:0;border-bottom:none}
+.exbtn{width:100%;border:0;background:transparent;font-family:inherit;font-size:12.5px;font-weight:700;color:var(--blue);padding:11px 11px;cursor:pointer;text-align:left;display:flex;align-items:center;gap:8px;transition:.15s}
+.exbtn:hover{background:#F2F6FC}
+.exbtn.on{color:var(--navy)}
+.exar{display:inline-block;font-size:11px;transition:.2s}
+.excount{font-size:10.5px;font-weight:600;color:#5A6B86;background:#EEF2F9;padding:2px 9px;border-radius:20px}
+tbody tr.expanel td{background:#FCFDFF;padding:13px 12px 15px;border-bottom:none}
+tbody tr.expanel .tw{border-color:#DCE4F0}
+
+/* ---------- action plan checkbox ---------- */
+.apck{width:18px;height:18px;accent-color:var(--green);cursor:pointer;vertical-align:middle}
+td.aptask{text-align:left !important;white-space:normal;font-weight:600;color:var(--navy);min-width:180px}
+td.apwhy,td.apres{text-align:left !important;white-space:normal;font-weight:500;color:#3E4A5C;font-size:12px;line-height:1.6;min-width:190px}
+td.apres{color:#6B5A2E;background:#FFFCF5}
+td.aptask.done{text-decoration:line-through;color:#9AA5B5}
+
+/* ---------- action plan fields ---------- */
+.apsel{font-family:inherit;font-size:11.5px;font-weight:700;border:1px solid var(--line);border-radius:20px;padding:4px 9px;cursor:pointer;outline:none;max-width:100%}
+.apsel.st-todo{background:#EEF2F9;color:#5A6B86}
+.apsel.st-doing{background:#E6EEFA;color:#1F3864;border-color:#C8D8F0}
+.apsel.st-done{background:var(--greenbg);color:#24713F;border-color:#CBE5D4}
+.apin{font-family:inherit;font-size:12px;color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:6px 9px;outline:none;width:118px;background:#FCFDFF;transition:.15s}
+.apin.apdate{width:142px;cursor:pointer;color:#4A5563}
+.apin.apdate:hover{border-color:var(--sky);background:#fff}
+.apin.apdate::-webkit-calendar-picker-indicator{cursor:pointer;opacity:.55}
+.apin.apdate:hover::-webkit-calendar-picker-indicator{opacity:1}
+.apin.wide{width:100%;min-width:200px}
+.apin:focus{border-color:var(--sky);background:#fff;box-shadow:0 0 0 3px rgba(143,170,220,.18)}
+.apin::placeholder{color:#B8C2D2}
+.pill.wait{background:var(--redbg);color:#A33}
+
+/* ---------- standalone collapsible ---------- */
+.exstand{border:1px solid var(--line);border-radius:10px;background:#FAFBFE;overflow:hidden}
+.exstand .exbtn{padding:12px 14px}
+.expanel2{margin-top:12px}
+
+/* ---------- campaign structure (card) ---------- */
+.cstr{border:1px solid #DDE5F2;border-radius:13px;overflow:hidden;background:#fff}
+.cshd{background:linear-gradient(90deg,#F2F6FC,#FAFCFF);border-left:4px solid #5B4BA8;padding:12px 15px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.csnm{font-size:14px;font-weight:800;color:var(--navy);letter-spacing:-.2px}
+.cstag{font-size:10px;font-weight:700;color:#5B4BA8;background:#EDE9FA;padding:3px 10px;border-radius:20px;white-space:nowrap}
+.csstats{display:flex;flex-wrap:wrap;row-gap:9px;padding:11px 15px;border-bottom:1px solid var(--line)}
+.csst{padding-right:17px;margin-right:17px;border-right:1px solid var(--line)}
+.csst:last-child{border-right:0;margin-right:0;padding-right:0}
+.csst .l{font-size:10.5px;color:var(--muted);font-weight:500;line-height:1.4}
+.csst .v{font-size:15px;font-weight:800;color:var(--navy);letter-spacing:-.3px;line-height:1.3}
+.csst.good .v{color:var(--green)}
+.csagw{padding:12px 15px 13px 30px;background:#FBFCFE;position:relative}
+.csagw:before{content:"";position:absolute;left:15px;top:0;bottom:0;width:2px;background:#DDE5F2}
+.csag{border:1px solid #E2E8F4;border-radius:11px;background:#fff;overflow:hidden;margin-bottom:10px}
+.csag:last-child{margin-bottom:0}
+.csaghd{padding:10px 14px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.csagnm{font-size:13px;font-weight:700;color:var(--navy)}
+.csagtag{font-size:9.5px;font-weight:700;color:#5A6B86;background:#EEF2F9;padding:2px 9px;border-radius:20px;white-space:nowrap}
+.csagsame{margin-left:auto;font-size:10.5px;color:#9AA5B5;font-weight:500}
+.csstats.ag{border-top:1px solid var(--line);border-bottom:0;padding:9px 14px}
+.csstats.ag .csst .v{font-size:13.5px}
+.csag .exbtn{border-top:1px solid var(--line);background:#FAFBFE;padding:10px 14px;font-size:12px}
+.csag .exbtn:hover{background:#F2F6FC}
+.cskwp{padding:12px 14px 14px;background:#FCFDFF;border-top:1px solid var(--line)}
+@media(max-width:700px){
+ .csagw{padding-left:20px}.csagw:before{left:9px}
+ .csagsame{margin-left:0;width:100%}
+}
+
+/* ---------- week selector ---------- */
+.wsel{display:flex;gap:8px;margin-bottom:11px;flex-wrap:wrap}
+.wbtn{border:1px solid var(--line);background:#fff;font-family:inherit;border-radius:13px;padding:10px 15px;cursor:pointer;text-align:left;transition:.15s;flex:1;min-width:168px}
+.wbtn:hover{border-color:var(--sky)}
+.wbtn .wt{font-size:13.5px;font-weight:700;color:var(--navy)}
+.wbtn .wr{font-size:11.5px;color:var(--muted);margin-top:1px}
+.wbtn.on{background:var(--navy);border-color:var(--navy)}
+.wbtn.on .wt,.wbtn.on .wr{color:#fff}
+.wbtn.on .wr{opacity:.78}
+.wbtn.off{background:#F7F9FD;border-style:dashed;cursor:not-allowed;opacity:.75}
+.wbtn.off .wt{color:#9AA5B5}
+.wbtn.off:hover{border-color:var(--line)}
+
+/* ---------- IG plan: account bar ---------- */
+.igacct{border:1px solid var(--line);border-radius:14px;background:#fff;padding:16px 18px}
+.igacct h2{font-size:19px;font-weight:800;color:var(--navy);letter-spacing:-.3px;line-height:1.3}
+.ighandle{font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.5}
+.igsets{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.igset{background:#F6F8FC;border:1px solid var(--line);border-radius:10px;padding:10px 13px}
+.igset .k{font-size:10.5px;font-weight:700;letter-spacing:.4px;color:var(--blue);text-transform:uppercase}
+.igset .v{font-size:14px;font-weight:700;color:var(--navy);margin-top:2px;line-height:1.35}
+.igset .n{font-size:11px;color:var(--muted);margin-top:3px;line-height:1.5}
+.igset.hi{background:var(--navy);border-color:var(--navy)}
+.igset.hi .k{color:#A8BDE0}.igset.hi .v{color:#fff;font-size:17px}
+.igset.hi .n{color:#BCC8DC}.igset.hi .n b{color:#fff}
+
+/* ---------- IG plan: post card ---------- */
+.ipost{display:grid;grid-template-columns:220px 1fr;border:1px solid var(--line);border-radius:14px;background:#fff;overflow:hidden;margin-bottom:13px}
+.ipost:last-of-type{margin-bottom:0}
+.ipimg{position:relative;background:#E9EEF7;min-height:175px}
+.ipimg img{width:100%;height:100%;object-fit:cover;display:block}
+.iprk{position:absolute;top:10px;left:10px;background:var(--navy);color:#fff;font-size:11px;font-weight:700;padding:3px 11px;border-radius:20px}
+.ipb{position:absolute;bottom:10px;left:10px;font-size:10.5px;font-weight:700;padding:3px 10px;border-radius:20px}
+.ipb.base{background:var(--greenbg);color:#24713F}
+.ipb.test{background:var(--amberbg);color:#8A5E07}
+.ipbody{padding:15px 17px 16px;min-width:0}
+.iptop{display:flex;justify-content:space-between;gap:13px;flex-wrap:wrap;align-items:flex-start}
+.iptitle{font-size:14.5px;font-weight:700;color:var(--navy);line-height:1.4}
+.ipmeta{font-size:11px;color:var(--muted);margin-top:2px}
+.iptag{display:inline-block;background:#EEF2F9;color:#5A6B86;font-size:10.5px;font-weight:600;padding:2px 9px;border-radius:20px;margin-top:6px}
+a.ipbtn{background:var(--blue);color:#fff;text-decoration:none;font-size:11.5px;font-weight:700;padding:7px 12px;border-radius:8px;white-space:nowrap;transition:.15s}
+a.ipbtn:hover{background:var(--navy)}
+.ipmets{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:12px 0}
+.ipmets>div{background:#fff;padding:8px 5px;text-align:center}
+.ipmets .m{font-size:10px;color:var(--muted);line-height:1.35}
+.ipmets .v{font-size:14px;font-weight:800;color:var(--navy);letter-spacing:-.3px;line-height:1.3}
+.ipmets>div.hi{background:#F2F6FC}
+.ipmets>div.hi .v{color:var(--blue)}
+.iprows{border-top:1px solid var(--line);padding-top:11px}
+.iprow{display:grid;grid-template-columns:100px 1fr;gap:11px;font-size:12.5px;margin-bottom:8px;line-height:1.68;align-items:start}
+.iprow:last-child{margin-bottom:0}
+.iprow .lab{font-size:11.5px;font-weight:700;color:var(--blue);padding-top:1px}
+.iprow .val{color:#3E4A5C}
+.iprow .val b{font-weight:700;color:var(--navy)}
+.igchip{display:inline-block;background:var(--blue);color:#fff;font-size:11px;font-weight:600;padding:2px 9px;border-radius:7px;margin:0 4px 3px 0}
+.igchip.g{background:#EEF2F9;color:#5A6B86}
+.igchip.o{background:var(--navy);color:#fff}
+/* ---------- IG plan: option switch ---------- */
+.optsel{display:flex;gap:8px;margin:0 0 12px;flex-wrap:wrap}
+.optbtn{flex:1;min-width:215px;border:1px solid var(--line);background:#fff;font-family:inherit;border-radius:12px;padding:11px 14px;cursor:pointer;text-align:left;transition:.15s}
+.optbtn:hover{border-color:var(--sky)}
+.optbtn .o1{font-size:13px;font-weight:800;color:var(--navy);display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.optbtn .o2{font-size:11.5px;color:var(--muted);margin-top:2px;line-height:1.45}
+.optbtn.on{background:var(--navy);border-color:var(--navy)}
+.optbtn.on .o1,.optbtn.on .o2{color:#fff}
+.optbtn.on .o2{opacity:.82}
+.optrec{font-size:9.5px;font-weight:700;background:var(--greenbg);color:#24713F;padding:2px 8px;border-radius:20px;white-space:nowrap}
+.optbtn.on .optrec{background:rgba(255,255,255,.22);color:#fff}
+.optd{font-size:12.5px;line-height:1.68;color:#3E4A5C;background:#F7F9FD;border-left:3px solid var(--sky);border-radius:0 9px 9px 0;padding:11px 14px;margin-bottom:12px}
+.optd b{color:var(--navy)}
+
+/* ---------- IG plan: image placeholder + metric note ---------- */
+.ipimg.ph{display:flex;align-items:center;justify-content:center;background:#F2F5FA;border-right:1px dashed #D3DCEA}
+.ipph{text-align:center;color:#9AA5B5;font-size:11px;font-weight:600;line-height:1.65;padding:18px 14px}
+.ipph b{display:block;font-size:12.5px;color:#8894A8;margin-bottom:3px}
+.ipmnote{font-size:10.5px;color:var(--muted);margin:-6px 0 11px;line-height:1.5}
+.iprow .val .warn{color:#8A5E07}
+
+@media(max-width:760px){
+ .igsets{grid-template-columns:repeat(2,1fr)}
+ .ipost{grid-template-columns:1fr}
+ .ipimg{max-height:250px}
+ .ipimg.ph{min-height:120px;border-right:0;border-bottom:1px dashed #D3DCEA}
+ .ipmets{grid-template-columns:repeat(3,1fr)}
+ .iprow{grid-template-columns:1fr;gap:1px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="top">
+  <div class="brand"><span class="bi">◧</span><span>Ads Dashboard · November 2026<small>WPC · LUCK · ATELIER</small></span></div>
+</div>
+<div class="csel" id="chsel"></div>
+<div id="panes"></div>
+<div class="foot" id="globalfoot"></div>
+</div>
+<script>
+/* ============================================================
+   DATA BLOCK — แก้ตัวเลขที่นี่ที่เดียว
+   เดือนพฤศจิกายน 2569 · 4 ช่องทาง
+   ============================================================ */
+const ICONS = {
+  bag:'<path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>',
+  globe:'<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20"/>',
+  cal:'<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
+  check:'<path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>',
+  sum:'<path d="M3 3h18v4H3z"/><path d="M3 10h18v4H3z"/><path d="M3 17h18v4H3z"/>',
+  layers:'<path d="M12 2 2 7l10 5 10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>',
+  tag:'<path d="M20.6 13.4 12 22l-9-9V3h10z"/><circle cx="7.5" cy="7.5" r="1.2" fill="currentColor" stroke="none"/>',
+  ban:'<circle cx="12" cy="12" r="10"/><path d="M4.9 4.9l14.2 14.2"/>',
+  coin:'<circle cx="12" cy="12" r="9"/><path d="M12 7v10M9.5 9.5h4a1.8 1.8 0 0 1 0 3.6h-3a1.8 1.8 0 0 0 0 3.6h4"/>',
+  chart:'<path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/>',
+  ig:'<rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/>'
+};
+
+
+const IMGS = {};
+
+/* ---------- แถวเลือกสัปดาห์ ---------- */
+const WEEKLIST = [
+ {n:'Week 1', i:0, r:'30 ต.ค. – 5 พ.ย.'},
+ {n:'Week 2', i:1, r:'6 – 12 พ.ย.'},
+ {n:'Week 3', i:2, r:'13 – 19 พ.ย.'},
+ {n:'Week 4'}
+];
+
+/* ---------- สัปดาห์ ---------- */
+const WEEKS = [
+{
+ key:'w1', n:'Week 1', range:'30 Oct – 5 Nov', full:'สัปดาห์แรกของเดือนพฤศจิกายน 2569',
+ head:'สัปดาห์เปลี่ยนรอบ — Shopee LUCK ปิดรอบเก่า 4 พ.ย. เปิดรอบใหม่ 5 พ.ย. ROAS ลดจาก 14.83 เหลือ 9.08 (ข้อมูล 30 ต.ค.–5 พ.ย. · คาบ 2 รอบ) · Website WPC สัปดาห์นี้ไม่ได้ปรับการตั้งค่าอะไร แต่คนกดปุ่ม LINE เพิ่มจาก 9 เป็น 18 ครั้ง (ข้อมูล 29 ต.ค.–5 พ.ย. · 8 วัน) · IG ATELIER เข้าชมโปรไฟล์ 3,587 ครั้ง ถูกลงเหลือ ฿0.60 ต่อครั้ง · Shopee WPC BATTERY ครบ 3 สัปดาห์ยังไม่มีออเดอร์ แต่เริ่มมีคนใส่ตะกร้า 2 ครั้ง',
+ biz:[
+
+  /* ============================================================
+     Website WPC · Google Ads · Search
+     ============================================================ */
+  {name:'Website WPC', color:'var(--wpc)', sub:'Google Ads · Search', ch:[
+   {name:'Website WPC', key:'wpc', dsub:'KPI · เส้นทางลูกค้า · โครงสร้างแคมเปญ · คีย์เวิร์ด', sub:'Google Ads · Search · 29 ต.ค.–5 พ.ย. · 8 วัน · 1 แคมเปญ · 1 Ad Group', icon:'globe', color:'#5B4BA8', tag:['คนกด LINE เพิ่มเท่าตัว','ok'],
+    kpi:[
+     {l:'คนกดโฆษณา',n:839,dec:0,suf:' คน',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 120 คน',from:'719 คน'}},
+     {l:'จ่ายต่อ 1 คลิก',n:2.39,dec:2,pre:'฿',cmp:{ar:'nt',tone:0,txt:'เท่าเดิม',from:'฿2.39'}},
+     {l:'อัตราคนกดโฆษณา<br><span style="font-weight:400;color:#9AA5B5">CTR</span>',n:5.63,dec:2,suf:'%',cmp:{ar:'dn',tone:-1,txt:'ลดลง 0.39 จุด',from:'6.02%'}},
+     {l:'คนกดปุ่ม LINE<br><span style="font-weight:400;color:#9AA5B5">= Conversion ของแคมเปญ</span>',n:18,dec:0,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 9 ครั้ง · เท่าตัว',from:'9 ครั้ง'}},
+     {l:'ต้นทุนต่อ LINE 1 ครั้ง',n:111.35,dec:2,pre:'฿',cmp:{ar:'dn',tone:1,txt:'ถูกลง ฿79.61',from:'฿190.96'}},
+     {l:'คนกดปุ่มโทรในโฆษณา<br><span style="font-weight:400;color:#9AA5B5">ไม่ได้นับเป็น Conversion</span>',n:85,dec:0,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 26 ครั้ง',from:'59 ครั้ง'}},
+     {l:'คนซื้อสำเร็จบนเว็บ',n:0,dec:0,suf:' ครั้ง',cmp:{ar:'nt',tone:0,txt:'ยังไม่เคยมีเลยตั้งแต่ ส.ค. 69',from:'0 ครั้ง'}}],
+    kpiNote:'<b>ช่วงข้อมูลของช่องทางนี้คือ 29 ต.ค.–5 พ.ย. 2569 รวม 8 วัน</b> ไฟล์ export ของ Google Ads มาเป็นช่วงนี้ จึงไม่เท่ากับ Shopee และ IG ที่เป็น 30 ต.ค.–5 พ.ย. (7 วัน) · เทียบกับสัปดาห์ที่ 4 ของเดือนตุลาคม (22–28 ต.ค. · 7 วัน) · <b>อ่านหน่วยให้ถูก</b> การ์ดที่ขึ้นท้ายว่า “ครั้ง” หรือ “คน” คือจำนวน ส่วนการ์ดที่มีเครื่องหมาย ฿ คือจำนวนเงิน · <b>สัปดาห์นี้ไม่ได้ปรับการตั้งค่าของช่องทางนี้เลย</b> คีย์เวิร์ด แคมเปญ และโฆษณาเหมือนสัปดาห์ที่ 4 ของเดือนตุลาคมทุกอย่าง · <b>เลข 18 ครั้ง คือคนกดปุ่ม LINE 18 ครั้ง</b> ไม่ใช่ยอดขาย — Google เรียกตัวเลขนี้ว่า Conversion และแสดงเป็น 18.00',
+    tables:[
+     {blk:{n:'เส้นทางลูกค้า สัปดาห์ที่ 1',t:'29 ต.ค.–5 พ.ย. 69',b:'อ่านจากบนลงล่าง'},
+      sub:'เริ่มจากคนเห็นโฆษณา ไล่ลงมาจนถึงคนซื้อ · ตัวเลขทุกบรรทัดเป็น <b>จำนวนครั้ง</b> ไม่ใช่จำนวนเงิน',
+      cols:['ขั้นตอน','จำนวนครั้ง','เหลือกี่ % จากขั้นก่อนหน้า','หมายเหตุ'],
+      dirs:[0,'up','up',0],
+      rows:[
+       ['1 · เห็นโฆษณา',{n:14910,dec:0,suf:' ครั้ง'},'—','ขั้นเริ่มต้น · เพิ่มจาก 11,936 ครั้ง'],
+       ['2 · กดโฆษณา',{n:839,dec:0,suf:' ครั้ง'},{n:5.63,dec:2,suf:'%'},'นับคลิกทั้งหมดของแคมเปญ'],
+       ['3 · กดปุ่ม LINE',{n:18,dec:0,suf:' ครั้ง'},{n:2.15,dec:2,suf:'%'},'นี่คือ Conversion ของแคมเปญ'],
+       ['4 · ใส่ตะกร้าสินค้า',{n:0,dec:0,suf:' ครั้ง'},{n:0,dec:2,suf:'%'},'สัปดาห์ที่ 4 ต.ค. มี 2 ครั้ง'],
+       ['5 · ซื้อสำเร็จ',{n:0,dec:0,suf:' ครั้ง'},{n:0,dec:2,suf:'%'},'ไม่เคยมีเลยตั้งแต่ ส.ค.']]},
+
+     {struct:true,label:'โครงสร้างแคมเปญ',sub:'มีแคมเปญเดียวและ Ad Group เดียวที่ใช้งบ · กลุ่ม 01 - แบตเตอรี่ ยังปิดอยู่ · <b>Optimization score ขึ้นจาก 64.75% เป็น 69.4%</b> · อีก 2 แคมเปญ (GO-RA-WOR040 · brand และ ร้านอะไหล่) เปิดสถานะไว้ตั้งแต่สัปดาห์ที่ 4 ของเดือนตุลาคม และยังใช้งบ ฿0 เหมือนเดิม',
+      cmp:{no:1,n:'WPC | Search | ทั่วไป - Search Campaign',s:[{l:'ค่าโฆษณา',v:{n:2004.27,dec:2,pre:'฿'}},{l:'คลิก',v:{n:839,dec:0}},{l:'การแสดงผล',v:{n:14910,dec:0}},{l:'CTR',v:{n:5.63,dec:2,suf:'%'},g:1},{l:'ต้นทุน/คลิก',v:{n:2.39,dec:2,pre:'฿'}},{l:'Conversion (คนกด LINE)',v:{n:18,dec:0,suf:' ครั้ง'},g:1},{l:'งบรายวัน',v:'฿250 / วัน'},{l:'กลยุทธ์ราคาเสนอ',v:'Maximize clicks'}]},
+      ags:[
+       {n:'02 - ทั่วไป',s:[{l:'ค่าโฆษณา',v:{n:2004.27,dec:2,pre:'฿'}},{l:'คลิก',v:{n:839,dec:0}},{l:'การแสดงผล',v:{n:14910,dec:0}},{l:'CTR',v:{n:5.63,dec:2,suf:'%'},g:1},{l:'ต้นทุน/คลิก',v:{n:2.39,dec:2,pre:'฿'}},{l:'Conversion (คนกด LINE)',v:{n:18,dec:0,suf:' ครั้ง'},g:1}],
+        kw:{id:'kw02w1nov', count:'50 คำ', table:{sub:'<b>ตอนนี้มีคีย์เวิร์ด 50 คำ เป็น Phrase match ทั้งหมด เท่ากับสัปดาห์ที่ 4 ของเดือนตุลาคมทุกคำ</b> สัปดาห์นี้ไม่ได้เพิ่มหรือตัดคำไหนออก · มี 19 คำที่มีคลิก รวม ฿2,004.27 · 839 คลิก ตรงกับยอดแคมเปญพอดี · อีก 31 คำยังไม่มีการแสดงผลเลยสักครั้ง · ไฟล์ Search keywords ของสัปดาห์นี้ไม่มีคอลัมน์การแสดงผล คะแนนคุณภาพ และ Conversion มาด้วย จึงแสดงได้เฉพาะค่าโฆษณา คลิก และ CTR',
+      cols:['คีย์เวิร์ด','Match type','ค่าโฆษณา','คลิก','CTR'],
+      dirs:[0,0,'nt','up','up'],
+      rows:[
+       ['ร้านอะไหล่รถยนต์','Phrase',{n:259.07,dec:2},{n:107,dec:0},{n:5.62,dec:2,suf:'%'}],
+       ['ร้านอะไหล่ใกล้ฉัน','Phrase',{n:223.26,dec:2},{n:91,dec:0},{n:3.58,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์ใกล้ฉัน','Phrase',{n:201.04,dec:2},{n:84,dec:0},{n:4.74,dec:2,suf:'%'}],
+       ['ขายอะไหล่รถยนต์','Phrase',{n:178.26,dec:2},{n:73,dec:0},{n:6.26,dec:2,suf:'%'}],
+       ['จำหน่ายอะไหล่รถยนต์','Phrase',{n:167.70,dec:2},{n:70,dec:0},{n:9.11,dec:2,suf:'%'}],
+       ['อะไหล่วรจักร','Phrase',{n:149.75,dec:2},{n:68,dec:0},{n:12.14,dec:2,suf:'%'}],
+       ['อะไหล่รถ','Phrase',{n:140.49,dec:2},{n:59,dec:0},{n:4.63,dec:2,suf:'%'}],
+       ['อะไหล่ยนต์','Phrase',{n:137.65,dec:2},{n:54,dec:0},{n:3.72,dec:2,suf:'%'}],
+       ['ร้านอะไหล่วรจักร','Phrase',{n:118.84,dec:2},{n:53,dec:0},{n:18.09,dec:2,suf:'%'}],
+       ['แหล่งขายอะไหล่รถยนต์','Phrase',{n:97.41,dec:2},{n:40,dec:0},{n:6.17,dec:2,suf:'%'}],
+       ['หาอะไหล่รถยนต์','Phrase',{n:85.68,dec:2},{n:34,dec:0},{n:5.50,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์','Phrase',{n:75.28,dec:2},{n:30,dec:0},{n:3.89,dec:2,suf:'%'}],
+       ['อะไหล่ TOYOTA','Phrase',{n:73.80,dec:2},{n:28,dec:0},{n:7.04,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์วรจักร','Phrase',{n:24.08,dec:2},{n:9,dec:0},{n:10.84,dec:2,suf:'%'}],
+       ['อะไหล่แท้','Phrase',{n:23.07,dec:2},{n:9,dec:0},{n:8.82,dec:2,suf:'%'}],
+       ['อะไหล่รถตู้','Phrase',{n:16.03,dec:2},{n:6,dec:0},{n:10.91,dec:2,suf:'%'}],
+       ['อะไหล่ MG','Phrase',{n:12.73,dec:2},{n:5,dec:0},{n:11.90,dec:2,suf:'%'}],
+       ['ซื้ออะไหล่รถยนต์','Phrase',{n:12.50,dec:2},{n:11,dec:0},{n:3.50,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์ออนไลน์','Phrase',{n:7.63,dec:2},{n:8,dec:0},{n:5.30,dec:2,suf:'%'}],
+       ['<span class="pill old">ไม่มีการแสดงผล 31 คำ</span> คำยาวที่มี “วรจักร”<span class="sub">เช่น ร้าน ขาย อะไหล่ รถยนต์ วรจักร · อะไหล่ isuzu วรจักร · อะไหล่ โต โย ต้า วรจักร · ร้าน อะไหล่ ซูซูกิ วรจักร</span>','Phrase',{n:0,dec:2},{n:0,dec:0},'—']],
+      tot:['รวม 50 คีย์เวิร์ด','—',{n:2004.27,dec:2},{n:839,dec:0},{n:5.63,dec:2,suf:'%'}]}}}]},
+
+     {label:'ใครเห็นโฆษณาบ้าง',cols:['อุปกรณ์','ค่าโฆษณา','คลิก','การแสดงผล','สัดส่วนงบ'],dirs:[0,'nt','nt','nt','nt'],
+      rows:[['มือถือ',{n:1827.44,dec:2},{n:766,dec:0},{n:14289,dec:0},{n:91.2,dec:1,suf:'%'}],
+            ['คอมพิวเตอร์',{n:142.46,dec:2},{n:59,dec:0},{n:528,dec:0},{n:7.1,dec:1,suf:'%'}],
+            ['แท็บเล็ต',{n:34.37,dec:2},{n:14,dec:0},{n:93,dec:0},{n:1.7,dec:1,suf:'%'}]],
+      tot:['รวม',{n:2004.27,dec:2},{n:839,dec:0},{n:14910,dec:0},{n:100.0,dec:1,suf:'%'}],
+      note:'คนเห็นโฆษณาเป็นผู้ชาย 78.3% ของคนที่ Google รู้เพศ · ช่วงอายุที่เห็นมากสุดคือชาย 25–34 ปี (23.7%) และชาย 35–44 ปี (20.8%)'}],
+
+
+    changes:[['—','<b>ยังไม่มีรายการปรับแก้ไข</b> สัปดาห์นี้ไม่ได้แตะคีย์เวิร์ด แคมเปญ หรือโฆษณาของช่องทางนี้เลย','—']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Website WPC', note:'<b>สัปดาห์นี้ไม่ได้ปรับการตั้งค่าอะไรเลย จึงไม่มีหมุด</b> · ช่วงข้อมูล 29 ต.ค.–5 พ.ย. 2569 · วันที่ 29–31 เป็นของเดือนตุลาคม',
+      lastData:5,
+      events:{},
+      legend:[['#EDE9FA','Google Ads'],['#FDECEC','ปิด / ยกเลิกการตั้งค่า'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Website WPC', key:'wpc-w1nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>เปิด 4 แคมเปญ Search ใหม่</b><span class="sub">ผ้าเบรค · ไส้กรอง · ท่อยาง · แบต · Maximize clicks · ฿300/วัน/แคมเปญ</span>',
+        'รอแก้ไขเว็บไซต์หน้าสินค้า 4 รายการที่เลือกไว้สร้างแคมเปญ ระหว่างนี้คิด text ad รอไปก่อน',
+        'วัดผลแยกหมวดได้ ไม่ต้องเดาว่าเงินไปไหน',
+        {st:'doing',rm:'คิด text ad รอ'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     WPC คลังแบตเตอรี่ · Shopee Ads
+     ============================================================ */
+  {name:'WPC คลังแบตเตอรี่', color:'#2F7D6D', sub:'Shopee Ads', ch:[
+   {name:'Shopee WPC BATTERY', key:'wpcbat', dsub:'KPI · แคมเปญกลุ่ม · แคมเปญรายสินค้า', sub:'30 ต.ค.–5 พ.ย. · 7 วัน · 1 แคมเปญกลุ่ม + 2 แคมเปญรายสินค้า', icon:'bag', color:'#2F7D6D', tag:['ครบ 3 สัปดาห์ · ยังไม่มีออเดอร์','bd'],
+    kpi:[
+     {l:'ค่าโฆษณา',n:1426.47,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'เฉลี่ยวันละ ฿203.78',from:'วันละ ฿178.44'}},
+     {l:'ROAS',n:0,dec:2,cmp:{ar:'nt',tone:0,txt:'เท่าเดิม · เป้า 7.0 และ 5.0',from:'0.00'}},
+     {l:'ยอดขายจากแอด',n:0,dec:0,pre:'฿',cmp:{ar:'nt',tone:0,txt:'ยังไม่มีออเดอร์จากแอด',from:'฿0'}},
+     {l:'ใส่ตะกร้าสินค้า',n:2,dec:0,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'ครั้งแรกของรอบนี้',from:'0 ครั้ง'}},
+     {l:'คลิก',n:429,dec:0,cmp:{ar:'dn',tone:-1,txt:'ลดลง 108 คลิก',from:'537 คลิก'}},
+     {l:'CTR',n:0.91,dec:2,suf:'%',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 0.07 จุด',from:'0.84%'}}],
+    kpiNote:'เทียบกับสัปดาห์ที่ 4 ของเดือนตุลาคม (23–29 ต.ค. · 7 วัน) · ร้าน WPC คลังแบตเตอรี่ (wpc.auto_battery) · <b>สัปดาห์นี้บัญชีมี 2 แบบแคมเปญ</b> แคมเปญกลุ่ม GMV Max ร้านค้า (รอบ 16 ต.ค.–15 พ.ย. · เป้า ROAS 7.0) และแคมเปญรายสินค้า 2 ตัวที่เปิดใหม่ 5 พ.ย. (รอบ 5–30 พ.ย. · งบ ฿100/วัน/ตัว · เป้า ROAS 5.0) · ตาราง ① ② ③ ด้านล่างแยกให้ดูทีละแบบ',
+    tables:[
+     {blk:{no:1,n:'แคมเปญกลุ่ม · GMV Max ร้านค้า',t:'30 ต.ค.–5 พ.ย.',b:'7 วัน · รอบ 16 ต.ค.–15 พ.ย.'},
+      sub:'ระบบเลือกสินค้าและตั้งราคาประมูลให้เองทั้งร้าน · <b>ยังไม่มีออเดอร์เลยตลอด 3 สัปดาห์ของรอบนี้</b>',
+      cols:['แคมเปญ','ประเภท','งบ/วัน','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','ออเดอร์','ใส่ตะกร้า','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['GMV Max ร้านค้า','ทั้งร้าน · อัตโนมัติ','฿200',{n:1336.92,dec:2},{n:0,dec:0},{n:7.0,dec:1},{n:0,dec:2},{n:0,dec:0},{n:0,dec:0},{n:415,dec:0},{n:45888,dec:0},{n:0.90,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญกลุ่ม','—','฿200',{n:1336.92,dec:2},{n:0,dec:0},'—',{n:0,dec:2},{n:0,dec:0},{n:0,dec:0},{n:415,dec:0},{n:45888,dec:0},{n:0.90,dec:2,suf:'%'}],
+      note:'กินงบ 93.7% ของทั้งบัญชี · 7 วันได้ 415 คลิก CTR 0.90% ยังไม่มีใครใส่ตะกร้าหรือสั่งซื้อ'},
+
+     {blk:{no:2,n:'แคมเปญรายสินค้า · เปิดใหม่ 5 พ.ย.',t:'5 พ.ย. · 1 วัน',b:'เป้า ROAS 5.0 · ช่วงเรียนรู้'},
+      sub:'โฆษณาเพิ่มยอดขายแบบตั้งราคาประมูลด้วยตนเอง · งบ ฿100/วัน/ตัว · รอบ 5–30 พ.ย. · เปิด ROAS Protection และอยู่ในโหมด rapid boost ทั้งคู่ · <b>ข้อมูลมีวันเดียว ยังอยู่ในช่วงเรียนรู้</b>',
+      cols:['แคมเปญ','ประเภท','งบ/วัน','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','ออเดอร์','ใส่ตะกร้า','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['SOLITE CMF100R <span class="pill new">ตัวใหม่</span><span class="sub">100 แอมป์ 750 CCA · ยาว 32.5 ซม.</span>','รายสินค้า','฿100',{n:49.25,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:0},{n:2,dec:0},{n:4,dec:0},{n:531,dec:0},{n:0.75,dec:2,suf:'%'}],
+       ['ULTRA LN3 <span class="pill new">ตัวใหม่</span><span class="sub">110 แอมป์ 540 CCA · DIN LN3 Revo 2.4L · ยาว 28 ซม.</span>','รายสินค้า','฿100',{n:40.31,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:0},{n:0,dec:0},{n:10,dec:0},{n:526,dec:0},{n:1.90,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญรายสินค้า','—','฿200',{n:89.56,dec:2},{n:0,dec:0},'—',{n:0,dec:2},{n:0,dec:0},{n:2,dec:0},{n:14,dec:0},{n:1057,dec:0},{n:1.32,dec:2,suf:'%'}],
+      note:'<b>CMF100R ทำให้มีคนใส่ตะกร้า 2 ครั้ง เป็นครั้งแรกของรอบนี้</b> · ULTRA LN3 ได้ CTR 1.90% สูงกว่า GMV Max กว่าสองเท่า แต่เป็นข้อมูลวันเดียวจึงยังสรุปไม่ได้'},
+
+     {blk:{no:3,n:'รวมทั้งบัญชี',t:'30 ต.ค.–5 พ.ย.',b:'7 วัน'},
+      cols:['กลุ่มแคมเปญ','จำนวนแคมเปญ','ค่าโฆษณา','สัดส่วนงบ','ยอดขาย','ออเดอร์','ใส่ตะกร้า','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,'nt','nt','up','up','up','up','nt','up'],
+      rows:[
+       ['แคมเปญกลุ่ม · GMV Max ร้านค้า',{n:1,dec:0},{n:1336.92,dec:2},{n:93.7,dec:1,suf:'%'},{n:0,dec:0},{n:0,dec:0},{n:0,dec:0},{n:415,dec:0},{n:45888,dec:0},{n:0.90,dec:2,suf:'%'}],
+       ['แคมเปญรายสินค้า',{n:2,dec:0},{n:89.56,dec:2},{n:6.3,dec:1,suf:'%'},{n:0,dec:0},{n:0,dec:0},{n:2,dec:0},{n:14,dec:0},{n:1057,dec:0},{n:1.32,dec:2,suf:'%'}]],
+      tot:['รวมทั้งบัญชี',{n:3,dec:0},{n:1426.47,dec:2},{n:100.0,dec:1,suf:'%'},{n:0,dec:0},{n:0,dec:0},{n:2,dec:0},{n:429,dec:0},{n:46945,dec:0},{n:0.91,dec:2,suf:'%'}],
+      note:'ค่าโฆษณาตรงกับยอดตัดเครดิตจริง ฿1,426.47 · <b>3 สัปดาห์รวมใช้ไปแล้ว ฿3,767.23 จากเครดิตที่เติม ฿5,000</b> เหลือ ฿1,232.77'}],
+
+    changes:[['5 พ.ย.','<b>เปิดโฆษณารายสินค้า 2 ตัว</b> SOLITE CMF100R และ ULTRA LN3','ตามแผนเดือน 11 · วันแรกได้ 14 คลิก และใส่ตะกร้า 2 ครั้งจาก CMF100R']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Shopee WPC BATTERY', note:'ปักหมุดเฉพาะเหตุการณ์ที่เกิดในสัปดาห์นี้ · 30 ต.ค.–5 พ.ย. 2569',
+      lastData:5,
+      events:{
+        5:[{t:'เปิดโฆษณารายสินค้า SOLITE CMF100R',k:'n'},{t:'เปิดโฆษณารายสินค้า ULTRA LN3',k:'n'}]
+      },
+      legend:[['#E6EEFA','การแก้ไขแอด'],['#EAF3EC','เปิดรอบใหม่ · เติมเครดิต'],['#FDECEC','หยุด / สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Shopee WPC BATTERY', key:'wpcbat-w1nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>จบแคมเปญ · รอเข้าโปรแกรม PRIME SELLER</b>','เครดิต ฿5,000 ใช้หมดวันที่ 10 พ.ย. และครบ 4 สัปดาห์ยังไม่มีออเดอร์จากแอดเลย','รอเข้าโปรแกรม PRIME SELLER',{st:'todo',rm:'รอ PRIME SELLER'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     LUCK Thailand · Shopee Ads
+     ============================================================ */
+  {name:'LUCK Thailand', color:'var(--luck)', sub:'Shopee Ads', ch:[
+   {name:'Shopee LUCK', key:'shopee', dsub:'KPI · รอบเก่า · รอบใหม่', sub:'คาบ 2 รอบ · 30 ต.ค.–5 พ.ย. · 7 วัน · ปิดรอบเก่า 4 พ.ย. เปิดรอบใหม่ 5 พ.ย.', icon:'bag', color:'#2E5496', tag:['เปลี่ยนรอบ · ยอดลดจากสัปดาห์ที่ 4','bd'],
+    kpi:[
+     {l:'ROAS',n:9.08,dec:2,cmp:{ar:'dn',tone:-1,txt:'ลดลง 5.75',from:'14.83'}},
+     {l:'Direct ROAS',n:5.34,dec:2,cmp:{ar:'dn',tone:-1,txt:'ลดลง 2.76',from:'8.10'}},
+     {l:'ยอดขายจากแอด',n:40261,dec:0,pre:'฿',cmp:{ar:'dn',tone:-1,txt:'เฉลี่ยวันละ ฿5,752',from:'วันละ ฿9,145'}},
+     {l:'ออเดอร์จากแอด',n:31,dec:0,cmp:{ar:'dn',tone:-1,txt:'เฉลี่ยวันละ 4.4 ออเดอร์',from:'วันละ 5.9 ออเดอร์'}},
+     {l:'ค่าโฆษณา',n:4432.27,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'เฉลี่ยวันละ ฿633.18',from:'วันละ ฿616.65'}},
+     {l:'คลิก',n:860,dec:0,cmp:{ar:'dn',tone:-1,txt:'เฉลี่ยวันละ 123 คลิก',from:'วันละ 167 คลิก'}}],
+    kpiNote:'เทียบกับสัปดาห์ที่ 4 ของเดือนตุลาคม (23–29 ต.ค. · 7 วัน) · <b>สัปดาห์นี้คาบ 2 รอบ</b> รอบเก่า (เปิด 5 ต.ค.) สิ้นสุด 4 พ.ย. และรอบใหม่เปิด 5 พ.ย. จึงนับรอบเก่าได้ 6 วัน (30 ต.ค.–4 พ.ย.) และรอบใหม่ได้แค่ 1 วัน · ตัวเลข KPI ข้างบนเป็นยอดรวมทั้งสองรอบ ส่วนตารางด้านล่างแยกให้ดูทีละรอบ · ค่าโฆษณา ฿4,432.27 ตรงกับยอดตัดเครดิตจริง · การแสดงผล 26,824 ครั้ง · CTR 3.21%',
+    tables:[
+     {blk:{no:1,n:'รอบเก่า · เปิด 5 ต.ค. สิ้นสุด 4 พ.ย.',t:'นับ 30 ต.ค.–4 พ.ย.',b:'6 วัน'},
+      sub:'รอบที่ยิงมาตลอดเดือนตุลาคม · <b>กลุ่มสินค้าเด็กหยุดไปตั้งแต่ 26 ต.ค.</b> จึงเป็น 0 ทั้งแถว',
+      cols:['แคมเปญ','ประเภท','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','Direct ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['กลุ่มผ้าขนหนู','กลุ่มสินค้า',{n:2549.92,dec:2},{n:28037,dec:0},{n:7.0,dec:1},{n:11.00,dec:2},{n:5.55,dec:2},{n:19,dec:0},{n:439,dec:0},{n:12656,dec:0},{n:3.47,dec:2,suf:'%'}],
+       ['Swift Wrap','รายสินค้า',{n:595.99,dec:2},{n:6718,dec:0},{n:5.0,dec:1},{n:11.27,dec:2},{n:11.11,dec:2},{n:7,dec:0},{n:107,dec:0},{n:4181,dec:0},{n:2.56,dec:2,suf:'%'}],
+       ['Gataway Family Set','รายสินค้า',{n:598.88,dec:2},{n:2606,dec:0},{n:5.8,dec:1},{n:4.35,dec:2},{n:0,dec:2},{n:2,dec:0},{n:142,dec:0},{n:5227,dec:0},{n:2.72,dec:2,suf:'%'}],
+       ['กลุ่มสินค้าเด็ก <span class="pill old">หยุด 26 ต.ค.</span>','กลุ่มสินค้า',{n:0,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:0,dec:0},{n:0,dec:0},{n:0,dec:2,suf:'%'}]],
+      tot:['รวมรอบเก่า','—',{n:3744.79,dec:2},{n:37361,dec:0},'—',{n:9.98,dec:2},{n:5.54,dec:2},{n:28,dec:0},{n:688,dec:0},{n:22064,dec:0},{n:3.12,dec:2,suf:'%'}],
+      note:'<b>Gataway Family Set มี Direct ROAS 0.00</b> ยอดขาย ฿2,606 ที่ได้มาจึงไม่ใช่คนที่กดจากโฆษณาตัวนี้แล้วซื้อตัวนี้ตรง ๆ · Swift Wrap ยังเป็นตัวที่คุ้มสุดของรอบเก่า ROAS 11.27 และ Direct ROAS 11.11 แทบเท่ากัน'},
+
+     {blk:{no:2,n:'รายการสินค้าในกลุ่มผ้าขนหนู รอบเก่า',t:'30 ต.ค.–4 พ.ย.',b:'6 วัน'},
+      cols:['สินค้า','ค่าโฆษณา','ยอดขาย','ROAS','Direct ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,'nt','up','up','up','up','up','nt','up'],
+      rows:[
+       ['Gataway',{n:1849.41,dec:2},{n:20967,dec:0},{n:11.34,dec:2},{n:6.95,dec:2},{n:14,dec:0},{n:283,dec:0},{n:8848,dec:0},{n:3.20,dec:2,suf:'%'}],
+       ['Terrazzo',{n:387.38,dec:2},{n:4390,dec:0},{n:11.33,dec:2},{n:0,dec:2},{n:3,dec:0},{n:88,dec:0},{n:2283,dec:0},{n:3.85,dec:2,suf:'%'}],
+       ['Matha’s Favorite',{n:257.97,dec:2},{n:2680,dec:0},{n:10.39,dec:2},{n:5.00,dec:2},{n:2,dec:0},{n:41,dec:0},{n:1191,dec:0},{n:3.44,dec:2,suf:'%'}],
+       ['Splash Joy',{n:55.17,dec:2},{n:0,dec:0},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:27,dec:0},{n:334,dec:0},{n:8.08,dec:2,suf:'%'}],
+       ['Four Elements',{n:0,dec:2},{n:0,dec:0},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:0,dec:0},{n:0,dec:0},{n:0,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญ',{n:2549.92,dec:2},{n:28037,dec:0},{n:11.00,dec:2},{n:5.55,dec:2},{n:19,dec:0},{n:439,dec:0},{n:12656,dec:0},{n:3.47,dec:2,suf:'%'}],
+      note:'Gataway กินงบ 72.5% ของกลุ่มและเป็นตัวที่ทำยอดเกือบทั้งหมด ROAS 11.34 · Terrazzo กับ Matha’s Favorite ทำ ROAS ได้ใกล้เคียงกันที่ 11.33 และ 10.39'},
+
+     {blk:{no:3,n:'รอบใหม่ · เปิด 5 พ.ย. จบ 30 พ.ย.',t:'นับ 5 พ.ย.',b:'1 วัน · ช่วงเรียนรู้'},
+      sub:'<b>รอบใหม่มี 5 แคมเปญ</b> เพิ่มรายสินค้า Baby B และ Baby C แทนกลุ่มสินค้าเด็กที่หยุดไป · ข้อมูลมีวันเดียว ยังอยู่ในช่วงเรียนรู้ ตัวเลขจะยังแกว่ง',
+      cols:['แคมเปญ','ประเภท','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','Direct ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['กลุ่มผ้าขนหนู','กลุ่มสินค้า',{n:433.49,dec:2},{n:1935,dec:0},{n:7.0,dec:1},{n:4.46,dec:2},{n:4.46,dec:2},{n:2,dec:0},{n:119,dec:0},{n:3299,dec:0},{n:3.61,dec:2,suf:'%'}],
+       ['Swift Wrap','รายสินค้า',{n:100.00,dec:2},{n:965,dec:0},{n:5.0,dec:1},{n:9.65,dec:2},{n:9.65,dec:2},{n:1,dec:0},{n:22,dec:0},{n:632,dec:0},{n:3.48,dec:2,suf:'%'}],
+       ['Gataway Family Set','รายสินค้า',{n:58.30,dec:2},{n:0,dec:0},{n:5.8,dec:1},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:15,dec:0},{n:357,dec:0},{n:4.20,dec:2,suf:'%'}],
+       ['Baby B ชมพู <span class="pill new">ตัวใหม่</span>','รายสินค้า',{n:46.12,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:10,dec:0},{n:289,dec:0},{n:3.46,dec:2,suf:'%'}],
+       ['Baby C ฟ้า <span class="pill new">ตัวใหม่</span>','รายสินค้า',{n:49.57,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:6,dec:0},{n:183,dec:0},{n:3.28,dec:2,suf:'%'}]],
+      tot:['รวมรอบใหม่','—',{n:687.48,dec:2},{n:2900,dec:0},'—',{n:4.22,dec:2},{n:4.22,dec:2},{n:3,dec:0},{n:172,dec:0},{n:4760,dec:0},{n:3.61,dec:2,suf:'%'}],
+      note:'วันแรกของรอบใหม่ ROAS 4.22 ยังต่ำกว่าเป้าทุกแคมเปญยกเว้น Swift Wrap · <b>เทียบไม่ได้กับรอบเก่าตรง ๆ</b> เพราะรอบใหม่มีข้อมูลวันเดียวและยังอยู่ในช่วงเรียนรู้'},
+
+     {blk:{no:4,n:'รายการสินค้าในกลุ่มผ้าขนหนู รอบใหม่',t:'5 พ.ย. · 1 วัน',b:'เป้า ROAS 7.0'},
+      sub:'สินค้าที่อยู่ในกลุ่มผ้าขนหนูรอบใหม่ · <b>รอบนี้เพิ่ม Feline เข้ามา และเอา Four Elements กลับมายิงต่อ</b>',
+      cols:['สินค้า','ค่าโฆษณา','ยอดขาย','ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,'nt','up','up','up','up','nt','up'],
+      rows:[
+       ['Gataway',{n:222.84,dec:2},{n:1545,dec:0},{n:6.93,dec:2},{n:1,dec:0},{n:68,dec:0},{n:1670,dec:0},{n:4.07,dec:2,suf:'%'}],
+       ['Feline <span class="pill new">ตัวใหม่</span>',{n:164.32,dec:2},{n:0,dec:0},{n:0,dec:2},{n:0,dec:0},{n:34,dec:0},{n:1202,dec:0},{n:2.83,dec:2,suf:'%'}],
+       ['Four Elements <span class="pill new">เอากลับมา</span>',{n:17.97,dec:2},{n:390,dec:0},{n:21.70,dec:2},{n:1,dec:0},{n:3,dec:0},{n:125,dec:0},{n:2.40,dec:2,suf:'%'}],
+       ['Matha’s Favorite',{n:14.47,dec:2},{n:0,dec:0},{n:0,dec:2},{n:0,dec:0},{n:4,dec:0},{n:140,dec:0},{n:2.86,dec:2,suf:'%'}],
+       ['Terrazzo',{n:13.89,dec:2},{n:0,dec:0},{n:0,dec:2},{n:0,dec:0},{n:10,dec:0},{n:162,dec:0},{n:6.17,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญ',{n:433.49,dec:2},{n:1935,dec:0},{n:4.46,dec:2},{n:2,dec:0},{n:119,dec:0},{n:3299,dec:0},{n:3.61,dec:2,suf:'%'}],
+      note:'<b>Feline เป็นตัวใช้งบอันดับ 2 ของกลุ่ม ฿164.32 แต่ยังไม่มีออเดอร์</b> และ CTR 2.83% ต่ำกว่า Gataway · ส่วน Four Elements ใช้งบแค่ ฿17.97 แต่ได้ 1 ออเดอร์ ROAS 21.70 สูงสุดของกลุ่ม — เป็นข้อมูลวันเดียว ยังสรุปไม่ได้'}],
+
+    changes:[['4 พ.ย.','<b>รอบเก่าสิ้นสุด</b> กลุ่มผ้าขนหนู · Swift Wrap · Gataway Family Set','ปิดตามกำหนดของรอบ 5 ต.ค.–4 พ.ย.'],
+             ['5 พ.ย.','<b>เปิดรอบใหม่ 5 แคมเปญ</b> กลุ่มผ้าขนหนู · Swift Wrap · Gataway Family Set · Baby B · Baby C','เพิ่ม Feline เข้ากลุ่มผ้าขนหนู · เอา Four Elements กลับมา · แทนกลุ่มสินค้าเด็กด้วยรายสินค้า Baby B / Baby C']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Shopee LUCK', note:'ปักหมุดเฉพาะเหตุการณ์ที่เกิดในสัปดาห์นี้ · 30 ต.ค.–5 พ.ย. 2569',
+      lastData:5,
+      events:{
+        4:[{t:'รอบเก่าสิ้นสุดทั้ง 4 แคมเปญ',k:'x'}],
+        5:[{t:'เปิดรอบใหม่ 5 แคมเปญ ถึง 30 พ.ย.',k:'n'},{t:'เพิ่ม Feline เข้ากลุ่มผ้าขนหนู',k:'s'},{t:'เอา Four Elements กลับมายิงต่อ',k:'s'},{t:'เปิดรายสินค้า Baby B · Baby C',k:'n'}]
+      },
+      legend:[['#E6EEFA','การแก้ไขแอด'],['#EAF3EC','เปิดรอบใหม่ · เติมเครดิต'],['#FDECEC','หยุด / สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Shopee LUCK', key:'shopee-w1nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>ดู Feline ครบ 7 วันแล้วตัดสินใจ</b>','วันแรกใช้ ฿164.32 เป็นอันดับ 2 ของกลุ่มแต่ยังไม่มีออเดอร์ และ CTR 2.83% ต่ำกว่า Gataway','รู้ว่าควรยิงต่อหรือถอดออกก่อนเผางบ',{st:'doing',rm:'ครบ 7 วันแล้ว'}],
+       ['<b>ดู Baby B / Baby C ครบ 7 วันแล้วตัดสินใจ</b>','วันแรกรวม ฿95.69 ยังไม่มีออเดอร์และไม่มีใครใส่ตะกร้า','รู้ว่าสินค้าเด็กมีปัญหาที่แอดหรือที่หน้าสินค้า',{st:'done',dt:'2026-11-12'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     ATELIER · Instagram
+     ============================================================ */
+  {name:'ATELIER', color:'#A32C63', sub:'Instagram', ch:[
+   {name:'IG ATELIER', key:'igat', dsub:'KPI · โครงสร้างและการตั้งค่า · ผลรายโพสต์', sub:'30 ต.ค.–5 พ.ย. · 7 วันเต็ม · 2 โพสต์เดิม', icon:'ig', color:'#A32C63', tag:['ต้นทุนต่อการเข้าชมถูกลง','ok'],
+    kpi:[
+     {l:'การเข้าชมโปรไฟล์',n:3587,dec:0,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 358 ครั้ง',from:'3,229 ครั้ง'}},
+     {l:'ต้นทุนต่อการเข้าชมโปรไฟล์',n:0.60,dec:2,pre:'฿',cmp:{ar:'dn',tone:1,txt:'ถูกลง ฿0.04',from:'฿0.64'}},
+     {l:'ค่าโฆษณา',n:2142.23,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'เฉลี่ยวันละ ฿306.03',from:'วันละ ฿295.33'}},
+     {l:'การเข้าถึง',n:69666,dec:0,suf:' คน',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 9,639 คน',from:'60,027 คน'}},
+     {l:'CTR<br><span style="font-weight:400;color:#9AA5B5">คลิกลิงก์ ÷ การแสดงผล</span>',n:4.12,dec:2,suf:'%',cmp:{ar:'dn',tone:-1,txt:'ลดลง 0.17 จุด',from:'4.29%'}}],
+    kpiNote:'เทียบกับสัปดาห์ที่ 4 ของเดือนตุลาคม (23–29 ต.ค. · 7 วันเต็ม) · <b>เป้าหมายของแคมเปญคือการเข้าชมโปรไฟล์ Instagram ไม่ใช่ยอดขาย</b> ช่องทางนี้จึงไม่มี ROAS · <b>ยังเป็นรอบเดิม 15 ต.ค. – 14 พ.ย. 2569 และยังเป็น 2 โพสต์เดิม</b> สัปดาห์นี้ไม่ได้เปลี่ยนการตั้งค่าอะไร · การแสดงผลรวม 87,288 ครั้ง · คลิกลิงก์ 3,595 ครั้ง',
+    tables:[
+     {struct:true,label:'โครงสร้างแคมเปญ',agtag:'โพสต์',
+      sub:'ตั้งค่าไว้ยังไง และยิงเพื่ออะไร · สัปดาห์นี้ไม่ได้เปลี่ยนการตั้งค่า · <b>ผลงานจริงดูที่ตารางผลรายโพสต์ด้านล่าง</b>',
+      cmp:{no:1,n:'ATELIER | Instagram | การเข้าชมโปรไฟล์',s:[
+       {l:'วัตถุประสงค์',v:'การเข้าชมโปรไฟล์',g:1},
+       {l:'ปลายทาง',v:'โปรไฟล์ IG @atelier.th'},
+       {l:'พื้นที่ยิงแอด',v:'กรุงเทพฯ + ภูเก็ต'},
+       {l:'งบรายวัน',v:'฿300 / วัน'},
+       {l:'งบทั้งรอบ',v:'฿9,300'},
+       {l:'ระยะเวลา',v:'15 ต.ค. – 14 พ.ย. · 31 วัน'}]},
+      ags:[
+       {n:'โพสต์ 1 · แปลนไม่มี Section หลอก เรนเดอร์ค้าง อดนอน<a href="https://www.instagram.com/p/DdF0jNKDWDH/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>',s:[
+        {l:'ชุดโฆษณา',v:'กทม. + ภูเก็ต'},
+        {l:'งบต่อวัน',v:'฿150 / วัน'},
+        {l:'กลุ่มเป้าหมาย',v:'ดีไซเนอร์ + อินทีเรีย 25–44 ปี'},
+        {l:'การจัดอันดับคุณภาพ',v:'ค่าเฉลี่ย'}]},
+       {n:'โพสต์ 2 · คนอื่นเขาจ้างรับเหมาก่อสร้าง แต่ผมได้รับเหมาก่อเรื่อง<a href="https://www.instagram.com/p/DcxOJzClJ_m/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>',s:[
+        {l:'ชุดโฆษณา',v:'กทม. + ภูเก็ต'},
+        {l:'งบต่อวัน',v:'฿150 / วัน'},
+        {l:'กลุ่มเป้าหมาย',v:'ดีไซเนอร์ + อินทีเรีย 25–44 ปี'},
+        {l:'การจัดอันดับคุณภาพ',v:'สูงกว่าค่าเฉลี่ย',g:1}]}]},
+
+     {blk:{n:'ผลรายโพสต์',t:'30 ต.ค.–5 พ.ย. 69',b:'7 วันเต็ม'},
+      sub:'ตัวเลขจากไฟล์ export ของ Meta · <b>การเข้าชมโปรไฟล์</b> คือคอลัมน์ผลลัพธ์ที่ตั้งเป้าไว้ ส่วน <b>CTR</b> คิดจากคลิกลิงก์ ไม่ใช่คลิกทั้งหมด',
+      cols:['โพสต์','ค่าโฆษณา','เข้าชมโปรไฟล์','ต้นทุน/การเข้าชม','การเข้าถึง','ความถี่','การแสดงผล','คลิกลิงก์','CTR'],
+      dirs:[0,'nt','up','dn','up','nt','nt','up','up'],
+      rows:[
+       ['โพสต์ 1 · แปลนไม่มี Section หลอก เรนเดอร์ค้าง อดนอน',{n:1071.97,dec:2},{n:2504,dec:0},{n:0.43,dec:2},{n:36775,dec:0},{n:1.21,dec:2},{n:44550,dec:0},{n:2518,dec:0},{n:5.65,dec:2,suf:'%'}],
+       ['โพสต์ 2 · คนอื่นเขาจ้างรับเหมาก่อสร้าง แต่ผมได้รับเหมาก่อเรื่อง',{n:1070.26,dec:2},{n:1083,dec:0},{n:0.99,dec:2},{n:32891,dec:0},{n:1.30,dec:2},{n:42738,dec:0},{n:1077,dec:0},{n:2.52,dec:2,suf:'%'}]],
+      tot:['รวม 2 โพสต์',{n:2142.23,dec:2},{n:3587,dec:0},{n:0.60,dec:2},{n:69666,dec:0},'—',{n:87288,dec:0},{n:3595,dec:0},{n:4.12,dec:2,suf:'%'}],
+      note:'โพสต์ 1 เข้าชมโปรไฟล์ 2,504 ครั้ง เพิ่มจาก 2,416 · โพสต์ 2 เข้าชม 1,083 ครั้ง เพิ่มจาก 813 · <b>โพสต์ 1 ยังถูกกว่าโพสต์ 2 ราว 2.3 เท่า</b> (฿0.43 เทียบ ฿0.99) ทั้งที่ใช้งบเท่ากัน — แต่ช่องว่างแคบลงจากสัปดาห์ที่ 4 ที่ต่างกัน 3 เท่า (฿0.43 เทียบ ฿1.27)'}],
+
+    cal:{title:'ปฏิทิน IG ATELIER · พฤศจิกายน 2569',
+      note:'ปักหมุดเฉพาะเหตุการณ์ที่เกิดในสัปดาห์นี้ · 30 ต.ค.–5 พ.ย. 2569 · สัปดาห์นี้ไม่ได้แก้ไขแอด',
+      lastData:5,
+      events:{},
+      legend:[['#E6EEFA','การวางแผน / แก้ไขแอด'],['#EAF3EC','เริ่มรอบใหม่'],['#FDECEC','สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · IG ATELIER', key:'igat-w1nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>ยิง 2 โพสต์ใหม่ ปลายทางเว็บไซต์</b><span class="sub">โพสต์ 1 · ส.สถาปนิก 2 ม. (23 ต.ค.) · โพสต์ 2 · ดึกแค่ไหนไม่ท้อ ผู้รับเหมารอ ทะเลาะหน้าไซต์ (9 ต.ค.)</span>',
+        'แผนเดือน 11 · รอบเดิมจบ 14 พ.ย. แล้วเริ่มยิงรอบใหม่',
+        'เปลี่ยนปลายทางจากโปรไฟล์เป็นเว็บไซต์ วัดยอดได้จริง',
+        {st:'doing',rm:'เริ่มยิง 16 พ.ย. 69'}]
+      ]}}
+  ]}
+ ]}
+,
+{
+ key:'w2', n:'Week 2', range:'6 – 12 Nov', full:'สัปดาห์ที่สองของเดือนพฤศจิกายน 2569',
+ head:'สัปดาห์แรกที่ยิงเต็มรอบใหม่ — Shopee LUCK ครบ 7 วันในรอบใหม่ ROAS 7.02 ทุกแคมเปญเกินเป้า ออเดอร์เพิ่มเป็น 37 · Shopee WPC BATTERY เครดิต ฿5,000 ใช้หมดวันที่ 10 พ.ย. แอดหยุดยิง 11–12 พ.ย. และครบ 4 สัปดาห์ยังไม่มีออเดอร์ · Website WPC CTR ขึ้นเป็น 6.48% คนกดปุ่ม LINE 21.14 ครั้ง และเริ่มมีคนใส่ตะกร้า 7 ครั้ง · IG ATELIER เข้าชมโปรไฟล์ลดเหลือ 3,317 ครั้ง ต้นทุนขยับเป็น ฿0.64',
+ biz:[
+
+  /* ============================================================
+     Website WPC · Google Ads · Search
+     ============================================================ */
+  {name:'Website WPC', color:'var(--wpc)', sub:'Google Ads · Search', ch:[
+   {name:'Website WPC', key:'wpc', dsub:'KPI · เส้นทางลูกค้า · โครงสร้างแคมเปญ · คีย์เวิร์ด', sub:'Google Ads · Search · 6–12 พ.ย. · 7 วัน · 1 แคมเปญ · 1 Ad Group', icon:'globe', color:'#5B4BA8', tag:['CTR ขึ้น · เริ่มมีคนใส่ตะกร้า','ok'],
+    kpi:[
+     {l:'คนกดโฆษณา',n:768,dec:0,suf:' คน',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 29 คน',from:'739 คน · 7 วันเท่ากัน'}},
+     {l:'จ่ายต่อ 1 คลิก',n:2.43,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'แพงขึ้น ฿0.04',from:'฿2.39'}},
+     {l:'อัตราคนกดโฆษณา<br><span style="font-weight:400;color:#9AA5B5">CTR</span>',n:6.48,dec:2,suf:'%',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 0.85 จุด',from:'5.63%'}},
+     {l:'คนกดปุ่ม LINE<br><span style="font-weight:400;color:#9AA5B5">= Conversion ของแคมเปญ</span>',n:21.14,dec:2,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 3.14 ครั้ง',from:'18.00 ครั้ง'}},
+     {l:'ต้นทุนต่อ LINE 1 ครั้ง',n:88.10,dec:2,pre:'฿',cmp:{ar:'dn',tone:1,txt:'ถูกลง ฿23.25',from:'฿111.35'}},
+     {l:'คนกดปุ่มโทรในโฆษณา<br><span style="font-weight:400;color:#9AA5B5">ไม่ได้นับเป็น Conversion</span>',n:66,dec:0,suf:' ครั้ง',cmp:{ar:'dn',tone:-1,txt:'ลดลง 19 ครั้ง',from:'85 ครั้ง'}},
+     {l:'คนซื้อสำเร็จบนเว็บ',n:0,dec:0,suf:' ครั้ง',cmp:{ar:'nt',tone:0,txt:'ยังไม่เคยมีเลยตั้งแต่ ส.ค. 69',from:'0 ครั้ง'}}],
+    tables:[
+     {blk:{n:'เส้นทางลูกค้า สัปดาห์ที่ 2',t:'6–12 พ.ย. 69',b:'อ่านจากบนลงล่าง'},
+      sub:'เริ่มจากคนเห็นโฆษณา ไล่ลงมาจนถึงคนซื้อ · ตัวเลขทุกบรรทัดเป็น <b>จำนวนครั้ง</b> ไม่ใช่จำนวนเงิน',
+      cols:['ขั้นตอน','จำนวนครั้ง','เหลือกี่ % จากขั้นก่อนหน้า','หมายเหตุ'],
+      dirs:[0,'up','up',0],
+      rows:[
+       ['1 · เห็นโฆษณา',{n:11846,dec:0,suf:' ครั้ง'},'—','ขั้นเริ่มต้น · ลดจาก 14,910 ครั้ง'],
+       ['2 · กดโฆษณา',{n:768,dec:0,suf:' ครั้ง'},{n:6.48,dec:2,suf:'%'},'นับคลิกทั้งหมดของแคมเปญ'],
+       ['3 · กดปุ่ม LINE',{n:21.14,dec:2,suf:' ครั้ง'},{n:2.75,dec:2,suf:'%'},'นี่คือ Conversion ของแคมเปญ'],
+       ['4 · ใส่ตะกร้าสินค้า',{n:7.00,dec:2,suf:' ครั้ง'},{n:33.11,dec:2,suf:'%'},'สัปดาห์ที่ 1 มี 0 ครั้ง'],
+       ['5 · ซื้อสำเร็จ',{n:0,dec:0,suf:' ครั้ง'},{n:0,dec:2,suf:'%'},'ไม่เคยมีเลยตั้งแต่ ส.ค.']],
+      note:'<b>บรรทัดใส่ตะกร้า 7 ครั้ง เป็นครั้งแรกของเดือนนี้</b> มาจาก Conversion action ชื่อ Add to cart (เว็บ) ที่ตั้งไว้เป็น Secondary และไม่ได้รวมอยู่ในเป้าหมายระดับบัญชี จึง<b>ไม่ถูกนับรวมใน 21.14 ครั้ง</b> เป็นคนละตัวกัน ไม่ได้นับซ้ำ · บรรทัดซื้อสำเร็จยังเป็น 0 และ Google ยังขึ้นสถานะ Misconfigured ของ Conversion action ตัวนี้อยู่'},
+
+     {struct:true,label:'โครงสร้างแคมเปญ',sub:'มีแคมเปญเดียวและ Ad Group เดียวที่ใช้งบ · กลุ่ม 01 - แบตเตอรี่ ยังปิดอยู่',
+      cmp:{no:1,n:'WPC | Search | ทั่วไป - Search Campaign',s:[{l:'ค่าโฆษณา',v:{n:1862.72,dec:2,pre:'฿'}},{l:'คลิก',v:{n:768,dec:0}},{l:'การแสดงผล',v:{n:11846,dec:0}},{l:'CTR',v:{n:6.48,dec:2,suf:'%'},g:1},{l:'ต้นทุน/คลิก',v:{n:2.43,dec:2,pre:'฿'}},{l:'Conversion (คนกด LINE)',v:{n:21.14,dec:2,suf:' ครั้ง'},g:1},{l:'งบรายวัน',v:'฿250 / วัน'},{l:'กลยุทธ์ราคาเสนอ',v:'Maximize clicks'}]},
+      ags:[
+       {n:'02 - ทั่วไป',s:[{l:'ค่าโฆษณา',v:{n:1862.72,dec:2,pre:'฿'}},{l:'คลิก',v:{n:768,dec:0}},{l:'การแสดงผล',v:{n:11846,dec:0}},{l:'CTR',v:{n:6.48,dec:2,suf:'%'},g:1},{l:'ต้นทุน/คลิก',v:{n:2.43,dec:2,pre:'฿'}},{l:'Conversion (คนกด LINE)',v:{n:21.14,dec:2,suf:' ครั้ง'},g:1}],
+        kw:{id:'kw02w2nov', count:'50 คำ', table:{sub:'<b>ตอนนี้มีคีย์เวิร์ด 50 คำ เป็น Phrase match ทั้งหมด เท่ากับสัปดาห์ที่ 1 ทุกคำ</b> สัปดาห์นี้ไม่ได้เพิ่มหรือตัดคำไหนออก · มี 19 คำที่มีคลิก รวม ฿1,862.72 · 768 คลิก ตรงกับยอดแคมเปญพอดี · อีก 31 คำยังไม่มีการแสดงผลเลยสักครั้ง · <b>คำที่ใช้งบมากสุดเปลี่ยนเป็น “ขายอะไหล่รถยนต์”</b> จากเดิมที่เป็น “ร้านอะไหล่รถยนต์” · ไฟล์ Search keywords ของสัปดาห์นี้ไม่มีคอลัมน์การแสดงผล คะแนนคุณภาพ และ Conversion มาด้วย จึงแสดงได้เฉพาะค่าโฆษณา คลิก และ CTR',
+      cols:['คีย์เวิร์ด','Match type','ค่าโฆษณา','คลิก','CTR'],
+      dirs:[0,0,'nt','up','up'],
+      rows:[
+       ['ขายอะไหล่รถยนต์','Phrase',{n:303.87,dec:2},{n:120,dec:0},{n:10.53,dec:2,suf:'%'}],
+       ['จำหน่ายอะไหล่รถยนต์','Phrase',{n:250.69,dec:2},{n:105,dec:0},{n:11.45,dec:2,suf:'%'}],
+       ['อะไหล่รถ','Phrase',{n:178.36,dec:2},{n:72,dec:0},{n:5.83,dec:2,suf:'%'}],
+       ['ร้านอะไหล่รถยนต์','Phrase',{n:143.65,dec:2},{n:64,dec:0},{n:5.47,dec:2,suf:'%'}],
+       ['ร้านอะไหล่ใกล้ฉัน','Phrase',{n:141.56,dec:2},{n:57,dec:0},{n:2.91,dec:2,suf:'%'}],
+       ['อะไหล่วรจักร','Phrase',{n:131.79,dec:2},{n:57,dec:0},{n:12.47,dec:2,suf:'%'}],
+       ['อะไหล่ TOYOTA','Phrase',{n:130.77,dec:2},{n:54,dec:0},{n:13.30,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์ใกล้ฉัน','Phrase',{n:112.60,dec:2},{n:46,dec:0},{n:3.57,dec:2,suf:'%'}],
+       ['อะไหล่ยนต์','Phrase',{n:97.93,dec:2},{n:39,dec:0},{n:3.71,dec:2,suf:'%'}],
+       ['ร้านอะไหล่วรจักร','Phrase',{n:87.31,dec:2},{n:36,dec:0},{n:11.25,dec:2,suf:'%'}],
+       ['แหล่งขายอะไหล่รถยนต์','Phrase',{n:72.02,dec:2},{n:29,dec:0},{n:5.72,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์','Phrase',{n:71.31,dec:2},{n:29,dec:0},{n:5.46,dec:2,suf:'%'}],
+       ['อะไหล่แท้','Phrase',{n:52.20,dec:2},{n:21,dec:0},{n:13.55,dec:2,suf:'%'}],
+       ['หาอะไหล่รถยนต์','Phrase',{n:50.65,dec:2},{n:21,dec:0},{n:5.05,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์วรจักร','Phrase',{n:13.31,dec:2},{n:6,dec:0},{n:20.00,dec:2,suf:'%'}],
+       ['ซื้ออะไหล่รถยนต์','Phrase',{n:7.67,dec:2},{n:4,dec:0},{n:5.56,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์ออนไลน์','Phrase',{n:6.82,dec:2},{n:4,dec:0},{n:4.04,dec:2,suf:'%'}],
+       ['อะไหล่รถตู้','Phrase',{n:5.26,dec:2},{n:2,dec:0},{n:3.92,dec:2,suf:'%'}],
+       ['อะไหล่ MG','Phrase',{n:4.95,dec:2},{n:2,dec:0},{n:5.71,dec:2,suf:'%'}],
+       ['<span class="pill old">ไม่มีการแสดงผล 31 คำ</span> คำยาวที่มี “วรจักร”<span class="sub">เช่น ร้าน ขาย อะไหล่ รถยนต์ วรจักร · อะไหล่ isuzu วรจักร · อะไหล่ โต โย ต้า วรจักร · ร้าน อะไหล่ ซูซูกิ วรจักร</span>','Phrase',{n:0,dec:2},{n:0,dec:0},'—']],
+      tot:['รวม 50 คีย์เวิร์ด','—',{n:1862.72,dec:2},{n:768,dec:0},{n:6.48,dec:2,suf:'%'}]}}}]},
+
+     {label:'ใครเห็นโฆษณาบ้าง',cols:['อุปกรณ์','ค่าโฆษณา','คลิก','การแสดงผล','สัดส่วนงบ'],dirs:[0,'nt','nt','nt','nt'],
+      rows:[['มือถือ',{n:1702.41,dec:2},{n:701,dec:0},{n:11250,dec:0},{n:91.4,dec:1,suf:'%'}],
+            ['คอมพิวเตอร์',{n:146.97,dec:2},{n:62,dec:0},{n:497,dec:0},{n:7.9,dec:1,suf:'%'}],
+            ['แท็บเล็ต',{n:13.34,dec:2},{n:5,dec:0},{n:99,dec:0},{n:0.7,dec:1,suf:'%'}]],
+      tot:['รวม',{n:1862.72,dec:2},{n:768,dec:0},{n:11846,dec:0},{n:100.0,dec:1,suf:'%'}],
+      note:'คนเห็นโฆษณาเป็นผู้ชาย 79.92% ของคนที่ Google รู้เพศ · ช่วงอายุที่เห็นมากสุดคือชาย 25–34 ปี (24.65%) และชาย 35–44 ปี (21.46%)'}],
+
+    changes:[['—','<b>ยังไม่มีรายการปรับแก้ไข</b> สัปดาห์นี้ไม่ได้แตะคีย์เวิร์ด แคมเปญ หรือโฆษณาของช่องทางนี้เลย','—']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Website WPC', note:'<b>สัปดาห์นี้ไม่ได้ปรับการตั้งค่าอะไรเลย จึงไม่มีหมุด</b> · ช่วงข้อมูล 6–12 พ.ย. 2569',
+      lastData:12,
+      events:{},
+      legend:[['#EDE9FA','Google Ads'],['#FDECEC','ปิด / ยกเลิกการตั้งค่า'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Website WPC', key:'wpc-w2nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>เปิด 4 แคมเปญ Search ใหม่</b><span class="sub">ผ้าเบรค · ไส้กรอง · ท่อยาง · แบต · Maximize clicks · ฿300/วัน/แคมเปญ</span>',
+        'รอแก้ไขเว็บไซต์หน้าสินค้า 4 รายการที่เลือกไว้สร้างแคมเปญ ระหว่างนี้คิด text ad รอไปก่อน',
+        'วัดผลแยกหมวดได้ ไม่ต้องเดาว่าเงินไปไหน',
+        {st:'doing',rm:'คิด text ad รอ'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     WPC คลังแบตเตอรี่ · Shopee Ads
+     ============================================================ */
+  {name:'WPC คลังแบตเตอรี่', color:'#2F7D6D', sub:'Shopee Ads', ch:[
+   {name:'Shopee WPC BATTERY', key:'wpcbat', dsub:'KPI · แคมเปญกลุ่ม · แคมเปญรายสินค้า', sub:'6–12 พ.ย. · 7 วัน · ยิงจริง 5 วัน · 1 แคมเปญกลุ่ม + 2 แคมเปญรายสินค้า', icon:'bag', color:'#2F7D6D', tag:['เครดิตหมด 10 พ.ย. · จบแคมเปญ','bd'],
+    kpi:[
+     {l:'ค่าโฆษณา',n:1232.77,dec:2,pre:'฿',cmp:{ar:'dn',tone:0,txt:'เฉลี่ยวันละ ฿176.11 · เครดิตหมด 10 พ.ย.',from:'วันละ ฿203.78'}},
+     {l:'ROAS',n:0,dec:2,cmp:{ar:'nt',tone:0,txt:'เท่าเดิม · เป้า 7.0 และ 5.0',from:'0.00'}},
+     {l:'ยอดขายจากแอด',n:0,dec:0,pre:'฿',cmp:{ar:'nt',tone:0,txt:'ยังไม่มีออเดอร์จากแอด',from:'฿0'}},
+     {l:'ใส่ตะกร้าสินค้า',n:4,dec:0,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 2 ครั้ง',from:'2 ครั้ง'}},
+     {l:'คลิก',n:348,dec:0,cmp:{ar:'dn',tone:-1,txt:'ลดลง 81 คลิก',from:'429 คลิก'}},
+     {l:'CTR',n:0.90,dec:2,suf:'%',cmp:{ar:'dn',tone:-1,txt:'ลดลง 0.01 จุด',from:'0.91%'}}],
+    kpiNote:'เทียบกับสัปดาห์ที่ 1 ของเดือนพฤศจิกายน (30 ต.ค.–5 พ.ย. · 7 วัน) · ร้าน WPC คลังแบตเตอรี่ (wpc.auto_battery) · <b>เครดิตหมดวันที่ 10 พ.ย.</b> ประวัติการทำธุรกรรมมีรายการตัดเงินถึงวันที่ 10 พ.ย. แล้วหยุด แอดจึงยิงจริงแค่ 5 วัน และไม่ได้ยิงเลยในวันที่ 11–12 พ.ย. · <b>ค่าโฆษณา ฿1,232.77 เท่ากับเครดิตคงเหลือที่รายงานไว้ในสัปดาห์ที่ 1 พอดี</b> รวม 4 สัปดาห์ใช้เครดิตไป ฿5,000 เต็มจำนวน · ตาราง ① ② ③ ด้านล่างแยกให้ดูทีละแบบ',
+    tables:[
+     {blk:{no:1,n:'แคมเปญกลุ่ม · GMV Max ร้านค้า',t:'6–12 พ.ย.',b:'รอบ 16 ต.ค.–15 พ.ย.'},
+      sub:'ระบบเลือกสินค้าและตั้งราคาประมูลให้เองทั้งร้าน · <b>ยังไม่มีออเดอร์เลยตลอด 4 สัปดาห์ของรอบนี้</b>',
+      cols:['แคมเปญ','ประเภท','งบ/วัน','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','ออเดอร์','ใส่ตะกร้า','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['GMV Max ร้านค้า','ทั้งร้าน · อัตโนมัติ','฿200',{n:787.95,dec:2},{n:0,dec:0},{n:7.0,dec:1},{n:0,dec:2},{n:0,dec:0},{n:0,dec:0},{n:262,dec:0},{n:32344,dec:0},{n:0.81,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญกลุ่ม','—','฿200',{n:787.95,dec:2},{n:0,dec:0},'—',{n:0,dec:2},{n:0,dec:0},{n:0,dec:0},{n:262,dec:0},{n:32344,dec:0},{n:0.81,dec:2,suf:'%'}],
+      note:'กินงบ 63.9% ของทั้งบัญชี ลดจาก 93.7% ในสัปดาห์ที่ 1 · CTR 0.81% ลดจาก 0.90% และยังไม่มีใครใส่ตะกร้าหรือสั่งซื้อ'},
+
+     {blk:{no:2,n:'แคมเปญรายสินค้า',t:'6–12 พ.ย.',b:'เป้า ROAS 5.0 · รอบ 5–30 พ.ย.'},
+      sub:'โฆษณาเพิ่มยอดขายแบบตั้งราคาประมูลด้วยตนเอง · งบ ฿100/วัน/ตัว · <b>สัปดาห์แรกที่มีข้อมูลเต็ม หลังจากสัปดาห์ที่ 1 มีแค่วันเดียว</b>',
+      cols:['แคมเปญ','ประเภท','งบ/วัน','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','ออเดอร์','ใส่ตะกร้า','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['SOLITE CMF100R<span class="sub">100 แอมป์ 750 CCA · ยาว 32.5 ซม.</span>','รายสินค้า','฿100',{n:257.11,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:0},{n:1,dec:0},{n:31,dec:0},{n:3250,dec:0},{n:0.95,dec:2,suf:'%'}],
+       ['ULTRA LN3<span class="sub">110 แอมป์ 540 CCA · DIN LN3 Revo 2.4L · ยาว 28 ซม.</span>','รายสินค้า','฿100',{n:187.71,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:0},{n:3,dec:0},{n:55,dec:0},{n:3205,dec:0},{n:1.72,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญรายสินค้า','—','฿200',{n:444.82,dec:2},{n:0,dec:0},'—',{n:0,dec:2},{n:0,dec:0},{n:4,dec:0},{n:86,dec:0},{n:6455,dec:0},{n:1.33,dec:2,suf:'%'}],
+      note:'<b>ULTRA LN3 ทำได้ดีกว่าทั้ง CTR และตะกร้า</b> CTR 1.72% กับใส่ตะกร้า 3 ครั้ง ขณะที่ CMF100R ได้ CTR 0.95% และตะกร้า 1 ครั้ง · แต่ทั้งคู่ยังไม่มีออเดอร์ · รวม 2 สัปดาห์มีคนใส่ตะกร้า 6 ครั้ง แต่ไม่มีครั้งไหนกลายเป็นออเดอร์'},
+
+     {blk:{no:3,n:'รวมทั้งบัญชี',t:'6–12 พ.ย.',b:'ยิงจริง 5 วัน'},
+      cols:['กลุ่มแคมเปญ','จำนวนแคมเปญ','ค่าโฆษณา','สัดส่วนงบ','ยอดขาย','ออเดอร์','ใส่ตะกร้า','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,'nt','nt','up','up','up','up','nt','up'],
+      rows:[
+       ['แคมเปญกลุ่ม · GMV Max ร้านค้า',{n:1,dec:0},{n:787.95,dec:2},{n:63.9,dec:1,suf:'%'},{n:0,dec:0},{n:0,dec:0},{n:0,dec:0},{n:262,dec:0},{n:32344,dec:0},{n:0.81,dec:2,suf:'%'}],
+       ['แคมเปญรายสินค้า',{n:2,dec:0},{n:444.82,dec:2},{n:36.1,dec:1,suf:'%'},{n:0,dec:0},{n:0,dec:0},{n:4,dec:0},{n:86,dec:0},{n:6455,dec:0},{n:1.33,dec:2,suf:'%'}]],
+      tot:['รวมทั้งบัญชี',{n:3,dec:0},{n:1232.77,dec:2},{n:100.0,dec:1,suf:'%'},{n:0,dec:0},{n:0,dec:0},{n:4,dec:0},{n:348,dec:0},{n:38799,dec:0},{n:0.90,dec:2,suf:'%'}],
+      note:'ค่าโฆษณาตรงกับยอดตัดเครดิตจริง ฿1,232.77 · <b>4 สัปดาห์รวมใช้ไปแล้ว ฿5,000 เต็มจำนวนของเครดิตที่เติมไว้</b> (สัปดาห์ที่ 1–3 ฿3,767.23 + สัปดาห์นี้ ฿1,232.77) เหลือ ฿0'}],
+
+    changes:[['10 พ.ย.','<b>เครดิตหมด</b> ประวัติการทำธุรกรรมมีรายการตัดเงินถึงวันที่ 10 พ.ย. แล้วหยุด','แอดหยุดยิงวันที่ 11–12 พ.ย. · ตัดสินใจไม่เติมเครดิตต่อ และจบแคมเปญของรอบนี้']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Shopee WPC BATTERY', note:'ปักหมุดเฉพาะเหตุการณ์ที่เกิดในสัปดาห์นี้ · 6–12 พ.ย. 2569',
+      lastData:12,
+      events:{
+        10:[{t:'เครดิตหมด แอดหยุดยิง',k:'x'}]
+      },
+      legend:[['#E6EEFA','การแก้ไขแอด'],['#EAF3EC','เปิดรอบใหม่ · เติมเครดิต'],['#FDECEC','หยุด / สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Shopee WPC BATTERY', key:'wpcbat-w2nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>จบแคมเปญ · รอเข้าโปรแกรม PRIME SELLER</b>',
+        'เครดิต ฿5,000 ใช้หมดวันที่ 10 พ.ย. และครบ 4 สัปดาห์ยังไม่มีออเดอร์จากแอดเลย',
+        'รอเข้าโปรแกรม PRIME SELLER',
+        {st:'todo',rm:'รอ PRIME SELLER'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     LUCK Thailand · Shopee Ads
+     ============================================================ */
+  {name:'LUCK Thailand', color:'var(--luck)', sub:'Shopee Ads', ch:[
+   {name:'Shopee LUCK', key:'shopee', dsub:'KPI · แคมเปญรอบใหม่ · สินค้าในกลุ่มผ้าขนหนู', sub:'6–12 พ.ย. · 7 วัน · รอบใหม่ 5–30 พ.ย. · 5 แคมเปญ', icon:'bag', color:'#2E5496', tag:['ทุกแคมเปญ ROAS เกินเป้า','ok'],
+    kpi:[
+     {l:'ROAS',n:7.02,dec:2,cmp:{ar:'dn',tone:-1,txt:'ลดลง 2.06',from:'9.08'}},
+     {l:'Direct ROAS',n:5.43,dec:2,cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 0.09',from:'5.34'}},
+     {l:'ยอดขายจากแอด',n:39832,dec:0,pre:'฿',cmp:{ar:'dn',tone:-1,txt:'เฉลี่ยวันละ ฿5,690',from:'วันละ ฿5,752'}},
+     {l:'ออเดอร์จากแอด',n:37,dec:0,cmp:{ar:'up',tone:1,txt:'เฉลี่ยวันละ 5.3 ออเดอร์',from:'วันละ 4.4 ออเดอร์'}},
+     {l:'ค่าโฆษณา',n:5670.73,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'เฉลี่ยวันละ ฿810.10',from:'วันละ ฿633.18'}},
+     {l:'คลิก',n:1042,dec:0,cmp:{ar:'up',tone:1,txt:'เฉลี่ยวันละ 149 คลิก',from:'วันละ 123 คลิก'}}],
+    tables:[
+     {blk:{no:1,n:'แคมเปญรอบใหม่ · เปิด 5 พ.ย. จบ 30 พ.ย.',t:'6–12 พ.ย.',b:'7 วันเต็ม'},
+      sub:'เรียงตามค่าโฆษณาจากมากไปน้อย · <b>สัปดาห์นี้ทุกแคมเปญทำ ROAS เกินเป้าที่ตั้งไว้</b>',
+      cols:['แคมเปญ','ประเภท','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','Direct ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['กลุ่มผ้าขนหนู','กลุ่มสินค้า',{n:2481.55,dec:2},{n:16648,dec:0},{n:7.0,dec:1},{n:6.71,dec:2},{n:5.35,dec:2},{n:16,dec:0},{n:626,dec:0},{n:17487,dec:0},{n:3.58,dec:2,suf:'%'}],
+       ['Swift Wrap','รายสินค้า',{n:994.61,dec:2},{n:9819,dec:0},{n:5.0,dec:1},{n:9.87,dec:2},{n:9.87,dec:2},{n:10,dec:0},{n:145,dec:0},{n:4247,dec:0},{n:3.41,dec:2,suf:'%'}],
+       ['Baby C ฟ้า','รายสินค้า',{n:882.58,dec:2},{n:5220,dec:0},{n:5.0,dec:1},{n:5.91,dec:2},{n:5.24,dec:2},{n:4,dec:0},{n:92,dec:0},{n:3563,dec:0},{n:2.58,dec:2,suf:'%'}],
+       ['Gataway Family Set','รายสินค้า',{n:674.60,dec:2},{n:4605,dec:0},{n:5.8,dec:1},{n:6.83,dec:2},{n:0,dec:2},{n:5,dec:0},{n:124,dec:0},{n:4294,dec:0},{n:2.89,dec:2,suf:'%'}],
+       ['Baby B ชมพู','รายสินค้า',{n:637.39,dec:2},{n:3540,dec:0},{n:5.0,dec:1},{n:5.55,dec:2},{n:4.85,dec:2},{n:2,dec:0},{n:55,dec:0},{n:4062,dec:0},{n:1.35,dec:2,suf:'%'}]],
+      tot:['รวมรอบใหม่','—',{n:5670.73,dec:2},{n:39832,dec:0},'—',{n:7.02,dec:2},{n:5.43,dec:2},{n:37,dec:0},{n:1042,dec:0},{n:33653,dec:0},{n:3.10,dec:2,suf:'%'}],
+      note:'<b>Swift Wrap ยังเป็นตัวที่คุ้มสุด</b> ROAS 9.87 และ Direct ROAS เท่ากันพอดี แปลว่าคนที่กดจากโฆษณาตัวนี้ซื้อตัวนี้ตรง ๆ · <b>Gataway Family Set มี Direct ROAS 0.00 เหมือนสัปดาห์ที่ 1</b> ยอดขาย ฿4,605 ที่ได้มาจึงไม่ใช่คนที่กดจากโฆษณาตัวนี้แล้วซื้อตัวนี้ตรง ๆ · Baby B กับ Baby C ที่เปิดใหม่เมื่อ 5 พ.ย. เริ่มมีออเดอร์แล้วทั้งคู่ และทำ ROAS เกินเป้า 5.0'},
+
+     {blk:{no:2,n:'รายการสินค้าในกลุ่มผ้าขนหนู',t:'6–12 พ.ย.',b:'เป้า ROAS 7.0'},
+      sub:'สินค้าที่อยู่ในกลุ่มผ้าขนหนูของรอบใหม่ · เรียงตามค่าโฆษณาจากมากไปน้อย',
+      cols:['สินค้า','ค่าโฆษณา','ยอดขาย','ROAS','Direct ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,'nt','up','up','up','up','up','nt','up'],
+      rows:[
+       ['Gataway',{n:1578.09,dec:2},{n:9754,dec:0},{n:6.18,dec:2},{n:6.18,dec:2},{n:8,dec:0},{n:377,dec:0},{n:9954,dec:0},{n:3.79,dec:2,suf:'%'}],
+       ['Feline',{n:292.95,dec:2},{n:0,dec:0},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:98,dec:0},{n:3819,dec:0},{n:2.57,dec:2,suf:'%'}],
+       ['Four Elements',{n:234.14,dec:2},{n:2320,dec:0},{n:9.91,dec:2},{n:8.63,dec:2},{n:3,dec:0},{n:45,dec:0},{n:1273,dec:0},{n:3.53,dec:2,suf:'%'}],
+       ['Matha’s Favorite',{n:211.55,dec:2},{n:3423,dec:0},{n:16.18,dec:2},{n:7.10,dec:2},{n:4,dec:0},{n:49,dec:0},{n:1308,dec:0},{n:3.75,dec:2,suf:'%'}],
+       ['Terrazzo',{n:164.82,dec:2},{n:1151,dec:0},{n:6.98,dec:2},{n:0,dec:2},{n:1,dec:0},{n:57,dec:0},{n:1133,dec:0},{n:5.03,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญ',{n:2481.55,dec:2},{n:16648,dec:0},{n:6.71,dec:2},{n:5.35,dec:2},{n:16,dec:0},{n:626,dec:0},{n:17487,dec:0},{n:3.58,dec:2,suf:'%'}],
+      note:'<b>Matha’s Favorite ทำ ROAS 16.18 สูงสุดของกลุ่ม</b> ใช้งบแค่ ฿211.55 ได้ 4 ออเดอร์ · Gataway ยังกินงบ 63.6% ของกลุ่มและทำยอดได้เกือบทั้งหมด แต่ ROAS 6.18 ต่ำกว่าเป้า 7.0 · <b>Feline ครบ 2 สัปดาห์แล้ว ใช้ไปรวม ฿457.27 ยังไม่มีออเดอร์เลยสักออเดอร์</b> และ CTR 2.57% ต่ำสุดของกลุ่ม'}],
+
+    changes:[['—','<b>ยังไม่มีรายการปรับแก้ไข</b> สัปดาห์นี้ยิงต่อด้วย 5 แคมเปญเดิมของรอบใหม่ ไม่ได้เพิ่มหรือหยุดแคมเปญไหน','—']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Shopee LUCK', note:'<b>สัปดาห์นี้ไม่ได้ปรับการตั้งค่าอะไรเลย จึงไม่มีหมุด</b> · ช่วงข้อมูล 6–12 พ.ย. 2569 · รอบปัจจุบันจบ 30 พ.ย.',
+      lastData:12,
+      events:{},
+      legend:[['#E6EEFA','การแก้ไขแอด'],['#EAF3EC','เปิดรอบใหม่ · เติมเครดิต'],['#FDECEC','หยุด / สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Shopee LUCK', key:'shopee-w2nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>ตัดสินใจเรื่อง Feline</b>','ครบ 2 สัปดาห์แล้ว ใช้ไปรวม ฿457.27 ยังไม่มีออเดอร์เลย และ CTR 2.57% ต่ำสุดของกลุ่ม','หยุดเผางบกับตัวที่ยังไม่พิสูจน์ตัวเอง แล้วย้ายงบไปตัวที่ทำ ROAS ได้',{st:'doing'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     ATELIER · Instagram
+     ============================================================ */
+  {name:'ATELIER', color:'#A32C63', sub:'Instagram', ch:[
+   {name:'IG ATELIER', key:'igat', dsub:'KPI · โครงสร้างและการตั้งค่า · ผลรายโพสต์', sub:'6–12 พ.ย. · 7 วันเต็ม · 2 โพสต์เดิม', icon:'ig', color:'#A32C63', tag:['เข้าชมลดลง · ต้นทุนแพงขึ้น','wt'],
+    kpi:[
+     {l:'การเข้าชมโปรไฟล์',n:3317,dec:0,suf:' ครั้ง',cmp:{ar:'dn',tone:-1,txt:'ลดลง 270 ครั้ง',from:'3,587 ครั้ง'}},
+     {l:'ต้นทุนต่อการเข้าชมโปรไฟล์',n:0.64,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'แพงขึ้น ฿0.04',from:'฿0.60'}},
+     {l:'ค่าโฆษณา',n:2111.65,dec:2,pre:'฿',cmp:{ar:'dn',tone:0,txt:'เฉลี่ยวันละ ฿301.66',from:'วันละ ฿306.03'}},
+     {l:'การเข้าถึง',n:66117,dec:0,suf:' คน',cmp:{ar:'dn',tone:-1,txt:'ลดลง 3,549 คน',from:'69,666 คน'}},
+     {l:'CTR<br><span style="font-weight:400;color:#9AA5B5">คลิกลิงก์ ÷ การแสดงผล</span>',n:3.99,dec:2,suf:'%',cmp:{ar:'dn',tone:-1,txt:'ลดลง 0.13 จุด',from:'4.12%'}}],
+    kpiNote:'เทียบกับสัปดาห์ที่ 1 ของเดือนพฤศจิกายน (30 ต.ค.–5 พ.ย. · 7 วันเต็ม) · <b>เป้าหมายของแคมเปญคือการเข้าชมโปรไฟล์ Instagram ไม่ใช่ยอดขาย</b> ช่องทางนี้จึงไม่มี ROAS · <b>ยังเป็นรอบเดิม 15 ต.ค. – 14 พ.ย. 2569 และยังเป็น 2 โพสต์เดิม</b> สัปดาห์นี้ไม่ได้เปลี่ยนการตั้งค่าอะไร · การแสดงผลรวม 83,855 ครั้ง · คลิกลิงก์ 3,343 ครั้ง · <b>คะแนนคุณภาพของโพสต์ 1 ลดจาก “ค่าเฉลี่ย” เป็น “ต่ำกว่าค่าเฉลี่ย 20% ล่างของโฆษณา”</b> ส่วนโพสต์ 2 ยังเป็น “สูงกว่าค่าเฉลี่ย” เหมือนเดิม',
+    tables:[
+     {struct:true,label:'โครงสร้างแคมเปญ',agtag:'โพสต์',
+      sub:'ตั้งค่าไว้ยังไง และยิงเพื่ออะไร · สัปดาห์นี้ไม่ได้เปลี่ยนการตั้งค่า · <b>ผลงานจริงดูที่ตารางผลรายโพสต์ด้านล่าง</b>',
+      cmp:{no:1,n:'ATELIER | Instagram | การเข้าชมโปรไฟล์',s:[
+       {l:'วัตถุประสงค์',v:'การเข้าชมโปรไฟล์',g:1},
+       {l:'ปลายทาง',v:'โปรไฟล์ IG @atelier.th'},
+       {l:'พื้นที่ยิงแอด',v:'กรุงเทพฯ + ภูเก็ต'},
+       {l:'งบรายวัน',v:'฿300 / วัน'},
+       {l:'งบทั้งรอบ',v:'฿9,300'},
+       {l:'ระยะเวลา',v:'15 ต.ค. – 14 พ.ย. · 31 วัน'}]},
+      ags:[
+       {n:'โพสต์ 1 · แปลนไม่มี Section หลอก เรนเดอร์ค้าง อดนอน<a href="https://www.instagram.com/p/DdF0jNKDWDH/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>',s:[
+        {l:'ชุดโฆษณา',v:'กทม. + ภูเก็ต'},
+        {l:'งบต่อวัน',v:'฿150 / วัน'},
+        {l:'กลุ่มเป้าหมาย',v:'ดีไซเนอร์ + อินทีเรีย 25–44 ปี'},
+        {l:'การจัดอันดับคุณภาพ',v:'ต่ำกว่าค่าเฉลี่ย 20% ล่าง'}]},
+       {n:'โพสต์ 2 · คนอื่นเขาจ้างรับเหมาก่อสร้าง แต่ผมได้รับเหมาก่อเรื่อง<a href="https://www.instagram.com/p/DcxOJzClJ_m/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>',s:[
+        {l:'ชุดโฆษณา',v:'กทม. + ภูเก็ต'},
+        {l:'งบต่อวัน',v:'฿150 / วัน'},
+        {l:'กลุ่มเป้าหมาย',v:'ดีไซเนอร์ + อินทีเรีย 25–44 ปี'},
+        {l:'การจัดอันดับคุณภาพ',v:'สูงกว่าค่าเฉลี่ย',g:1}]}]},
+
+     {blk:{n:'ผลรายโพสต์',t:'6–12 พ.ย. 69',b:'7 วันเต็ม'},
+      sub:'ตัวเลขจากไฟล์ export ของ Meta · <b>การเข้าชมโปรไฟล์</b> คือคอลัมน์ผลลัพธ์ที่ตั้งเป้าไว้ ส่วน <b>CTR</b> คิดจากคลิกลิงก์ ไม่ใช่คลิกทั้งหมด',
+      cols:['โพสต์','ค่าโฆษณา','เข้าชมโปรไฟล์','ต้นทุน/การเข้าชม','การเข้าถึง','ความถี่','การแสดงผล','คลิกลิงก์','CTR'],
+      dirs:[0,'nt','up','dn','up','nt','nt','up','up'],
+      rows:[
+       ['โพสต์ 1 · แปลนไม่มี Section หลอก เรนเดอร์ค้าง อดนอน',{n:1057.53,dec:2},{n:2217,dec:0},{n:0.48,dec:2},{n:33623,dec:0},{n:1.20,dec:2},{n:40243,dec:0},{n:2243,dec:0},{n:5.57,dec:2,suf:'%'}],
+       ['โพสต์ 2 · คนอื่นเขาจ้างรับเหมาก่อสร้าง แต่ผมได้รับเหมาก่อเรื่อง',{n:1054.12,dec:2},{n:1100,dec:0},{n:0.96,dec:2},{n:32494,dec:0},{n:1.34,dec:2},{n:43612,dec:0},{n:1100,dec:0},{n:2.52,dec:2,suf:'%'}]],
+      tot:['รวม 2 โพสต์',{n:2111.65,dec:2},{n:3317,dec:0},{n:0.64,dec:2},{n:66117,dec:0},'—',{n:83855,dec:0},{n:3343,dec:0},{n:3.99,dec:2,suf:'%'}],
+      note:'โพสต์ 1 เข้าชมโปรไฟล์ 2,217 ครั้ง ลดจาก 2,504 · โพสต์ 2 เข้าชม 1,100 ครั้ง เพิ่มจาก 1,083 · <b>โพสต์ 1 ยังถูกกว่าโพสต์ 2 ราว 2 เท่า</b> (฿0.48 เทียบ ฿0.96) ทั้งที่ใช้งบเท่ากัน — ช่องว่างแคบลงอีกจากสัปดาห์ที่ 1 ที่ต่างกัน 2.3 เท่า · โพสต์ 1 เป็นตัวที่ทำให้ยอดรวมลดลง เพราะเข้าชมหายไป 287 ครั้ง'}],
+
+    changes:[['—','<b>ยังไม่มีรายการปรับแก้ไข</b> สัปดาห์นี้ยิง 2 โพสต์เดิมต่อ ไม่ได้เปลี่ยนงบ กลุ่มเป้าหมาย หรือพื้นที่','—']],
+
+    cal:{title:'ปฏิทิน IG ATELIER · พฤศจิกายน 2569',
+      note:'ช่วงข้อมูล 6–12 พ.ย. 2569 · สัปดาห์นี้ไม่ได้แก้ไขแอด · หมุดวันที่ 14 และ 16 เป็นแผนที่ตกลงไว้แล้ว',
+      lastData:12,
+      events:{
+        14:[{t:'สิ้นสุดรอบเดิม 15 ต.ค.–14 พ.ย.',k:'x'}],
+        16:[{t:'เริ่มยิง 2 โพสต์ใหม่ ปลายทางเว็บไซต์',k:'n'}]
+      },
+      legend:[['#E6EEFA','การวางแผน / แก้ไขแอด'],['#EAF3EC','เริ่มรอบใหม่'],['#FDECEC','สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · IG ATELIER', key:'igat-w2nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>ยิง 2 โพสต์ใหม่ ปลายทางเว็บไซต์</b><span class="sub">โพสต์ 1 · ส.สถาปนิก 2 ม. (23 ต.ค.) · โพสต์ 2 · ดึกแค่ไหนไม่ท้อ ผู้รับเหมารอ ทะเลาะหน้าไซต์ (9 ต.ค.)</span>',
+        'แผนเดือน 11 · รอบเดิมจบ 14 พ.ย. แล้วเริ่มยิงรอบใหม่',
+        'เปลี่ยนปลายทางจากโปรไฟล์เป็นเว็บไซต์ วัดยอดได้จริง',
+        {st:'doing',rm:'เริ่มยิง 16 พ.ย. 69'}]
+      ]}}
+  ]}
+ ]}
+,
+{
+ key:'w3', n:'Week 3', range:'13 – 19 Nov', full:'สัปดาห์ที่สามของเดือนพฤศจิกายน 2569',
+ head:'สัปดาห์เปลี่ยนรอบของ IG — IG ATELIER จบรอบเข้าชมโปรไฟล์ 14 พ.ย. เว้นว่าง 15–16 พ.ย. แล้วเริ่มรอบใหม่ 17 พ.ย. เปลี่ยนปลายทางจากโปรไฟล์เป็นเว็บไซต์ · Website WPC ดีขึ้นเกือบทุกตัว CTR ขึ้นเป็น 7.07% คนกดปุ่ม LINE 31 ครั้ง ต้นทุนต่อ LINE ถูกลงเหลือ ฿58.80 แต่ใส่ตะกร้ากลับเป็น 0 · Shopee LUCK ค่าโฆษณาเพิ่มเป็น ฿6,494.40 แต่ออเดอร์ลดเหลือ 26 ROAS ลงมาที่ 4.73 เกินเป้าแค่ Swift Wrap · Shopee WPC BATTERY จบแคมเปญแล้ว ไม่ได้ยิงแอดทั้งสัปดาห์',
+ biz:[
+
+  /* ============================================================
+     Website WPC · Google Ads · Search
+     ============================================================ */
+  {name:'Website WPC', color:'var(--wpc)', sub:'Google Ads · Search', ch:[
+   {name:'Website WPC', key:'wpc', dsub:'KPI · เส้นทางลูกค้า · โครงสร้างแคมเปญ · คีย์เวิร์ด', sub:'Google Ads · Search · 13–19 พ.ย. · 7 วัน · 1 แคมเปญ · 1 Ad Group', icon:'globe', color:'#5B4BA8', tag:['CTR 7.07% · LINE เพิ่มเป็น 31 ครั้ง','ok'],
+    kpi:[
+     {l:'คนกดโฆษณา',n:872,dec:0,suf:' คน',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 104 คน',from:'768 คน'}},
+     {l:'จ่ายต่อ 1 คลิก',n:2.09,dec:2,pre:'฿',cmp:{ar:'dn',tone:1,txt:'ถูกลง ฿0.34',from:'฿2.43'}},
+     {l:'อัตราคนกดโฆษณา<br><span style="font-weight:400;color:#9AA5B5">CTR</span>',n:7.07,dec:2,suf:'%',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 0.59 จุด',from:'6.48%'}},
+     {l:'คนกดปุ่ม LINE<br><span style="font-weight:400;color:#9AA5B5">= Conversion ของแคมเปญ</span>',n:31.00,dec:2,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 9.86 ครั้ง',from:'21.14 ครั้ง'}},
+     {l:'ต้นทุนต่อ LINE 1 ครั้ง',n:58.80,dec:2,pre:'฿',cmp:{ar:'dn',tone:1,txt:'ถูกลง ฿29.30',from:'฿88.10'}},
+     {l:'คนกดปุ่มโทรในโฆษณา<br><span style="font-weight:400;color:#9AA5B5">ไม่ได้นับเป็น Conversion</span>',n:82,dec:0,suf:' ครั้ง',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 16 ครั้ง',from:'66 ครั้ง'}},
+     {l:'คนซื้อสำเร็จบนเว็บ',n:0,dec:0,suf:' ครั้ง',cmp:{ar:'nt',tone:0,txt:'ยังไม่เคยมีเลยตั้งแต่ ส.ค. 69',from:'0 ครั้ง'}}],
+    kpiNote:'เทียบกับสัปดาห์ที่ 2 ของเดือนพฤศจิกายน (6–12 พ.ย. · 7 วันเท่ากัน) · <b>สัปดาห์นี้มีการปรับ 2 อย่างในวันที่ 18 พ.ย.</b> เปลี่ยน text ad และเพิ่ม sitelink 2 อัน ส่วนคีย์เวิร์ด 50 คำ และแคมเปญยังเหมือนสัปดาห์ที่ 2 ทุกอย่าง · <b>ตัวเลขทั้งสัปดาห์เป็นผลก่อนแก้เป็นส่วนใหญ่</b> เพราะแก้วันที่ 18 เหลือข้อมูลหลังแก้แค่ 2 วัน · <b>Optimization score ลดจาก 69.4% เหลือ 65.8%</b> · <b>ใส่ตะกร้ากลับมาเป็น 0 ครั้ง</b> จากสัปดาห์ที่ 2 ที่มี 7 ครั้ง',
+    tables:[
+     {blk:{n:'เส้นทางลูกค้า สัปดาห์ที่ 3',t:'13–19 พ.ย. 69',b:'อ่านจากบนลงล่าง'},
+      sub:'เริ่มจากคนเห็นโฆษณา ไล่ลงมาจนถึงคนซื้อ · ตัวเลขทุกบรรทัดเป็น <b>จำนวนครั้ง</b> ไม่ใช่จำนวนเงิน',
+      cols:['ขั้นตอน','จำนวนครั้ง','เหลือกี่ % จากขั้นก่อนหน้า','หมายเหตุ'],
+      dirs:[0,'up','up',0],
+      rows:[
+       ['1 · เห็นโฆษณา',{n:12342,dec:0,suf:' ครั้ง'},'—','ขั้นเริ่มต้น · เพิ่มจาก 11,846 ครั้ง'],
+       ['2 · กดโฆษณา',{n:872,dec:0,suf:' ครั้ง'},{n:7.07,dec:2,suf:'%'},'นับคลิกทั้งหมดของแคมเปญ'],
+       ['3 · กดปุ่ม LINE',{n:31.00,dec:2,suf:' ครั้ง'},{n:3.56,dec:2,suf:'%'},'นี่คือ Conversion ของแคมเปญ'],
+       ['4 · ใส่ตะกร้าสินค้า',{n:0,dec:2,suf:' ครั้ง'},{n:0,dec:2,suf:'%'},'สัปดาห์ที่ 2 มี 7 ครั้ง'],
+       ['5 · ซื้อสำเร็จ',{n:0,dec:0,suf:' ครั้ง'},{n:0,dec:2,suf:'%'},'ไม่เคยมีเลยตั้งแต่ ส.ค.']],
+      note:'<b>บรรทัดกดปุ่ม LINE ขึ้นเป็น 31.00 ครั้ง สูงสุดของเดือนนี้</b> และต้นทุนต่อครั้งถูกลงเหลือ ฿58.80 · <b>แต่บรรทัดใส่ตะกร้ากลับเป็น 0</b> หลังจากสัปดาห์ที่ 2 ทำได้ 7 ครั้ง — Conversion action ชื่อ Add to cart (เว็บ) ยังขึ้นสถานะ Misconfigured เหมือนเดิม และยังเป็น Secondary จึงไม่ได้นับรวมใน 31.00 ครั้งอยู่แล้ว · บรรทัดซื้อสำเร็จยังเป็น 0 และยัง Misconfigured เช่นกัน'},
+
+     {struct:true,label:'โครงสร้างแคมเปญ',sub:'มีแคมเปญเดียวและ Ad Group เดียวที่ใช้งบ · กลุ่ม 01 - แบตเตอรี่ ยังปิดอยู่ · <b>Optimization score ลดจาก 69.4% เหลือ 65.8%</b> · อีก 2 แคมเปญ (GO-RA-WOR040 · brand และ ร้านอะไหล่) ยังเปิดสถานะไว้และใช้งบ ฿0 เหมือนเดิม',
+      cmp:{no:1,n:'WPC | Search | ทั่วไป - Search Campaign',s:[{l:'ค่าโฆษณา',v:{n:1822.76,dec:2,pre:'฿'}},{l:'คลิก',v:{n:872,dec:0}},{l:'การแสดงผล',v:{n:12342,dec:0}},{l:'CTR',v:{n:7.07,dec:2,suf:'%'},g:1},{l:'ต้นทุน/คลิก',v:{n:2.09,dec:2,pre:'฿'}},{l:'Conversion (คนกด LINE)',v:{n:31.00,dec:2,suf:' ครั้ง'},g:1},{l:'งบรายวัน',v:'฿250 / วัน'},{l:'กลยุทธ์ราคาเสนอ',v:'Maximize clicks'}]},
+      ags:[
+       {n:'02 - ทั่วไป',s:[{l:'ค่าโฆษณา',v:{n:1822.76,dec:2,pre:'฿'}},{l:'คลิก',v:{n:872,dec:0}},{l:'การแสดงผล',v:{n:12342,dec:0}},{l:'CTR',v:{n:7.07,dec:2,suf:'%'},g:1},{l:'ต้นทุน/คลิก',v:{n:2.09,dec:2,pre:'฿'}},{l:'Conversion (คนกด LINE)',v:{n:31.00,dec:2,suf:' ครั้ง'},g:1}],
+        kw:{id:'kw02w3nov', count:'50 คำ', table:{sub:'<b>ตอนนี้มีคีย์เวิร์ด 50 คำ เป็น Phrase match ทั้งหมด เท่ากับสัปดาห์ที่ 2 ทุกคำ</b> สัปดาห์นี้ไม่ได้เพิ่มหรือตัดคำไหนออก · มี 19 คำที่มีคลิก รวม ฿1,822.76 · 872 คลิก ตรงกับยอดแคมเปญพอดี · อีก 31 คำยังไม่มีการแสดงผลเลยสักครั้ง · <b>คำที่ใช้งบมากสุดเปลี่ยนเป็น “จำหน่ายอะไหล่รถยนต์”</b> จากเดิมที่เป็น “ขายอะไหล่รถยนต์” · ไฟล์ Search keywords ของสัปดาห์นี้ไม่มีคอลัมน์การแสดงผล คะแนนคุณภาพ และ Conversion มาด้วย จึงแสดงได้เฉพาะค่าโฆษณา คลิก และ CTR',
+      cols:['คีย์เวิร์ด','Match type','ค่าโฆษณา','คลิก','CTR'],
+      dirs:[0,0,'nt','up','up'],
+      rows:[
+       ['จำหน่ายอะไหล่รถยนต์','Phrase',{n:269.32,dec:2},{n:134,dec:0},{n:11.72,dec:2,suf:'%'}],
+       ['ขายอะไหล่รถยนต์','Phrase',{n:189.75,dec:2},{n:91,dec:0},{n:8.17,dec:2,suf:'%'}],
+       ['อะไหล่วรจักร','Phrase',{n:154.05,dec:2},{n:73,dec:0},{n:12.05,dec:2,suf:'%'}],
+       ['ร้านอะไหล่วรจักร','Phrase',{n:143.10,dec:2},{n:75,dec:0},{n:16.30,dec:2,suf:'%'}],
+       ['ร้านอะไหล่รถยนต์','Phrase',{n:134.05,dec:2},{n:62,dec:0},{n:5.14,dec:2,suf:'%'}],
+       ['อะไหล่รถ','Phrase',{n:127.90,dec:2},{n:61,dec:0},{n:6.87,dec:2,suf:'%'}],
+       ['ร้านอะไหล่ใกล้ฉัน','Phrase',{n:122.91,dec:2},{n:57,dec:0},{n:3.10,dec:2,suf:'%'}],
+       ['อะไหล่ TOYOTA','Phrase',{n:108.33,dec:2},{n:50,dec:0},{n:11.29,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์ใกล้ฉัน','Phrase',{n:108.08,dec:2},{n:51,dec:0},{n:3.99,dec:2,suf:'%'}],
+       ['แหล่งขายอะไหล่รถยนต์','Phrase',{n:106.88,dec:2},{n:52,dec:0},{n:6.90,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์','Phrase',{n:94.18,dec:2},{n:43,dec:0},{n:5.78,dec:2,suf:'%'}],
+       ['อะไหล่ยนต์','Phrase',{n:80.29,dec:2},{n:38,dec:0},{n:3.82,dec:2,suf:'%'}],
+       ['หาอะไหล่รถยนต์','Phrase',{n:60.14,dec:2},{n:30,dec:0},{n:8.98,dec:2,suf:'%'}],
+       ['อะไหล่แท้','Phrase',{n:58.14,dec:2},{n:25,dec:0},{n:11.79,dec:2,suf:'%'}],
+       ['ซื้ออะไหล่รถยนต์','Phrase',{n:22.81,dec:2},{n:11,dec:0},{n:6.75,dec:2,suf:'%'}],
+       ['อะไหล่ MG','Phrase',{n:13.60,dec:2},{n:6,dec:0},{n:19.35,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์วรจักร','Phrase',{n:11.89,dec:2},{n:6,dec:0},{n:10.53,dec:2,suf:'%'}],
+       ['อะไหล่รถยนต์ออนไลน์','Phrase',{n:9.81,dec:2},{n:4,dec:0},{n:9.30,dec:2,suf:'%'}],
+       ['อะไหล่รถตู้','Phrase',{n:7.53,dec:2},{n:3,dec:0},{n:10.00,dec:2,suf:'%'}],
+       ['<span class="pill old">ไม่มีการแสดงผล 31 คำ</span> คำยาวที่มี “วรจักร”<span class="sub">เช่น ร้าน ขาย อะไหล่ รถยนต์ วรจักร · อะไหล่ isuzu วรจักร · อะไหล่ โต โย ต้า วรจักร · ร้าน อะไหล่ ซูซูกิ วรจักร</span>','Phrase',{n:0,dec:2},{n:0,dec:0},'—']],
+      tot:['รวม 50 คีย์เวิร์ด','—',{n:1822.76,dec:2},{n:872,dec:0},{n:7.07,dec:2,suf:'%'}]}}}]},
+
+     {label:'ใครเห็นโฆษณาบ้าง',cols:['อุปกรณ์','ค่าโฆษณา','คลิก','การแสดงผล','สัดส่วนงบ'],dirs:[0,'nt','nt','nt','nt'],
+      rows:[['มือถือ',{n:1671.26,dec:2},{n:795,dec:0},{n:11534,dec:0},{n:91.7,dec:1,suf:'%'}],
+            ['คอมพิวเตอร์',{n:140.72,dec:2},{n:72,dec:0},{n:671,dec:0},{n:7.7,dec:1,suf:'%'}],
+            ['แท็บเล็ต',{n:10.78,dec:2},{n:5,dec:0},{n:137,dec:0},{n:0.6,dec:1,suf:'%'}]],
+      tot:['รวม',{n:1822.76,dec:2},{n:872,dec:0},{n:12342,dec:0},{n:100.0,dec:1,suf:'%'}],
+      note:'คนเห็นโฆษณาเป็นผู้ชาย 78.93% ของคนที่ Google รู้เพศ · ช่วงอายุที่เห็นมากสุดคือชาย 25–34 ปี (23.52%) และชาย 35–44 ปี (21.94%)'},
+
+     {label:'คนกดอะไรในโฆษณาบ้าง',sub:'แยกตามประเภทการคลิก · รวมกันได้ 872 คลิก เท่ากับยอดคลิกของแคมเปญ',
+      cols:['ประเภทการคลิก','ค่าโฆษณา','คลิก','Conversion','หมายเหตุ'],dirs:[0,'nt','up','up',0],
+      rows:[['กดหัวข้อโฆษณา<span class="sub">Headline</span>',{n:760.60,dec:2},{n:361,dec:0},{n:24.33,dec:2},'กดเข้าเว็บไซต์ตรง ๆ'],
+            ['กดดูรายละเอียดที่ตั้งร้าน<span class="sub">Get location details</span>',{n:666.64,dec:2},{n:323,dec:0},{n:4.17,dec:2},'กดดูข้อมูลร้านในโฆษณา'],
+            ['กดนำทางไปร้าน<span class="sub">Driving direction</span>',{n:207.67,dec:2},{n:100,dec:0},{n:1.00,dec:2},'กดขอเส้นทางไปหน้าร้าน'],
+            ['กดปุ่มโทร<span class="sub">Mobile clicks-to-call</span>',{n:174.11,dec:2},{n:82,dec:0},{n:1.00,dec:2},'กดโทรจากในโฆษณาเลย'],
+            ['กดลิงก์เสริม<span class="sub">Sitelink</span>',{n:13.74,dec:2},{n:6,dec:0},{n:0.50,dec:2},'กดลิงก์ย่อยใต้โฆษณา']],
+      tot:['รวม',{n:1822.76,dec:2},{n:872,dec:0},{n:31.00,dec:2},'—'],
+      note:'<b>มีแค่ 361 คลิกจาก 872 ที่กดหัวข้อเข้าเว็บไซต์ตรง ๆ</b> คิดเป็น 41.4% ของคลิกทั้งหมด · ที่เหลือเป็นการกดดูที่ตั้งร้าน นำทาง และกดโทร รวมกัน 505 คลิก ซึ่งไม่ได้พาคนเข้าเว็บไซต์ — ช่วยอธิบายว่าทำไมใส่ตะกร้าและยอดซื้อบนเว็บยังเป็น 0'}],
+
+    changes:[['18 พ.ย.','<b>เปลี่ยน text ad</b> เอาคำว่า “วรจักรพาร์ทเซ็นเตอร์” ขึ้นก่อน','แก้วันที่ 18 เหลือข้อมูลหลังแก้แค่ 2 วัน ยังสรุปผลไม่ได้ ต้องดูสัปดาห์ที่ 4'],
+             ['18 พ.ย.','<b>เพิ่ม sitelink 2 อัน</b> อะไหล่ TOYOTA และ อะไหล่ MG','แก้วันที่ 18 เหลือข้อมูลหลังแก้แค่ 2 วัน ยังสรุปผลไม่ได้ ต้องดูสัปดาห์ที่ 4']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Website WPC', note:'ปักหมุดเฉพาะเหตุการณ์ที่เกิดในสัปดาห์นี้ · ช่วงข้อมูล 13–19 พ.ย. 2569',
+      lastData:19,
+      events:{
+        18:[{t:'เปลี่ยน text ad เอา “วรจักรพาร์ทเซ็นเตอร์” ขึ้นก่อน',k:'g'},{t:'เพิ่ม sitelink อะไหล่ TOYOTA · อะไหล่ MG',k:'g'}]
+      },
+      legend:[['#EDE9FA','Google Ads'],['#FDECEC','ปิด / ยกเลิกการตั้งค่า'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Website WPC', key:'wpc-w3nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>เปิด 4 แคมเปญ Search ใหม่</b><span class="sub">ผ้าเบรค · ไส้กรอง · ท่อยาง · แบต · Maximize clicks · ฿300/วัน/แคมเปญ</span>',
+        'รอแก้ไขเว็บไซต์หน้าสินค้า 4 รายการที่เลือกไว้สร้างแคมเปญ ระหว่างนี้คิด text ad รอไปก่อน',
+        'วัดผลแยกหมวดได้ ไม่ต้องเดาว่าเงินไปไหน',
+        {st:'doing',rm:'คิด text ad รอ'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     WPC คลังแบตเตอรี่ · Shopee Ads
+     ============================================================ */
+  {name:'WPC คลังแบตเตอรี่', color:'#2F7D6D', sub:'Shopee Ads', ch:[
+   {name:'Shopee WPC BATTERY', key:'wpcbat', dsub:'สถานะช่องทาง', sub:'13–19 พ.ย. · ไม่ได้ยิงแอด', icon:'bag', color:'#2F7D6D', tag:['จบแคมเปญ · ไม่ได้ยิงแอดแล้ว','bd'],
+    kpi:[
+     {l:'ค่าโฆษณา',n:0,dec:2,pre:'฿',cmp:{ar:'dn',tone:0,txt:'ไม่ได้ยิงแอดทั้งสัปดาห์',from:'฿1,232.77'}},
+     {l:'ยอดขายจากแอด',n:0,dec:0,pre:'฿',cmp:{ar:'nt',tone:0,txt:'ไม่มีแอดทำงาน',from:'฿0'}},
+     {l:'ออเดอร์จากแอด',n:0,dec:0,cmp:{ar:'nt',tone:0,txt:'ตลอด 4 สัปดาห์ของรอบก่อนไม่มีออเดอร์เลย',from:'0'}},
+     {l:'คลิก',n:0,dec:0,cmp:{ar:'dn',tone:0,txt:'ลดลง 348 คลิก',from:'348 คลิก'}}],
+    kpiNote:'<b>ช่องทางนี้หยุดยิงแอดแล้วตั้งแต่ 10 พ.ย.</b> เครดิต ฿5,000 ใช้หมดวันนั้น และตัดสินใจไม่เติมเครดิตต่อ จึงไม่มีโฟลเดอร์ข้อมูลของสัปดาห์ที่ 3 · <b>ยอดค่าโฆษณาสะสมของเดือนพฤศจิกายนหยุดอยู่ที่ ฿2,659.24</b> จากสัปดาห์ที่ 1–2 และจะไม่เพิ่มอีกจนกว่าจะกลับมายิงใหม่',
+    tables:[],
+
+    changes:[['—','<b>ไม่มีการยิงแอด</b> ตลอด 13–19 พ.ย. ไม่มีแคมเปญไหนทำงาน','รอเข้าโปรแกรม PRIME SELLER ก่อนตัดสินใจรอบถัดไป']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Shopee WPC BATTERY', note:'<b>สัปดาห์นี้ไม่มีการยิงแอด จึงไม่มีหมุด</b> · ช่วงข้อมูล 13–19 พ.ย. 2569 · หมุดวันที่ 10 พ.ย. เป็นวันที่เครดิตหมดในสัปดาห์ที่ 2',
+      lastData:19,
+      events:{
+        10:[{t:'เครดิตหมด แอดหยุดยิง',k:'x'}]
+      },
+      legend:[['#E6EEFA','การแก้ไขแอด'],['#EAF3EC','เปิดรอบใหม่ · เติมเครดิต'],['#FDECEC','หยุด / สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Shopee WPC BATTERY', key:'wpcbat-w3nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>จบแคมเปญ · รอเข้าโปรแกรม PRIME SELLER</b>',
+        'เครดิต ฿5,000 ใช้หมดวันที่ 10 พ.ย. และครบ 4 สัปดาห์ยังไม่มีออเดอร์จากแอดเลย',
+        'รอเข้าโปรแกรม PRIME SELLER',
+        {st:'todo',rm:'รอ PRIME SELLER'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     LUCK Thailand · Shopee Ads
+     ============================================================ */
+  {name:'LUCK Thailand', color:'var(--luck)', sub:'Shopee Ads', ch:[
+   {name:'Shopee LUCK', key:'shopee', dsub:'KPI · แคมเปญรอบใหม่ · สินค้าในกลุ่มผ้าขนหนู', sub:'13–19 พ.ย. · 7 วัน · รอบใหม่ 5–30 พ.ย. · 5 แคมเปญ', icon:'bag', color:'#2E5496', tag:['ROAS ลดเหลือ 4.73 · เกินเป้าแค่ Swift Wrap','bd'],
+    kpi:[
+     {l:'ROAS',n:4.73,dec:2,cmp:{ar:'dn',tone:-1,txt:'ลดลง 2.29',from:'7.02'}},
+     {l:'Direct ROAS',n:3.34,dec:2,cmp:{ar:'dn',tone:-1,txt:'ลดลง 2.09',from:'5.43'}},
+     {l:'ยอดขายจากแอด',n:30687,dec:0,pre:'฿',cmp:{ar:'dn',tone:-1,txt:'เฉลี่ยวันละ ฿4,384',from:'วันละ ฿5,690'}},
+     {l:'ออเดอร์จากแอด',n:26,dec:0,cmp:{ar:'dn',tone:-1,txt:'เฉลี่ยวันละ 3.7 ออเดอร์',from:'วันละ 5.3 ออเดอร์'}},
+     {l:'ค่าโฆษณา',n:6494.40,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'เฉลี่ยวันละ ฿927.77',from:'วันละ ฿810.10'}},
+     {l:'คลิก',n:1157,dec:0,cmp:{ar:'up',tone:1,txt:'เฉลี่ยวันละ 165 คลิก',from:'วันละ 149 คลิก'}}],
+    kpiNote:'เทียบกับสัปดาห์ที่ 2 ของเดือนพฤศจิกายน (6–12 พ.ย. · 7 วันเท่ากัน) · <b>ยังเป็นรอบเดิม 5–30 พ.ย. และ 5 แคมเปญเดิม</b> สัปดาห์นี้ไม่ได้เพิ่มหรือหยุดแคมเปญไหน · ค่าโฆษณา ฿6,494.40 ตรงกับยอดตัดเครดิตจริง ฿6,494.41 (ต่างกัน 1 สตางค์จากการปัดเศษ) · การแสดงผล 40,443 ครั้ง · CTR 2.86% · <b>จ่ายเพิ่มขึ้นวันละ ฿118 แต่ได้ออเดอร์น้อยลงวันละ 1.6 ออเดอร์</b>',
+    tables:[
+     {blk:{no:1,n:'แคมเปญรอบใหม่ · เปิด 5 พ.ย. จบ 30 พ.ย.',t:'13–19 พ.ย.',b:'7 วันเต็ม'},
+      sub:'เรียงตามค่าโฆษณาจากมากไปน้อย · <b>สัปดาห์นี้มีแค่ Swift Wrap ที่ทำ ROAS เกินเป้า</b> ต่างจากสัปดาห์ที่ 2 ที่เกินเป้าทุกแคมเปญ',
+      cols:['แคมเปญ','ประเภท','ค่าโฆษณา','ยอดขาย','เป้า ROAS','ROAS','Direct ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,0,'nt','up',0,'up','up','up','up','nt','up'],
+      rows:[
+       ['กลุ่มผ้าขนหนู','กลุ่มสินค้า',{n:3778.16,dec:2},{n:22897,dec:0},{n:7.0,dec:1},{n:6.06,dec:2},{n:3.99,dec:2},{n:19,dec:0},{n:746,dec:0},{n:23950,dec:0},{n:3.11,dec:2,suf:'%'}],
+       ['Swift Wrap','รายสินค้า',{n:827.50,dec:2},{n:4640,dec:0},{n:5.0,dec:1},{n:5.61,dec:2},{n:4.31,dec:2},{n:5,dec:0},{n:186,dec:0},{n:5954,dec:0},{n:3.12,dec:2,suf:'%'}],
+       ['Baby C ฟ้า','รายสินค้า',{n:649.34,dec:2},{n:0,dec:0},{n:5.0,dec:1},{n:0,dec:2},{n:0,dec:2},{n:0,dec:0},{n:84,dec:0},{n:3940,dec:0},{n:2.13,dec:2,suf:'%'}],
+       ['Gataway Family Set','รายสินค้า',{n:621.66,dec:2},{n:80,dec:0},{n:5.8,dec:1},{n:0.13,dec:2},{n:0,dec:2},{n:1,dec:0},{n:68,dec:0},{n:2434,dec:0},{n:2.79,dec:2,suf:'%'}],
+       ['Baby B ชมพู','รายสินค้า',{n:617.74,dec:2},{n:3070,dec:0},{n:5.0,dec:1},{n:4.97,dec:2},{n:4.97,dec:2},{n:1,dec:0},{n:73,dec:0},{n:4165,dec:0},{n:1.75,dec:2,suf:'%'}]],
+      tot:['รวมรอบใหม่','—',{n:6494.40,dec:2},{n:30687,dec:0},'—',{n:4.73,dec:2},{n:3.34,dec:2},{n:26,dec:0},{n:1157,dec:0},{n:40443,dec:0},{n:2.86,dec:2,suf:'%'}],
+      note:'<b>Baby C ฟ้า ใช้ไป ฿649.34 แล้วไม่ได้ออเดอร์เลยสักออเดอร์</b> ทั้งที่สัปดาห์ที่ 2 ทำได้ 4 ออเดอร์ ROAS 5.91 · <b>Gataway Family Set ยอดขายเหลือ ฿80 จาก ฿4,605</b> ROAS 0.13 ต่ำสุดของรอบ และ Direct ROAS ยังเป็น 0.00 เหมือนทุกสัปดาห์ · Baby B ชมพู ROAS 4.97 เกือบถึงเป้า 5.0 และ Direct ROAS เท่ากันพอดี แปลว่าคนที่กดจากโฆษณาตัวนี้ซื้อตัวนี้ตรง ๆ · กลุ่มผ้าขนหนู ROAS 6.06 ยังต่ำกว่าเป้า 7.0 เป็นสัปดาห์ที่สองติดกัน'},
+
+     {blk:{no:2,n:'รายการสินค้าในกลุ่มผ้าขนหนู',t:'13–19 พ.ย.',b:'เป้า ROAS 7.0'},
+      sub:'สินค้าที่อยู่ในกลุ่มผ้าขนหนูของรอบใหม่ · เรียงตามค่าโฆษณาจากมากไปน้อย',
+      cols:['สินค้า','ค่าโฆษณา','ยอดขาย','ROAS','Direct ROAS','ออเดอร์','คลิก','การแสดงผล','CTR'],
+      dirs:[0,'nt','up','up','up','up','up','nt','up'],
+      rows:[
+       ['Gataway',{n:2201.83,dec:2},{n:10433,dec:0},{n:4.74,dec:2},{n:4.20,dec:2},{n:7,dec:0},{n:419,dec:0},{n:13190,dec:0},{n:3.18,dec:2,suf:'%'}],
+       ['Matha’s Favorite',{n:732.37,dec:2},{n:6540,dec:0},{n:8.93,dec:2},{n:3.65,dec:2},{n:4,dec:0},{n:135,dec:0},{n:5459,dec:0},{n:2.47,dec:2,suf:'%'}],
+       ['Four Elements',{n:339.25,dec:2},{n:1540,dec:0},{n:4.54,dec:2},{n:2.27,dec:2},{n:4,dec:0},{n:59,dec:0},{n:2409,dec:0},{n:2.45,dec:2,suf:'%'}],
+       ['Terrazzo',{n:321.23,dec:2},{n:2011,dec:0},{n:6.26,dec:2},{n:0,dec:2},{n:2,dec:0},{n:91,dec:0},{n:1853,dec:0},{n:4.91,dec:2,suf:'%'}],
+       ['Feline',{n:183.48,dec:2},{n:2373,dec:0},{n:12.93,dec:2},{n:12.93,dec:2},{n:2,dec:0},{n:42,dec:0},{n:1039,dec:0},{n:4.04,dec:2,suf:'%'}]],
+      tot:['รวมแคมเปญ',{n:3778.16,dec:2},{n:22897,dec:0},{n:6.06,dec:2},{n:3.99,dec:2},{n:19,dec:0},{n:746,dec:0},{n:23950,dec:0},{n:3.11,dec:2,suf:'%'}],
+      note:'<b>Feline ได้ออเดอร์แล้วเป็นครั้งแรก 2 ออเดอร์ ROAS 12.93 สูงสุดของกลุ่ม</b> และ Direct ROAS เท่ากันพอดี ทั้งที่ใช้งบน้อยสุดแค่ ฿183.48 — ต่างจาก 2 สัปดาห์ก่อนที่ใช้ไป ฿457.27 แล้วไม่มีออเดอร์เลย · <b>Gataway ยังกินงบ 58.3% ของกลุ่ม แต่ ROAS ลดจาก 6.18 เหลือ 4.74</b> ต่ำกว่าเป้า 7.0 และเป็นตัวที่ฉุดค่าเฉลี่ยของกลุ่ม · Matha’s Favorite ทำ ROAS 8.93 เกินเป้า แต่ Direct ROAS แค่ 3.65'}],
+
+    changes:[['ระหว่างสัปดาห์','<b>แก้ไขรูปหน้าปกสินค้า Gataway</b> เปลี่ยนเป็นเซ็ตของขวัญปีใหม่','ไม่ได้แตะการตั้งค่าแคมเปญ ยิงต่อด้วย 5 แคมเปญเดิมของรอบใหม่']],
+
+    cal:{title:'ปฏิทินการแก้ไข · Shopee LUCK', note:'<b>สัปดาห์นี้แก้ไขรูปหน้าปกสินค้า Gataway เป็นเซ็ตของขวัญปีใหม่</b> ยังไม่ได้ระบุวันที่ จึงไม่ปักหมุด · ช่วงข้อมูล 13–19 พ.ย. 2569 · รอบปัจจุบันจบ 30 พ.ย.',
+      lastData:19,
+      events:{},
+      legend:[['#E6EEFA','การแก้ไขแอด'],['#EAF3EC','เปิดรอบใหม่ · เติมเครดิต'],['#FDECEC','หยุด / สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · Shopee LUCK', key:'shopee-w3nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>รอตัดสินใจ Feline · Baby C ฟ้า · Gataway Family Set</b>',
+        '<b>Feline</b> ได้ 2 ออเดอร์ ROAS 12.93 สูงสุดของกลุ่ม จากงบแค่ ฿183.48 ต่างจาก 2 สัปดาห์ก่อนที่ใช้ ฿457.27 แล้วไม่มีออเดอร์ · <b>Baby C ฟ้า</b> ใช้ไป ฿649.34 ไม่ได้ออเดอร์เลย ทั้งที่สัปดาห์ที่ 2 ทำได้ 4 ออเดอร์ ROAS 5.91 · <b>Gataway Family Set</b> ยอดขายเหลือ ฿80 ROAS 0.13 ต่ำสุดของรอบ และ Direct ROAS เป็น 0.00 มาตลอดทุกสัปดาห์',
+        'ย้ายงบจากตัวที่ไม่ทำยอดไปตัวที่ทำ ROAS ได้จริง',
+        {st:'doing',rm:'รอตัดสินใจ'}]
+      ]}}
+  ]},
+
+  /* ============================================================
+     ATELIER · Instagram
+     ============================================================ */
+  {name:'ATELIER', color:'#A32C63', sub:'Instagram', ch:[
+   {name:'IG ATELIER', key:'igat', dsub:'KPI · โครงสร้างรอบใหม่ · ผลรายโพสต์ 2 รอบ', sub:'13–19 พ.ย. · คาบ 2 รอบ · ยิงจริง 5 วัน · รอบเก่าจบ 14 พ.ย. · รอบใหม่เริ่ม 17 พ.ย.', icon:'ig', color:'#A32C63', tag:['เปลี่ยนรอบ · เปลี่ยนปลายทางเป็นเว็บไซต์','wt'],
+    kpi:[
+     {l:'ค่าโฆษณา',n:1260.43,dec:2,pre:'฿',cmp:{ar:'dn',tone:0,txt:'เฉลี่ยวันละ ฿252.09 · ยิงจริง 5 วัน',from:'วันละ ฿301.66'}},
+     {l:'การเข้าชมโปรไฟล์<br><span style="font-weight:400;color:#9AA5B5">รอบเก่า · 13–14 พ.ย.</span>',n:676,dec:0,suf:' ครั้ง',note:'รอบเก่ามีข้อมูลแค่ 2 วัน เทียบกับสัปดาห์ที่ 2 ที่เต็ม 7 วันไม่ได้'},
+     {l:'ต้นทุนต่อการเข้าชมโปรไฟล์',n:0.66,dec:2,pre:'฿',cmp:{ar:'up',tone:-1,txt:'แพงขึ้น ฿0.02',from:'฿0.64'}},
+     {l:'การดูแลนดิ้งเพจ<br><span style="font-weight:400;color:#9AA5B5">รอบใหม่ · 17–19 พ.ย.</span>',n:1126,dec:0,suf:' ครั้ง',note:'ตัวชี้วัดใหม่ของรอบนี้ ยังไม่มีสัปดาห์ก่อนให้เทียบ'},
+     {l:'ต้นทุนต่อการดูแลนดิ้งเพจ',n:0.72,dec:2,pre:'฿',note:'ตัวชี้วัดใหม่ของรอบนี้ ยังไม่มีสัปดาห์ก่อนให้เทียบ'},
+     {l:'CTR<br><span style="font-weight:400;color:#9AA5B5">คลิกลิงก์ ÷ การแสดงผล · รวม 2 รอบ</span>',n:4.27,dec:2,suf:'%',cmp:{ar:'up',tone:1,txt:'เพิ่มขึ้น 0.28 จุด',from:'3.99%'}}],
+    kpiNote:'<b>สัปดาห์นี้คาบ 2 รอบ</b> รอบเก่า (เข้าชมโปรไฟล์) ยิง 13–14 พ.ย. · <b>15–16 พ.ย. ไม่ได้ยิงเลย</b> · รอบใหม่ (ปลายทางเว็บไซต์) เริ่ม 17 พ.ย. 17:23 น. ช้ากว่าแผน 1 วัน ยิง 17–19 พ.ย. · <b>ตัวชี้วัดเปลี่ยนจาก “เข้าชมโปรไฟล์” เป็น “ดูแลนดิ้งเพจ” เทียบตรง ๆ ไม่ได้</b> ดูแยกรอบที่ตาราง ① ② · รวมทั้งสัปดาห์ แสดงผล 46,301 ครั้ง · คลิกลิงก์ 1,978 ครั้ง · ข้อมูลดึงจาก Ads Manager โดยตรง',
+    tables:[
+     {struct:true,label:'โครงสร้างแคมเปญรอบใหม่',agtag:'ชุดโฆษณา',
+      sub:'รอบใหม่แยกเป็น 2 แคมเปญ แคมเปญละ 1 ชุดโฆษณา 1 โฆษณา · <b>เปลี่ยนจากการบูสต์โพสต์เป็นแคมเปญ Traffic ที่ส่งคนไปเว็บไซต์</b> และเปลี่ยนกลุ่มเป้าหมายจากความสนใจดีไซเนอร์/อินทีเรีย 25–44 ปี มาเป็นกลุ่มกว้าง 25–34 ปี ไม่ระบุความสนใจ',
+      cmp:{no:1,n:'ATL พ.ย.69 · Traffic · ปลายทางเว็บไซต์ · 2 แคมเปญ',s:[
+       {l:'วัตถุประสงค์',v:'ยอดการเข้าชม (Traffic)'},
+       {l:'เป้าหมายประสิทธิภาพ',v:'เพิ่มการดูแลนดิ้งเพจให้มากที่สุด',g:1},
+       {l:'ปลายทาง',v:'เว็บไซต์'},
+       {l:'งบต่อวัน',v:'฿150 / วัน / แคมเปญ'},
+       {l:'งบรวมต่อวัน',v:'฿300 / วัน'},
+       {l:'ระยะเวลา',v:'17 – 30 พ.ย. · 14 วัน'}]},
+      ags:[
+       {n:'กทม. 25-34' + '<a href="https://www.instagram.com/p/De0islJkw4D/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>' + '<span class="sub">แคมเปญ ATL พ.ย.69 - Traffic - ส.สถาปนิก - กทม. · โฆษณา IG 23 ต.ค. ส.สถาปนิก 2 ม.</span>',s:[
+        {l:'พื้นที่ยิงแอด',v:'กรุงเทพฯ'},
+        {l:'อายุ',v:'25 – 34 ปี'},
+        {l:'กลุ่มเป้าหมาย',v:'กว้าง · ไม่ระบุความสนใจ'},
+        {l:'งบต่อวัน',v:'฿150 / วัน'},
+        {l:'การจัดอันดับคุณภาพ',v:'ยังไม่พอประเมิน'}]},
+       {n:'กทม.+ภูเก็ต 25-34' + '<a href="https://www.instagram.com/p/DeQtSmVFAbt/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>' + '<span class="sub">แคมเปญ ATL พ.ย.69 - Traffic - ดึกแค่ไหนไม่ท้อ - กทม.+ภูเก็ต · โฆษณา IG 9 ต.ค. ดึกแค่ไหนไม่ท้อ</span>',s:[
+        {l:'พื้นที่ยิงแอด',v:'กรุงเทพฯ + ภูเก็ต'},
+        {l:'อายุ',v:'25 – 34 ปี'},
+        {l:'กลุ่มเป้าหมาย',v:'กว้าง · ไม่ระบุความสนใจ'},
+        {l:'งบต่อวัน',v:'฿150 / วัน'},
+        {l:'การจัดอันดับคุณภาพ',v:'ยังไม่พอประเมิน'}]}],
+      note:'รอบใหม่ตั้งงบรวม ฿300 ต่อวันเท่ากับรอบเก่า และกำหนดจบ 30 พ.ย. · <b>3 วันแรกใช้ไปจริง ฿812.78 เฉลี่ยวันละ ฿270.93</b> ยังไม่เต็มงบ ฿300 เพราะเพิ่งเริ่มและยังอยู่ในช่วงเรียนรู้'},
+
+     {blk:{no:1,n:'ผลรายโพสต์ · รอบเก่า · เข้าชมโปรไฟล์ IG',t:'13–14 พ.ย. 69',b:'2 วัน · จบรอบ 14 พ.ย.'},
+      sub:'2 โพสต์เดิมของรอบ 15 ต.ค.–14 พ.ย. · <b>การเข้าชมโปรไฟล์</b> คือคอลัมน์ผลลัพธ์ที่ตั้งเป้าไว้ ส่วน <b>CTR</b> คิดจากคลิกลิงก์ ไม่ใช่คลิกทั้งหมด',
+      cols:['โพสต์','ค่าโฆษณา','เข้าชมโปรไฟล์','ต้นทุน/การเข้าชม','การเข้าถึง','ความถี่','การแสดงผล','คลิกลิงก์','CTR'],
+      dirs:[0,'nt','up','dn','up','nt','nt','up','up'],
+      rows:[
+       ['โพสต์ 1 · แปลนไม่มี Section หลอก เรนเดอร์ค้าง อดนอน' + '<a href="https://www.instagram.com/p/DdF0jNKDWDH/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>',{n:227.87,dec:2},{n:473,dec:0},{n:0.48,dec:2},{n:7654,dec:0},{n:1.06,dec:2},{n:8136,dec:0},{n:481,dec:0},{n:5.91,dec:2,suf:'%'}],
+       ['โพสต์ 2 · คนอื่นเขาจ้างรับเหมาก่อสร้าง แต่ผมได้รับเหมาก่อเรื่อง' + '<a href="https://www.instagram.com/p/DcxOJzClJ_m/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>',{n:219.78,dec:2},{n:203,dec:0},{n:1.08,dec:2},{n:7881,dec:0},{n:1.08,dec:2},{n:8486,dec:0},{n:201,dec:0},{n:2.37,dec:2,suf:'%'}]],
+      tot:['รวม 2 โพสต์',{n:447.65,dec:2},{n:676,dec:0},{n:0.66,dec:2},'—','—',{n:16622,dec:0},{n:682,dec:0},{n:4.10,dec:2,suf:'%'}],
+      note:'<b>โพสต์ 1 ยังถูกกว่าโพสต์ 2 ราว 2.3 เท่า</b> (฿0.48 เทียบ ฿1.08) ทั้งที่ใช้งบเท่ากัน — ช่องว่างกว้างขึ้นอีกจากสัปดาห์ที่ 2 ที่ต่างกัน 2 เท่า · คะแนนคุณภาพของโพสต์ 1 กลับขึ้นมาเป็น “ค่าเฉลี่ย” จากที่สัปดาห์ที่ 2 ตกไปอยู่ “ต่ำกว่าค่าเฉลี่ย 20% ล่าง” ส่วนโพสต์ 2 ยังเป็น “สูงกว่าค่าเฉลี่ย” เหมือนเดิม · <b>ช่องการเข้าถึงรวมใส่เป็นขีดไว้</b> เพราะคนคนเดียวอาจเห็นทั้งสองโพสต์ เอามาบวกกันตรง ๆ ไม่ได้'},
+
+     {blk:{no:2,n:'ผลรายโฆษณา · รอบใหม่ · ปลายทางเว็บไซต์',t:'17–19 พ.ย. 69',b:'3 วัน · ช่วงเรียนรู้'},
+      sub:'โฆษณา 2 ตัวของรอบใหม่ · <b>การดูแลนดิ้งเพจ</b> คือคอลัมน์ผลลัพธ์ที่ตั้งเป้าไว้ นับเฉพาะคนที่กดแล้วหน้าเว็บโหลดขึ้นจริง · <b>ข้อมูลมี 3 วัน ยังอยู่ในช่วงเรียนรู้ ตัวเลขจะยังแกว่ง</b>',
+      cols:['โฆษณา','ค่าโฆษณา','ดูแลนดิ้งเพจ','ต้นทุน/การดู','การเข้าถึง','ความถี่','การแสดงผล','คลิกลิงก์','CTR'],
+      dirs:[0,'nt','up','dn','up','nt','nt','up','up'],
+      rows:[
+       ['โฆษณา 1 · ส.สถาปนิก 2 ม. (23 ต.ค.)' + '<a href="https://www.instagram.com/p/De0islJkw4D/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>' + '<span class="sub">กรุงเทพฯ · 25–34 ปี</span>',{n:401.78,dec:2},{n:708,dec:0},{n:0.57,dec:2},{n:14737,dec:0},{n:1.07,dec:2},{n:15770,dec:0},{n:825,dec:0},{n:5.23,dec:2,suf:'%'}],
+       ['โฆษณา 2 · ดึกแค่ไหนไม่ท้อ ผู้รับเหมารอ ทะเลาะหน้าไซต์ (9 ต.ค.)' + '<a href="https://www.instagram.com/p/DeQtSmVFAbt/" target="_blank" rel="noopener" style="margin-left:9px;font-size:11.5px;font-weight:600;color:#2E5496;text-decoration:none;white-space:nowrap">ดูโพสต์ &#8599;</a>' + '<span class="sub">กรุงเทพฯ + ภูเก็ต · 25–34 ปี</span>',{n:411.00,dec:2},{n:418,dec:0},{n:0.98,dec:2},{n:13118,dec:0},{n:1.06,dec:2},{n:13909,dec:0},{n:471,dec:0},{n:3.39,dec:2,suf:'%'}]],
+      tot:['รวม 2 โฆษณา',{n:812.78,dec:2},{n:1126,dec:0},{n:0.72,dec:2},'—','—',{n:29679,dec:0},{n:1296,dec:0},{n:4.37,dec:2,suf:'%'}],
+      note:'<b>โฆษณา ส.สถาปนิก ถูกกว่าเกือบ 2 เท่า</b> (฿0.57 เทียบ ฿0.98 ต่อการดูแลนดิ้งเพจ) และ CTR 5.23% สูงกว่า 3.39% ทั้งที่ยิงแค่กรุงเทพฯ ส่วนอีกตัวยิงกรุงเทพฯ + ภูเก็ต · <b>คลิกลิงก์ 1,296 ครั้ง แต่หน้าเว็บโหลดขึ้นจริงแค่ 1,126 ครั้ง</b> หายไป 170 ครั้ง คิดเป็น 13.1% ซึ่งเป็นช่วงที่คนกดแล้วปิดก่อนหน้าเว็บจะโหลดเสร็จ · เป็นข้อมูล 3 วันแรก ยังสรุปไม่ได้'}],
+
+    changes:[['14 พ.ย.','<b>รอบเก่าสิ้นสุด</b> แคมเปญเข้าชมโปรไฟล์ IG 2 โพสต์ จบตามกำหนดรอบ 15 ต.ค.–14 พ.ย.','วันที่ 15–16 พ.ย. ไม่ได้ยิงแอดเลย'],
+             ['17 พ.ย.','<b>เปิดรอบใหม่ 2 แคมเปญ ปลายทางเว็บไซต์</b> ส.สถาปนิก 2 ม. (กทม.) และ ดึกแค่ไหนไม่ท้อ (กทม.+ภูเก็ต) · งบ ฿150/วัน/แคมเปญ ถึง 30 พ.ย.','เริ่มจริง 17 พ.ย. 17:23 น. ช้ากว่าแผนที่วางไว้ 16 พ.ย. 1 วัน · เปลี่ยนกลุ่มเป้าหมายเป็นกลุ่มกว้าง 25–34 ปี']],
+
+    cal:{title:'ปฏิทิน IG ATELIER · พฤศจิกายน 2569',
+      note:'ช่วงข้อมูล 13–19 พ.ย. 2569 · <b>วันที่ 15–16 พ.ย. ไม่ได้ยิงแอด</b> เพราะรอบเก่าจบแล้วและรอบใหม่ยังไม่เริ่ม',
+      lastData:19,
+      events:{
+        14:[{t:'สิ้นสุดรอบเดิม 15 ต.ค.–14 พ.ย.',k:'x'}],
+        17:[{t:'เริ่มรอบใหม่ 2 แคมเปญ ปลายทางเว็บไซต์',k:'n'},{t:'เปลี่ยนกลุ่มเป้าหมายเป็น 25–34 ปี กลุ่มกว้าง',k:'s'}]
+      },
+      legend:[['#E6EEFA','การวางแผน / แก้ไขแอด'],['#EAF3EC','เริ่มรอบใหม่'],['#FDECEC','สิ้นสุดรอบ'],['#FFF1DB','รอบประเมิน']]},
+
+    plan:{title:'Action Plan · IG ATELIER', key:'igat-w3nov',
+      note:'ติ๊กช่องซ้ายแล้วสถานะจะเปลี่ยนเป็น “เสร็จสิ้น” อัตโนมัติ · กรอกวันที่และหมายเหตุได้เอง',
+      rows:[
+       ['<b>ติดตามผล ads ในสัปดาห์ต่อไป</b><span class="sub">โฆษณา 1 · ส.สถาปนิก 2 ม. · โฆษณา 2 · ดึกแค่ไหนไม่ท้อ ผู้รับเหมารอ ทะเลาะหน้าไซต์</span>',
+        'รอบใหม่เพิ่งเริ่ม 17 พ.ย. มีข้อมูลแค่ 3 วัน ยังอยู่ในช่วงเรียนรู้',
+        'เห็นผลเต็มสัปดาห์ของรอบใหม่ แล้วค่อยตัดสินใจปรับ',
+        {st:'todo'}]
+      ]}}
+  ]}
+ ]}
+];
+
+/* ---------- ลำดับช่องทางที่ใช้แสดงผล: Website WPC · Shopee WPC BATTERY · Shopee LUCK · IG ATELIER ---------- */
+var BIZORDER = ['Website WPC','WPC คลังแบตเตอรี่','LUCK Thailand','ATELIER'];
+WEEKS.forEach(function(w){
+  w.biz.sort(function(a,b){ return BIZORDER.indexOf(a.name) - BIZORDER.indexOf(b.name); });
+});
+
+/* ---------- แท็บ 2 · Monthly Summary ---------- */
+const MONTH = {
+ range:'พฤศจิกายน 2569 · ทั้งเดือน',
+
+ /* ---------- ก้อนที่ 1 · ค่าโฆษณาสะสมทุกช่องทาง ---------- */
+ spendTitle:'ค่าโฆษณาสะสมทุกช่องทาง',
+ spendSub:'สะสมสัปดาห์ที่ 1–3 · ตามช่วงข้อมูลของแต่ละช่องทาง',
+ spendTotal:'฿30,460.70',
+
+ /* ---------- ตารางค่าโฆษณาแยกรายสัปดาห์ ---------- */
+ wkCols:['Website WPC','Shopee WPC BATTERY','Shopee LUCK','IG ATELIER'],
+ wkRows:[
+  {n:'Week 1', r:'ตามช่วงข้อมูล', v:[2004.27, 1426.47, 4432.27, 2142.23], t:10005.24},
+  {n:'Week 2', r:'6–12 พ.ย.', v:[1862.72, 1232.77, 5670.73, 2111.65], t:10877.87},
+  {n:'Week 3', r:'13–19 พ.ย.', v:[1822.76, 0, 6494.40, 1260.43], t:9577.59},
+  {n:'Week 4', wait:1, v:[null, null, null, null], t:null}
+ ],
+ wkTotal:[5689.75, 2659.24, 16597.40, 5514.31],
+ wkGrand:30460.70,
+
+ /* ---------- การ์ดแยกช่องทางของเดือนนี้ ---------- */
+ chTitle:'ค่าโฆษณาเดือนนี้ แยกตามช่องทาง',
+ chSub:'พฤศจิกายน 2569 · สัปดาห์ที่ 1–3',
+ chCards:[
+  {n:'Shopee LUCK',        c:'#2E5496', v:16597.40, pct:54.5},
+  {n:'Website WPC',        c:'#5B4BA8', v:5689.75,  pct:18.7},
+  {n:'IG ATELIER',         c:'#A32C63', v:5514.31,  pct:18.1},
+  {n:'Shopee WPC BATTERY', c:'#2F7D6D', v:2659.24,  pct:8.7}
+ ],
+
+ /* ---------- ค่าโฆษณาย้อนหลังรายเดือน ---------- */
+ histTitle:'ค่าโฆษณาย้อนหลังรายเดือน',
+ histSub:'ยอดที่ถูกตัดจริงของแต่ละเดือน · เดือน ต.ค. ปิดครบทั้งเดือนแล้ว',
+ histCols:['Shopee LUCK','Website WPC','IG LUCK','IG ATELIER','TikTok LUCK','Shopee WPC BATTERY'],
+ histRows:[
+  {m:'ก.ค. 69', v:[9537.03, null, null, null, null, null], t:9537.03},
+  {m:'ส.ค. 69', v:[3695.68, 3737.58, null, null, 1400.27, null], t:8833.53},
+  {m:'ก.ย. 69', v:[17424.19, 5000.00, 5696.51, 5513.34, 0, null], t:33634.04},
+  {m:'ต.ค. 69', r:'ครบทั้งเดือน', v:[21545.04, 7599.28, 0, 4907.68, 0, 2698.11], t:36750.11},
+  {m:'พ.ย. 69', r:'สัปดาห์ที่ 1–3', v:[16597.40, 5689.75, 0, 5514.31, 0, 2659.24], t:30460.70, now:1}
+ ],
+ histNote:'',
+};
+/* ============================================================
+   RENDER
+   ============================================================ */
+function ic(n,c){return '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="'+(c||'currentColor')+'" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'+(ICONS[n]||'')+'</svg>';}
+function fmt(n,d){if(n===null||n===undefined||isNaN(n))return '—';
+  return Number(n).toLocaleString('en-US',{minimumFractionDigits:d||0,maximumFractionDigits:d||0});}
+function vtxt(o){
+  var neg=(typeof o.n==='number'&&o.n<0);
+  return (neg?'−':'')+(o.pre||'')+fmt(Math.abs(o.n),o.dec)+(o.suf||'');
+}
+function cellHTML(c){
+  if(c===null||c===undefined)return '<td>—</td>';
+  if(typeof c==='string')return '<td>'+c+'</td>';
+  return '<td>'+vtxt(c)+'</td>';
+}
+
+/* ---- การ์ด KPI ---- */
+function arrow(a){return a==='up'?'▲ ':(a==='dn'?'▼ ':'● ');}
+function toneCls(t){return t>0?'up':(t<0?'dn':'nt');}
+function kpiRow(ch){
+  if(!ch.kpi||!ch.kpi.length)return ch.kpiNote?'<div class="kpinote">'+ch.kpiNote+'</div>':'';
+  var h='<div class="kpis">'+ch.kpi.map(function(k){
+    var d=k.cmp
+      ? '<span class="dl '+toneCls(k.cmp.tone)+'">'+arrow(k.cmp.ar)+k.cmp.txt+' <span class="from">จาก '+k.cmp.from+'</span></span>'
+      : (k.note ? '<span class="dl first">'+k.note+'</span>' : '<span class="dl first">ไม่มีให้เทียบ</span>');
+    return '<div class="kpi"><div class="kl">'+k.l+'</div>'+
+           '<div class="kv">'+(k.pre||'')+fmt(k.n,k.dec)+(k.suf||'')+'</div><div>'+d+'</div></div>';
+  }).join('')+'</div>';
+  if(ch.kpiNote)h+='<div class="kpinote">'+ch.kpiNote+'</div>';
+  return h;
+}
+
+/* ---- การ์ดเทียบเดือนก่อน (MoM) ---- */
+function vsHTML(v){
+  if(!v)return '';
+  var h='<div class="sec"><div class="sh">'+ic('chart')+' '+v.label+'</div>';
+  if(v.sub)h+='<div class="ss">'+v.sub+'</div>';
+  h+='<div class="vs">'+v.items.map(function(i){
+    var cls=toneCls(i.d), ar=arrow(i.ar);
+    return '<div class="vsc"><div class="vl">'+i.l+'</div>'+
+           '<div class="vr"><span class="vnow">'+i.now+'</span><span class="vold">ก.ย. '+i.old+'</span></div>'+
+           '<div class="vd '+cls+'">'+ar+i.dt+'</div></div>';
+  }).join('')+'</div></div>';
+  return h;
+}
+
+/* ---- ตาราง ---- */
+function tableGrid(t,extra){
+  var h='<div class="tw"><table'+(t.minw?' style="min-width:'+t.minw+'px"':'')+'><thead><tr>'+
+        t.cols.map(function(c){return '<th>'+c+'</th>';}).join('')+'</tr></thead><tbody>';
+  t.rows.forEach(function(r){ h+='<tr>'+r.map(cellHTML).join('')+'</tr>'; });
+  if(t.tot)h+='<tr class="tot">'+t.tot.map(cellHTML).join('')+'</tr>';
+  if(extra)h+=extra;
+  return h+'</tbody></table></div>';
+}
+var HINTCOL=null;
+function hintHTML(up,dn){
+  if(!up.length&&!dn.length)return '';
+  return '<div class="hint">'+
+     (up.length?'<span><b>ยิ่งมากยิ่งดี</b> '+up.join(' · ')+'</span>':'')+
+     (dn.length?'<span><b>ยิ่งน้อยยิ่งดี</b> '+dn.join(' · ')+'</span>':'')+'</div>';
+}
+function hintLine(t){
+  var up=[],dn=[];
+  (t.dirs||[]).forEach(function(x,i){ if(x==='up')up.push(t.cols[i]); else if(x==='dn')dn.push(t.cols[i]); });
+  if(!up.length&&!dn.length)return '';
+  if(HINTCOL){
+    up.forEach(function(x){ if(HINTCOL.up.indexOf(x)<0)HINTCOL.up.push(x); });
+    dn.forEach(function(x){ if(HINTCOL.dn.indexOf(x)<0)HINTCOL.dn.push(x); });
+    return '';
+  }
+  return hintHTML(up,dn);
+}
+function tableHTML(t){
+  var h='<div class="sec">';
+  if(t.blk){
+    h+='<div class="blkh">'+(t.blk.no?'<span class="blkno">'+t.blk.no+'</span>':'')+
+       '<span class="blkn">'+t.blk.n+'</span>'+
+       (t.blk.t?'<span class="blkt">'+t.blk.t+'</span>':'')+
+       (t.blk.b?'<span class="blkb">'+t.blk.b+'</span>':'')+'</div>';
+  } else {
+    h+='<div class="sh">'+ic('chart')+' '+t.label+'</div>';
+  }
+  if(t.sub)h+='<div class="ss">'+t.sub+'</div>';
+  if(t.coll){
+    var c=t.coll;
+    h+='<div class="exstand"><button class="exbtn" data-ex="'+c.id+'">'+
+       '<span class="exar">▸</span> '+c.label+' <span class="excount">'+c.count+'</span></button></div>'+
+       '<div class="expanel2" id="ex-'+c.id+'" hidden>'+
+       (c.table.sub?'<div class="ss" style="margin:0 0 9px">'+c.table.sub+'</div>':'')+
+       tableGrid(c.table)+hintLine(c.table)+
+       (c.table.note?'<div class="note">'+c.table.note+'</div>':'')+'</div>';
+    return h+'</div>';
+  }
+  var extra='';
+  if(t.expand){
+    var e=t.expand, n=t.cols.length;
+    extra='<tr class="exrow"><td colspan="'+n+'"><button class="exbtn" data-ex="'+e.id+'">'+
+          '<span class="exar">▸</span> '+e.label+' <span class="excount">'+e.count+'</span></button></td></tr>'+
+          '<tr class="expanel" id="ex-'+e.id+'" hidden><td colspan="'+n+'">'+
+          (e.table.sub?'<div class="ss" style="margin:2px 0 9px">'+e.table.sub+'</div>':'')+
+          tableGrid(e.table)+hintLine(e.table)+'</td></tr>';
+  }
+  h+=tableGrid(t,extra)+hintLine(t);
+  if(t.note)h+='<div class="note">'+t.note+'</div>';
+  return h+'</div>';
+}
+
+/* ---- โครงสร้างแคมเปญ (การ์ด) ---- */
+function statStrip(arr,cls){
+  return '<div class="'+cls+'">'+arr.map(function(s){
+    return '<div class="csst'+(s.g?' good':'')+'"><div class="l">'+s.l+'</div>'+
+           '<div class="v">'+(typeof s.v==='string'?s.v:vtxt(s.v))+'</div></div>';
+  }).join('')+'</div>';
+}
+function structHTML(t){
+  var h='<div class="sec"><div class="sh">'+ic('chart')+' '+t.label+'</div>';
+  if(t.sub)h+='<div class="ss">'+t.sub+'</div>';
+  var solo=(t.ags.length===1);
+  h+='<div class="cstr"><div class="cshd">'+
+     (t.cmp.no?'<span class="blkno">'+t.cmp.no+'</span>':'')+
+     '<span class="csnm">'+t.cmp.n+'</span>'+
+     '<span class="cstag">แคมเปญ</span></div>'+statStrip(t.cmp.s,'csstats');
+  h+='<div class="csagw">'+t.ags.map(function(a){
+    var x='<div class="csag"><div class="csaghd"><span class="csagnm">'+a.n+'</span>'+
+          '<span class="csagtag">'+(t.agtag||'Ad Group')+'</span>'+
+          (solo?'<span class="csagsame">กลุ่มเดียวในแคมเปญนี้ · ตัวเลขเท่ากับระดับแคมเปญ</span>':'')+'</div>';
+    if(!solo)x+=statStrip(a.s,'csstats ag');
+    if(a.kw){
+      x+='<button class="exbtn" data-ex="'+a.kw.id+'"><span class="exar">▸</span> Keywords '+
+         '<span class="excount">'+a.kw.count+'</span></button>'+
+         '<div class="cskwp" id="ex-'+a.kw.id+'" hidden>'+
+         (a.kw.table.sub?'<div class="ss" style="margin:0 0 9px">'+a.kw.table.sub+'</div>':'')+
+         tableGrid(a.kw.table)+hintLine(a.kw.table)+'</div>';
+    }
+    return x+'</div>';
+  }).join('')+'</div></div>';
+  if(t.note)h+='<div class="note">'+t.note+'</div>';
+  return h+'</div>';
+}
+
+/* ---- แผนยิงแอด IG ---- */
+function ipostHTML(o){
+  var img = IMGS[o.img]
+    ? '<div class="ipimg"><span class="iprk">'+o.rk+'</span><img src="'+IMGS[o.img]+'" alt="'+o.alt+'">'+
+      '<span class="ipb '+o.bk+'">'+o.b+'</span></div>'
+    : '<div class="ipimg ph"><span class="iprk">'+o.rk+'</span>'+
+      '<div class="ipph"><b>รอรูปโพสต์</b>กดปุ่ม เปิดโพสต์ แล้วแคปรูปมาให้<br>เดี๋ยวใส่ให้ในรอบถัดไป</div>'+
+      '<span class="ipb '+o.bk+'">'+o.b+'</span></div>';
+  return '<div class="ipost">'+img+
+    '<div class="ipbody"><div class="iptop"><div><div class="iptitle">'+o.t+'</div>'+
+    '<div class="ipmeta">'+o.meta+'</div><span class="iptag">'+o.tag+'</span></div>'+
+    '<a class="ipbtn" href="'+o.url+'" target="_blank" rel="noopener">เปิดโพสต์ ↗</a></div>'+
+    '<div class="ipmets">'+o.mets.map(function(m){
+      return '<div'+(m.hi?' class="hi"':'')+'><div class="m">'+m.m+'</div><div class="v">'+m.v+'</div></div>';
+    }).join('')+'</div>'+
+    (o.mnote?'<div class="ipmnote">'+o.mnote+'</div>':'')+
+    '<div class="iprows">'+o.rows.map(function(r){
+      return '<div class="iprow"><div class="lab">'+r[0]+'</div><div class="val">'+r[1]+'</div></div>';
+    }).join('')+'</div></div></div>';
+}
+function igPlanHTML(p,key){
+  var h='';
+  if(p.banner)h+='<div class="sec" style="border-top:0;padding-bottom:0"><div class="note warn" style="margin-top:0">'+p.banner+'</div></div>';
+  h+='<div class="sec"><div class="igacct"><h2>'+p.acct.h+'</h2>'+
+     '<div class="ighandle">'+p.acct.handle+'</div><div class="igsets">'+
+     p.acct.sets.map(function(s){
+       return '<div class="igset'+(s.hi?' hi':'')+'"><div class="k">'+s.k+'</div>'+
+              '<div class="v">'+s.v+'</div><div class="n">'+s.n+'</div></div>';
+     }).join('')+'</div></div></div>';
+  var ps='';
+  if(p.postsSub)ps+='<div class="ss">'+p.postsSub+'</div>';
+  if(p.opts){
+    ps+='<div class="optsel">'+p.opts.map(function(o,i){
+      return '<button class="optbtn'+(i===0?' on':'')+'" data-opt="'+o.id+'" data-grp="'+key+'">'+
+             '<div class="o1">'+o.n+(o.rec?'<span class="optrec">ผมแนะนำ</span>':'')+'</div>'+
+             '<div class="o2">'+o.t+'</div></button>';
+    }).join('')+'</div>';
+    ps+=p.opts.map(function(o,i){
+      return '<div class="optpane" id="opt-'+key+'-'+o.id+'"'+(i===0?'':' hidden')+'>'+
+             '<div class="optd">'+o.d+'</div>'+o.posts.map(ipostHTML).join('')+'</div>';
+    }).join('');
+  } else {
+    ps+=p.posts.map(ipostHTML).join('');
+  }
+  if(p.note)ps+='<div class="note">'+p.note+'</div>';
+  if(p.dropped)ps+='<div class="note warn">'+p.dropped+'</div>';
+
+  h+='<div class="sec">';
+  if(p.collapse){
+    var c=p.collapse;
+    h+='<div class="sh">'+ic('tag')+' '+p.postsTitle+'</div>'+
+       (c.note?'<div class="ss">'+c.note+'</div>':'')+
+       '<div class="exstand"><button class="exbtn" data-ex="'+c.id+'"><span class="exar">▸</span> '+
+       c.label+' <span class="excount">'+c.count+'</span></button></div>'+
+       '<div class="expanel2" id="ex-'+c.id+'" hidden>'+ps+'</div>';
+  } else {
+    h+='<div class="sh">'+ic('tag')+' '+p.postsTitle+'</div>'+ps;
+  }
+  return h+'</div>';
+}
+
+/* ---- ปฏิทินของแต่ละช่องทาง ---- */
+function calHTML(c){
+  if(!c)return '';
+  /* เดือนของปฏิทิน · ตั้งค่าได้ที่ก้อน cal ของแต่ละช่องทาง (y = ปี ค.ศ. · mo = เดือนแบบ 0–11) · ค่าเริ่มต้นคือ พ.ย. 2026 */
+  var CY=(c.y!==undefined?c.y:2026), CM=(c.mo!==undefined?c.mo:10);
+  var NDAYS=new Date(CY,CM+1,0).getDate();
+  var DOW=['อา','จ','อ','พ','พฤ','ศ','ส'], first=new Date(CY,CM,1).getDay();
+  var h='<div class="sec"><div class="sh">'+ic('cal')+' '+c.title+'</div><div class="ss">'+c.note+'</div><div class="calgrid">';
+  DOW.forEach(function(d){h+='<div class="cdow">'+d+'</div>';});
+  for(var i=0;i<first;i++)h+='<div class="cday off"></div>';
+  for(var d=1;d<=NDAYS;d++){
+    var ev=c.events[d]||[];
+    var off=(d>c.lastData&&ev.length===0)?' off':'';
+    h+='<div class="cday'+off+'"><div class="dn">'+d+'</div>'+
+       ev.map(function(e){return '<div class="ev '+e.k+'">'+e.t+'</div>';}).join('')+'</div>';
+  }
+  h+='</div><div class="callg">'+c.legend.map(function(l){
+      return '<span><i style="background:'+l[0]+'"></i>'+l[1]+'</span>';
+    }).join('')+'<span style="color:#9AA5B5">วันที่จางคือยังไม่มีข้อมูล</span></div></div>';
+  return h;
+}
+
+/* ---- Action Plan ของแต่ละช่องทาง ---- */
+var ST_OPTS=[['todo','ยังไม่ดำเนินการ'],['doing','ดำเนินการ'],['done','เสร็จสิ้น']];
+function planHTML(p,key){
+  if(!p)return '';
+  if(!p.rows||!p.rows.length){
+    return '<div class="sec"><div class="sh">'+ic('check')+' '+p.title+'</div>'+
+           '<div class="phbox">'+ic('check')+'<div><b>สัปดาห์นี้ไม่มีงาน</b><span>'+
+           (p.empty||'สัปดาห์นี้ไม่มีงานที่ต้องทำ')+'</span></div></div></div>';
+  }
+  var d=planState(key);
+  var h='<div class="sec"><div class="sh">'+ic('check')+' '+p.title+'</div>';
+  if(p.note)h+='<div class="ss">'+p.note+'</div>';
+  h+='<div class="tw"><table style="min-width:1120px"><thead><tr>'+
+     '<th style="width:38px"></th><th style="text-align:left">งานที่ต้องทำ</th>'+
+     '<th style="text-align:left">สาเหตุ</th><th style="text-align:left">ผลลัพธ์ที่คาด</th>'+
+     '<th style="text-align:left;width:140px">สถานะ</th>'+
+     '<th style="text-align:left;width:122px">วันที่ทำจริง</th><th style="text-align:left;width:110px">หมายเหตุ</th></tr></thead><tbody>';
+  p.rows.forEach(function(row,i){
+    var id=key+'-'+i, def=row[3]||{}, v=d[id]||{};
+    var cur=v.st||def.st||'todo', on=cur==='done';
+    var vdt=(v.dt!==undefined?v.dt:(def.dt||''));
+    var vrm=(v.rm!==undefined?v.rm:(def.rm||''));
+    h+='<tr><td style="text-align:center"><input type="checkbox" class="apck" data-id="'+id+'" data-key="'+key+'"'+(on?' checked':'')+'></td>'+
+       '<td class="aptask'+(on?' done':'')+'">'+row[0]+'</td>'+
+       '<td class="apwhy">'+(row[1]||'—')+'</td>'+
+       '<td class="apres">'+(row[2]||'—')+'</td>'+
+       '<td style="text-align:left"><select class="apsel st-'+cur+'" data-id="'+id+'" data-key="'+key+'">'+
+         ST_OPTS.map(function(o){return '<option value="'+o[0]+'"'+(o[0]===cur?' selected':'')+'>'+o[1]+'</option>';}).join('')+
+       '</select></td>'+
+       '<td style="text-align:left"><input type="date" class="apin apdate" data-f="dt" data-id="'+id+'" data-key="'+key+'" value="'+vdt+'"></td>'+
+       '<td style="text-align:left"><input type="text" class="apin wide" data-f="rm" data-id="'+id+'" data-key="'+key+'" value="'+String(vrm).replace(/"/g,'&quot;')+'"></td></tr>';
+  });
+  h+='</tbody></table></div><div class="foot" style="padding-top:8px">สถานะที่เห็นตอนเปิดไฟล์ ฝังมากับไฟล์แล้ว ทุกคนที่เปิดจะเห็นเหมือนกัน · ถ้าแก้เพิ่มเอง จะเก็บไว้ในเบราว์เซอร์เครื่องที่แก้เท่านั้น คนอื่นไม่เห็น · อยากให้ทีมเห็นด้วย ส่งข้อความมา เดี๋ยวฝังลงไฟล์ให้</div></div>';
+  return h;
+}
+/* ---- แผนเดือนถัดไปของแต่ละช่องทาง ---- */
+function novHTML(p){
+  if(!p||!p.rows||!p.rows.length)return '';
+  var key=p.key, d=planState(key);
+  var h='<div class="sec"><div class="sh">'+ic('check')+' '+p.title+'</div>';
+  if(p.note)h+='<div class="ss">'+p.note+'</div>';
+  h+='<div class="tw"><table style="min-width:1000px"><thead><tr>'+
+     '<th style="width:38px"></th><th style="text-align:left;width:200px">งาน</th>'+
+     '<th style="text-align:left;min-width:320px">รายละเอียด</th>'+
+     '<th style="text-align:left;width:140px">สถานะ</th>'+
+     '<th style="text-align:left;width:122px">วันที่ทำจริง</th><th style="text-align:left;width:110px">หมายเหตุ</th></tr></thead><tbody>';
+  p.rows.forEach(function(row,i){
+    var id=key+'-'+i, v=d[id]||{}, cur=v.st||'todo', on=cur==='done';
+    h+='<tr><td style="text-align:center"><input type="checkbox" class="apck" data-id="'+id+'" data-key="'+key+'"'+(on?' checked':'')+'></td>'+
+       '<td class="aptask'+(on?' done':'')+'">'+row[0]+'</td>'+
+       '<td class="apwhy">'+(row[1]||'—')+'</td>'+
+       '<td style="text-align:left"><select class="apsel st-'+cur+'" data-id="'+id+'" data-key="'+key+'">'+
+         ST_OPTS.map(function(o){return '<option value="'+o[0]+'"'+(o[0]===cur?' selected':'')+'>'+o[1]+'</option>';}).join('')+
+       '</select></td>'+
+       '<td style="text-align:left"><input type="date" class="apin apdate" data-f="dt" data-id="'+id+'" data-key="'+key+'" value="'+(v.dt||'')+'"></td>'+
+       '<td style="text-align:left"><input type="text" class="apin" style="width:96px" data-f="rm" data-id="'+id+'" data-key="'+key+'" value="'+String(v.rm||'').replace(/"/g,'&quot;')+'"></td></tr>';
+  });
+  return h+'</tbody></table></div></div>';
+}
+function planState(key){try{return JSON.parse(localStorage.getItem('apfield-2569-11-v1-'+key)||'{}');}catch(e){return {};}}
+function planSave(key,s){try{localStorage.setItem('apfield-2569-11-v1-'+key,JSON.stringify(s));}catch(e){}}
+function planSet(key,id,patch){var s=planState(key); s[id]=Object.assign({},s[id]||{},patch); planSave(key,s); return s[id];}
+
+/* ---- ช่องทาง ---- */
+function channelHTML(ch){
+  var h='<div class="ch"><div class="chhead">'+
+    '<div class="chicon" style="background:'+ch.color+'">'+ic(ch.icon,'#fff')+'</div>'+
+    '<div class="chname">'+ch.name+'<small>'+((ch.bizName&&ch.bizName!==ch.name)?ch.bizName+' · ':'')+ch.sub+'</small></div>';
+  if(ch.tag)h+='<div class="chtag tg-'+ch.tag[1]+'">'+ch.tag[0]+'</div>';
+  h+='</div>';
+
+  var d='';
+  HINTCOL={up:[],dn:[]};
+  if(ch.igplan){
+    d=igPlanHTML(ch.igplan,ch.key);
+  } else {
+    d=kpiRow(ch)+vsHTML(ch.vs);
+    (ch.tables||[]).forEach(function(t){d+=(t.struct?structHTML(t):tableHTML(t));});
+    if(ch.changes&&ch.changes.length){
+      d+='<div class="sec"><div class="sh">'+ic('cal')+' สิ่งที่ปรับระหว่างสัปดาห์</div><div class="tw"><table class="chg" style="min-width:700px"><thead><tr><th style="width:92px">วันที่</th><th style="text-align:left">การเปลี่ยนแปลง</th><th style="text-align:left">ผลที่ตามมา</th></tr></thead><tbody>'+
+        ch.changes.map(function(c){return '<tr><td><b>'+c[0]+'</b></td>'+
+          '<td style="text-align:left;white-space:normal;font-weight:500;color:#3E4A5C">'+c[1]+'</td>'+
+          '<td style="text-align:left;white-space:normal;font-weight:500;color:#3E4A5C">'+(c[2]||'—')+'</td></tr>';}).join('')+
+        '</tbody></table></div></div>';
+    }
+    if(ch.notes&&ch.notes.length){
+      d+='<div class="sec">'+ch.notes.map(function(n){return '<div class="note '+(n.k||'')+'">'+n.t+'</div>';}).join('')+'</div>';
+    }
+  }
+
+  var hf=hintHTML(HINTCOL.up,HINTCOL.dn);
+  HINTCOL=null;
+  if(hf)d+='<div class="hintfoot">'+hf+'</div>';
+  /* ---- ช่องทางที่ตั้ง nosub ไว้ จะไม่แยกแท็บย่อย แสดงเนื้อหาไหลยาวหน้าเดียว ---- */
+  if(ch.nosub){
+    return h+'<div class="subpane">'+d+calHTML(ch.cal)+planHTML(ch.plan,(ch.plan&&ch.plan.key)||ch.key)+novHTML(ch.nov)+'</div></div>';
+  }
+  var nTask=(ch.plan&&ch.plan.rows)?ch.plan.rows.length:0;
+  var psub=ch.nov?'ปฏิทิน · Action Plan เดือน 11':(ch.psub||('ปฏิทิน · เช็คลิสต์ '+nTask+' งาน'));
+  h+='<div class="subsel">'+
+     '<button class="subbtn on" data-sub="d" data-ch="'+ch.key+'">'+
+       '<span class="sic">'+ic('chart')+'</span><span>'+
+       '<span class="s1">'+(ch.igplan?'แผนยิงแอด':'ข้อมูลแคมเปญ')+'</span>'+
+       '<span class="s2">'+(ch.dsub||'')+'</span></span></button>'+
+     '<button class="subbtn" data-sub="p" data-ch="'+ch.key+'">'+
+       '<span class="sic">'+ic('check')+'</span><span>'+
+       '<span class="s1">Action Plan</span>'+
+       '<span class="s2">'+psub+'</span></span></button></div>'+
+     '<div class="subpane" id="sub-'+ch.key+'-d">'+d+'</div>'+
+     '<div class="subpane" id="sub-'+ch.key+'-p" hidden>'+calHTML(ch.cal)+planHTML(ch.plan,(ch.plan&&ch.plan.key)||ch.key)+novHTML(ch.nov)+'</div>';
+  return h+'</div>';
+}
+
+/* ---- แท็บรายสัปดาห์ ---- */
+var curWeek=2, curCh=0;
+function flatCh(w){
+  var out=[];
+  w.biz.forEach(function(b){ b.ch.forEach(function(c){ var o=Object.assign({},c); o.bizName=b.name; out.push(o); }); });
+  return out;
+}
+function weekPane(){
+  var w=WEEKS[curWeek], list=flatCh(w), h='';
+  if(curCh>=list.length)curCh=0;
+
+  /* ---- ช่องทางที่ตั้ง noweek ไว้ จะไม่แบ่งรายสัปดาห์ · ใช้ข้อมูลของสัปดาห์ล่าสุดที่มี ---- */
+  var cur=list[curCh];
+  if(cur&&cur.noweek){
+    var lastList=flatCh(WEEKS[WEEKS.length-1]);
+    for(var q=0;q<lastList.length;q++){ if(lastList[q].key===cur.key){ cur=lastList[q]; break; } }
+    return channelHTML(cur);
+  }
+  h+='<div class="wsel">'+WEEKLIST.map(function(x){
+    var off=(x.i===undefined);
+    return '<button class="wbtn'+(!off&&x.i===curWeek?' on':'')+(off?' off':'')+'"'+
+           (off?' disabled':' data-w="'+x.i+'"')+'><div class="wt">'+x.n+'</div>'+
+           (x.r?'<div class="wr">'+x.r+'</div>':'')+'</button>';
+  }).join('')+'</div>';
+  h+='<div class="card" style="padding:14px 18px"><div class="sh">'+ic('layers')+' '+w.n+' · '+w.full+'</div><div class="ss" style="margin-bottom:0">'+w.head+'</div></div>';
+  h+=channelHTML(list[curCh]);
+  return h;
+}
+function bindWeek(){
+  document.querySelectorAll('.wbtn[data-w]').forEach(function(b){
+    b.onclick=function(){var ck=(flatCh(WEEKS[curWeek])[curCh]||{}).key; curWeek=+b.getAttribute('data-w'); var nl=flatCh(WEEKS[curWeek]), ni=0; nl.forEach(function(c,i){if(c.key===ck)ni=i;}); curCh=ni; draw();window.scrollTo({top:0,behavior:'smooth'});};
+  });
+  document.querySelectorAll('.exbtn').forEach(function(b){
+    b.onclick=function(){
+      var p=document.getElementById('ex-'+b.getAttribute('data-ex'));
+      var open=p.hasAttribute('hidden');
+      if(open)p.removeAttribute('hidden'); else p.setAttribute('hidden','');
+      b.querySelector('.exar').textContent=open?'▾':'▸';
+      b.classList.toggle('on',open);
+    };
+  });
+  document.querySelectorAll('.subbtn').forEach(function(b){
+    b.onclick=function(){
+      var k=b.getAttribute('data-ch');
+      document.querySelectorAll('.subbtn[data-ch="'+k+'"]').forEach(function(x){
+        x.classList.toggle('on', x===b);
+        var pane=document.getElementById('sub-'+k+'-'+x.getAttribute('data-sub'));
+        if(pane){ if(x===b)pane.removeAttribute('hidden'); else pane.setAttribute('hidden',''); }
+      });
+    };
+  });
+  document.querySelectorAll('.optbtn').forEach(function(b){
+    b.onclick=function(){
+      var g=b.getAttribute('data-grp');
+      document.querySelectorAll('.optbtn[data-grp="'+g+'"]').forEach(function(x){
+        x.classList.toggle('on', x===b);
+        var pane=document.getElementById('opt-'+g+'-'+x.getAttribute('data-opt'));
+        if(pane){ if(x===b)pane.removeAttribute('hidden'); else pane.setAttribute('hidden',''); }
+      });
+    };
+  });
+  document.querySelectorAll('.apck').forEach(function(b){
+    b.onchange=function(){
+      var key=b.getAttribute('data-key'), id=b.getAttribute('data-id');
+      var st=b.checked?'done':'todo';
+      planSet(key,id,{st:st});
+      var tr=b.closest('tr'), sel=tr.querySelector('.apsel');
+      sel.value=st; sel.className='apsel st-'+st;
+      tr.querySelector('.aptask').classList.toggle('done',b.checked);
+    };
+  });
+  document.querySelectorAll('.apsel').forEach(function(s){
+    s.onchange=function(){
+      var key=s.getAttribute('data-key'), id=s.getAttribute('data-id');
+      planSet(key,id,{st:s.value});
+      s.className='apsel st-'+s.value;
+      var tr=s.closest('tr');
+      tr.querySelector('.apck').checked=(s.value==='done');
+      tr.querySelector('.aptask').classList.toggle('done',s.value==='done');
+    };
+  });
+  document.querySelectorAll('.apin').forEach(function(x){
+    x.oninput=function(){
+      var o={}; o[x.getAttribute('data-f')]=x.value;
+      planSet(x.getAttribute('data-key'),x.getAttribute('data-id'),o);
+    };
+  });
+}
+
+/* ---- แท็บ Monthly Summary ---- */
+function monthPane(){
+  var M=MONTH;
+  var h='';
+
+  /* ---- ก้อนที่ 1 · ค่าโฆษณาสะสมทุกช่องทาง ---- */
+  h+='<div class="card"><div class="sh">'+ic('sum')+' '+M.spendTitle+'</div><div class="ss">'+M.spendSub+'</div>';
+  h+='<div style="background:#F7F9FD;border-left:4px solid #C98A12;border-radius:0 12px 12px 0;padding:14px 17px;margin-bottom:15px">'+
+     '<div style="font-size:34px;font-weight:800;color:#C98A12;letter-spacing:-1px;line-height:1.1">'+M.spendTotal+'</div></div>';
+
+  /* ---- ตารางแยกรายสัปดาห์ ---- */
+  h+='<div class="tw" style="margin-bottom:4px"><table style="min-width:640px"><thead><tr>'+
+     '<th style="text-align:left">สัปดาห์</th>'+
+     M.wkCols.map(function(c){return '<th>'+c+'</th>';}).join('')+
+     '<th>รวมสัปดาห์</th></tr></thead><tbody>';
+  M.wkRows.forEach(function(r){
+    h+='<tr'+(r.wait?' class="wait"':'')+'><td style="text-align:left"><b>'+r.n+'</b>'+(r.r?'<span class="sub">'+r.r+'</span>':'')+'</td>'+
+       r.v.map(function(x){return '<td>'+(x===null?(r.wait?'<span style="color:#C3CDDD">รอข้อมูล</span>':'—'):'฿'+fmt(x,2))+'</td>';}).join('')+
+       '<td><b>'+(r.t===null?'<span style="color:#C3CDDD">—</span>':'฿'+fmt(r.t,2))+'</b></td></tr>';
+  });
+  h+='<tr class="tot"><td style="text-align:left"><b>รวมถึงตอนนี้</b></td>'+
+     M.wkTotal.map(function(x){return '<td><b>฿'+fmt(x,2)+'</b></td>';}).join('')+
+     '<td><b>฿'+fmt(M.wkGrand,2)+'</b></td></tr>';
+  h+='</tbody></table></div></div>';
+
+  /* ---- การ์ดแยกช่องทางของเดือนนี้ ---- */
+  h+='<div class="card"><div class="sh">'+ic('sum')+' '+M.chTitle+'</div><div class="ss">'+M.chSub+'</div>';
+  h+='<div class="mcards">'+M.chCards.map(function(c){
+    return '<div class="mc2" style="--mc:'+c.c+'"><div class="l">'+c.n+'</div>'+
+           '<div class="v">฿'+fmt(c.v,2)+'</div>'+
+           '<div class="p">'+c.pct.toFixed(1)+'% ของเดือนนี้</div>'+
+           '<div class="mbar"><i style="width:'+c.pct+'%"></i></div></div>';
+  }).join('')+'</div></div>';
+
+  /* ---- ค่าโฆษณาย้อนหลังรายเดือน ---- */
+  h+='<div class="card"><div class="sh">'+ic('chart')+' '+M.histTitle+'</div><div class="ss">'+M.histSub+'</div>';
+  h+='<div class="tw"><table style="min-width:760px"><thead><tr><th style="text-align:left">เดือน</th>'+
+     M.histCols.map(function(c){return '<th>'+c+'</th>';}).join('')+
+     '<th>รวมทั้งเดือน</th></tr></thead><tbody>';
+  M.histRows.forEach(function(r){
+    h+='<tr'+(r.now?' class="tot"':'')+'><td style="text-align:left"><b>'+r.m+'</b>'+(r.r?'<span class="sub">'+r.r+'</span>':'')+'</td>'+
+       r.v.map(function(x){return '<td>'+(x===null?'<span style="color:#C3CDDD">—</span>':'฿'+fmt(x,2))+'</td>';}).join('')+
+       '<td><b>฿'+fmt(r.t,2)+'</b></td></tr>';
+  });
+  h+='</tbody></table></div>'+(M.histNote?'<div class="note">'+M.histNote+'</div>':'')+'</div>';
+  return h;
+}
+
+/* ---- มุมมอง · 0 = รายสัปดาห์ · 1 = สรุปรายเดือน ---- */
+var curTab=0;
+function draw(){
+  /* ---- แถวบนสุด · ช่องทางทั้งหมด + Monthly Summary ---- */
+  var chlist=flatCh(WEEKS[curWeek]);
+  if(curCh>=chlist.length)curCh=0;
+  document.getElementById('chsel').innerHTML=
+    chlist.map(function(c,i){
+      return '<button class="cbtn'+(curTab===0&&i===curCh?' on':'')+'" data-c="'+i+'" style="--cc:'+c.color+'">'+ic(c.icon)+' '+c.name+'</button>';
+    }).join('')+
+    '<button class="cbtn msum'+(curTab===1?' on':'')+'" data-m="1" style="--cc:#1F3864">'+ic('sum')+' Monthly Summary</button>';
+  document.querySelectorAll('#chsel .cbtn[data-c]').forEach(function(b){
+    b.onclick=function(){curTab=0;curCh=+b.getAttribute('data-c');draw();window.scrollTo({top:0,behavior:'smooth'});};
+  });
+  document.querySelectorAll('#chsel .cbtn[data-m]').forEach(function(b){
+    b.onclick=function(){curTab=1;draw();window.scrollTo({top:0,behavior:'smooth'});};
+  });
+  document.getElementById('panes').innerHTML='<div class="pane on">'+(curTab===0?weekPane():monthPane())+'</div>';
+  document.getElementById('globalfoot').innerHTML=
+    'เดือนพฤศจิกายน 2569 ถึงสัปดาห์ที่ 3 · IG LUCK และ TikTok LUCK ยังพักการยิงแอด · <b>สัปดาห์ที่ 3 ทุกช่องทางใช้ช่วงข้อมูลเดียวกันคือ 13–19 พ.ย. (7 วัน)</b> · <b>Shopee WPC BATTERY จบแคมเปญแล้ว ไม่ได้ยิงแอดทั้งสัปดาห์</b> · <b>IG ATELIER คาบ 2 รอบ ยิงจริง 5 วัน</b> รอบเก่า 13–14 พ.ย. รอบใหม่ 17–19 พ.ย. และข้อมูลดึงจาก Ads Manager โดยตรง · ปฏิทินและ Action Plan อยู่ในแท็บย่อยของแต่ละช่องทาง';
+  if(curTab===0)bindWeek();
+}
+draw();
+
+</script>
+</body>
+</html>
